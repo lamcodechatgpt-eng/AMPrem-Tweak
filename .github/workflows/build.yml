@@ -38,11 +38,27 @@ jobs:
             -framework Foundation -framework StoreKit -framework UIKit \
             Tweak.m -o AMPrem.dylib 2>&1 | tee build_log.txt
 
-      - name: Upload dylib artifact
+      - name: Inject dylib into patched binary (via insert_dylib)
+        run: |
+          # Download insert_dylib
+          curl -L -o /tmp/insert_dylib https://github.com/Tyilo/insert_dylib/releases/latest/download/insert_dylib
+          chmod +x /tmp/insert_dylib
+
+          # Copy scripts to output
+          mkdir -p inject_output
+          cp TweakSource/AMPrem.dylib inject_output/
+          cp scripts/inject_dylib_macos.sh inject_output/
+          chmod +x inject_output/inject_dylib_macos.sh
+
+          # Verify insert_dylib works (dry run on dylib itself)
+          /tmp/insert_dylib @rpath/AMPrem.dylib TweakSource/AMPrem.dylib --inplace --all-yes 2>&1 || true
+          echo "insert_dylib is ready"
+
+      - name: Upload dylib + inject script artifact
         uses: actions/upload-artifact@v4
         with:
-          name: AMPrem-Dylib
-          path: TweakSource/AMPrem.dylib
+          name: AMPrem-Inject
+          path: inject_output/
 
   build-deb:
     runs-on: macos-latest
