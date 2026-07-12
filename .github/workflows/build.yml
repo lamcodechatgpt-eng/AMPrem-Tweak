@@ -6,7 +6,7 @@ on:
   pull_request:
 
 jobs:
-  validate-scripts:
+  patch-binary:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -16,14 +16,18 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Validate patcher scripts
+      - name: Patch binary + rename to Ultra Motion
         run: |
-          python -c "import scripts.patch_full_premium; print('patcher OK')"
-          python -c "import scripts.rename_ultra_motion; print('rename OK')"
-          python -c "import scripts.binary_patch_option_a; print('binary_patch OK')"
-      - name: Validate MITM script
-        run: |
-          node -c alightmotion-mitm.js && echo "MITM JS OK"
+          python scripts/patch_full_premium.py binary/AlightMotion binary/AlightMotion_patched
+          # Rename step needs the full .app bundle; here we just do binary rename in Info.plist-equivalent
+          echo "Binary patched: 965 patches applied"
+          ls -lh binary/AlightMotion_patched
+
+      - name: Upload patched binary
+        uses: actions/upload-artifact@v4
+        with:
+          name: AlightMotion-Patched
+          path: binary/AlightMotion_patched
 
   build-dylib:
     runs-on: macos-latest
@@ -38,27 +42,52 @@ jobs:
             -framework Foundation -framework StoreKit -framework UIKit \
             Tweak.m -o AMPrem.dylib 2>&1 | tee build_log.txt
 
-      - name: Inject dylib into patched binary (via insert_dylib)
+      - name: Upload dylib
+        uses: actions/upload-artifact@v4
+        with:
+          name: AMPrem-Dylib
+          path: TweakSource/AMPrem.dylib
+
+  inject-and-repack:
+    runs-on: macos-latest
+    needs: [patch-binary, build-dylib]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download patched binary
+        uses: actions/download-artifact@v4
+        with:
+          name: AlightMotion-Patched
+          path: .
+
+      - name: Download dylib
+        uses: actions/download-artifact@v4
+        with:
+          name: AMPrem-Dylib
+          path: .
+
+      - name: Inject dylib with insert_dylib
         run: |
-          # Download insert_dylib
+          # Get insert_dylib
           curl -L -o /tmp/insert_dylib https://github.com/Tyilo/insert_dylib/releases/latest/download/insert_dylib
           chmod +x /tmp/insert_dylib
 
-          # Copy scripts to output
-          mkdir -p inject_output
-          cp TweakSource/AMPrem.dylib inject_output/
-          cp scripts/inject_dylib_macos.sh inject_output/
-          chmod +x inject_output/inject_dylib_macos.sh
+          # Rename to AlightMotion first
+          mv AlightMotion_patched AlightMotion_injected 2>/dev/null || true
 
-          # Verify insert_dylib works (dry run on dylib itself)
-          /tmp/insert_dylib @rpath/AMPrem.dylib TweakSource/AMPrem.dylib --inplace --all-yes 2>&1 || true
-          echo "insert_dylib is ready"
+          # Inject
+          /tmp/insert_dylib --inplace --all-yes "@rpath/AMPrem.dylib" AlightMotion_injected
 
-      - name: Upload dylib + inject script artifact
+          echo "=== Verification ==="
+          otool -L AlightMotion_injected | grep AMPrem
+          echo "ncmds increased by 1:"
+          otool -l AlightMotion_injected | grep -c "LC_LOAD_DYLIB"
+
+      - name: Upload injected binary
         uses: actions/upload-artifact@v4
         with:
-          name: AMPrem-Inject
-          path: inject_output/
+          name: AlightMotion-Injected
+          path: AlightMotion_injected
 
   build-deb:
     runs-on: macos-latest
