@@ -1,0 +1,49 @@
+{
+  "analysis_type": "static",
+  "application": {
+    "bundle_id": "com.alightcreative.motion",
+    "version": "6.2.53",
+    "build": "859",
+    "executable": "AlightMotion",
+    "architecture": "arm64",
+    "minimum_ios": "14.4"
+  },
+  "permissions": [
+    "camera",
+    "photo-library-read",
+    "photo-library-write",
+    "apple-music",
+    "tracking"
+  ],
+  "network": {
+    "allows_arbitrary_loads": true,
+    "observed_hosts": [
+      "alightmotion.oracle.bendingspoonsapps.com",
+      "oracle.bendingspoonsapps.com",
+      "bendingspoonsapps.com/v4/events",
+      "tracking-bndspn.com"
+    ]
+  },
+  "subsystems": {
+    "identity": ["FirebaseAuth", "FirebaseUI", "GoogleSignIn"],
+    "cloud": ["FirebaseFirestore", "CloudProjectClient", "gRPC"],
+    "monetization": ["StoreKit", "IAPManager", "ReceiptClient", "OracleSubscription", "EntitlementsRefresher"],
+    "ads": ["AppLovinSDK", "AppLovinQualityService", "IDFA"],
+    "telemetry": ["FirebaseAnalytics", "FirebaseCrashlytics", "FirebaseRemoteConfig"],
+    "rendering": ["ProjectHolder", "ProjectPlayer", "Exporter", "Metal"]
+  },
+  "observed_product_ids": [
+    "alightcreative.motion.1y_t60_1w"
+  ],
+  "injected_component": {
+    "path": "Frameworks/AlightMotionCrack.dylib",
+    "loaded_by_main_executable": true,
+    "mechanism": "Objective-C method implementation replacement",
+    "sha256": "008E4173B49016E5685A5621122E9B6D563E527371FAE8B50D2A921E6F1FD692"
+  },
+  "confidence": {
+    "metadata_and_dependencies": "high",
+    "component_relationships": "medium",
+    "runtime_sequence": "inferred; requires device tracing for confirmation"
+  }
+}

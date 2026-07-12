@@ -1,0 +1,5441 @@
+{
+  "source_binary": "D:\\iPA\\Alightmotion\\AlightMotionMod\\V1\\extracted\\Payload\\AlightMotion.app\\AlightMotion",
+  "config_keys": [
+    {
+      "offset": "0x287D397",
+      "key": "acct_premium"
+    },
+    {
+      "offset": "0x28F3310",
+      "key": "active_bundle_subscription_ids"
+    },
+    {
+      "offset": "0x28E8160",
+      "key": "active_bundle_subscriptions"
+    },
+    {
+      "offset": "0x28E8180",
+      "key": "active_bundle_subscriptions_features"
+    },
+    {
+      "offset": "0x28F3330",
+      "key": "active_external_subscription_ids"
+    },
+    {
+      "offset": "0x28F32B0",
+      "key": "active_subscription_ids"
+    },
+    {
+      "offset": "0x28E8120",
+      "key": "active_subscriptions"
+    },
+    {
+      "offset": "0x28E8140",
+      "key": "active_subscriptions_features"
+    },
+    {
+      "offset": "0x2922870",
+      "key": "active_subscriptions_ids"
+    },
+    {
+      "offset": "0x29F4E40",
+      "key": "ad_identifier_disabled"
+    },
+    {
+      "offset": "0x2A39E60",
+      "key": "ad_partial_download_enabled"
+    },
+    {
+      "offset": "0x29D27F0",
+      "key": "ad_placeholder_enabled"
+    },
+    {
+      "offset": "0x2892BF0",
+      "key": "add_layer_menu_template_tab_opened"
+    },
+    {
+      "offset": "0x28EFC60",
+      "key": "adorable_remote_configuration"
+    },
+    {
+      "offset": "0x2A3A460",
+      "key": "ads_clicked_count"
+    },
+    {
+      "offset": "0x28EFCEB",
+      "key": "ads_experience"
+    },
+    {
+      "offset": "0x28D9460",
+      "key": "ads_export_watch_an_ad"
+    },
+    {
+      "offset": "0x28D9E70",
+      "key": "ads_feature_premium_alert_subheading"
+    },
+    {
+      "offset": "0x28D9EA0",
+      "key": "ads_feature_unlock_watch_an_ad"
+    },
+    {
+      "offset": "0x28DA790",
+      "key": "ads_loading_error_message"
+    },
+    {
+      "offset": "0x28DA770",
+      "key": "ads_loading_error_title"
+    },
+    {
+      "offset": "0x29405A8",
+      "key": "ads_management"
+    },
+    {
+      "offset": "0x29426BE",
+      "key": "ads_read"
+    },
+    {
+      "offset": "0x28D9040",
+      "key": "ads_remove_watermark_title"
+    },
+    {
+      "offset": "0x28D9560",
+      "key": "ads_remove_watermark_watch_an_ad"
+    },
+    {
+      "offset": "0x28C8900",
+      "key": "advanced_rating_and_review_first_session_number"
+    },
+    {
+      "offset": "0x293D31D",
+      "key": "advertiser_id_collection_enabled"
+    },
+    {
+      "offset": "0x293D560",
+      "key": "advertiser_tracking_enabled"
+    },
+    {
+      "offset": "0x28EA590",
+      "key": "after_tracking_authorized"
+    },
+    {
+      "offset": "0x28D8FB0",
+      "key": "agree_popup_sub_desc"
+    },
+    {
+      "offset": "0x28D8F90",
+      "key": "agree_popup_title"
+    },
+    {
+      "offset": "0x28D8F70",
+      "key": "agree_popup_update_not_agree"
+    },
+    {
+      "offset": "0x28D8F40",
+      "key": "agree_popup_update_not_agree_desc"
+    },
+    {
+      "offset": "0x291D200",
+      "key": "alight_subscription"
+    },
+    {
+      "offset": "0x296061A",
+      "key": "allow_personalized_ads"
+    },
+    {
+      "offset": "0x28B7640",
+      "key": "am36_effect_browser_update_popup_title"
+    },
+    {
+      "offset": "0x33C1E6C",
+      "key": "and_fork_unsafe_buffering_enabled"
+    },
+    {
+      "offset": "0x2930D60",
+      "key": "app_close_before_first_paywall_count"
+    },
+    {
+      "offset": "0x2930D40",
+      "key": "app_close_on_paywall_count"
+    },
+    {
+      "offset": "0x2941357",
+      "key": "app_events_feature_bitmask"
+    },
+    {
+      "offset": "0x2967EA5",
+      "key": "app_store_subscription_cancel"
+    },
+    {
+      "offset": "0x2967EC3",
+      "key": "app_store_subscription_convert"
+    },
+    {
+      "offset": "0x2967EE2",
+      "key": "app_store_subscription_renew"
+    },
+    {
+      "offset": "0x293D582",
+      "key": "application_tracking_enabled"
+    },
+    {
+      "offset": "0x29F2ED0",
+      "key": "appstore_url_template"
+    },
+    {
+      "offset": "0x29BEC06",
+      "key": "asn1_template_ex_i2d"
+    },
+    {
+      "offset": "0x29D32ED",
+      "key": "audio_session_deactivation_enabled"
+    },
+    {
+      "offset": "0x293E3D9",
+      "key": "auto_event_setup_enabled"
+    },
+    {
+      "offset": "0x2A3A370",
+      "key": "battery_saver_enabled"
+    },
+    {
+      "offset": "0x28A75F0",
+      "key": "benefit_future_member_features"
+    },
+    {
+      "offset": "0x28D8D30",
+      "key": "benefit_premium_features"
+    },
+    {
+      "offset": "0x28A7650",
+      "key": "benefit_remove_watermark"
+    },
+    {
+      "offset": "0x25841A0",
+      "key": "bnt_reviewplay"
+    },
+    {
+      "offset": "0x28D8B50",
+      "key": "brand_new_feature"
+    },
+    {
+      "offset": "0x28D8AE0",
+      "key": "by_watching_reward_ads"
+    },
+    {
+      "offset": "0x297A140",
+      "key": "cds_experimental"
+    },
+    {
+      "offset": "0x2896160",
+      "key": "change_email_new_email_popup_msg"
+    },
+    {
+      "offset": "0x28A7180",
+      "key": "change_email_popup_msg"
+    },
+    {
+      "offset": "0x2896140",
+      "key": "change_email_popup_title"
+    },
+    {
+      "offset": "0x2896190",
+      "key": "change_email_signin_popup_msg"
+    },
+    {
+      "offset": "0x28961F0",
+      "key": "changed_email_popup_msg"
+    },
+    {
+      "offset": "0x28D8A40",
+      "key": "clear_export_cache"
+    },
+    {
+      "offset": "0x2A39D30",
+      "key": "click_coordinates_enabled"
+    },
+    {
+      "offset": "0x29A872F",
+      "key": "client_default_listener_resource_name_template"
+    },
+    {
+      "offset": "0x26587FC",
+      "key": "client_features"
+    },
+    {
+      "offset": "0x29A8698",
+      "key": "client_listener_resource_name_template"
+    },
+    {
+      "offset": "0x25842E0",
+      "key": "cloud_backup"
+    },
+    {
+      "offset": "0x28F00B0",
+      "key": "cloud_backup_enabled"
+    },
+    {
+      "offset": "0x287AF00",
+      "key": "cloud_backup_feature_status_fetching_failed"
+    },
+    {
+      "offset": "0x2919590",
+      "key": "cloud_download_cancelled"
+    },
+    {
+      "offset": "0x29195D0",
+      "key": "cloud_download_completed"
+    },
+    {
+      "offset": "0x29195B0",
+      "key": "cloud_download_failed"
+    },
+    {
+      "offset": "0x29195F0",
+      "key": "cloud_download_flow_started"
+    },
+    {
+      "offset": "0x2919610",
+      "key": "cloud_download_requested"
+    },
+    {
+      "offset": "0x2919570",
+      "key": "cloud_project_deleted"
+    },
+    {
+      "offset": "0x2917350",
+      "key": "cloud_project_deletion_failed"
+    },
+    {
+      "offset": "0x2917310",
+      "key": "cloud_project_download_failed"
+    },
+    {
+      "offset": "0x2917330",
+      "key": "cloud_project_upload_failed"
+    },
+    {
+      "offset": "0x2917290",
+      "key": "cloud_projects_fetch_failed"
+    },
+    {
+      "offset": "0x2892620",
+      "key": "cloud_projects_subtab_seen"
+    },
+    {
+      "offset": "0x289FDC0",
+      "key": "cloud_storage_high_tier"
+    },
+    {
+      "offset": "0x289FDE0",
+      "key": "cloud_storage_low_tier"
+    },
+    {
+      "offset": "0x28F00D0",
+      "key": "cloud_storage_quotas"
+    },
+    {
+      "offset": "0x29198B0",
+      "key": "cloud_subtab_opened"
+    },
+    {
+      "offset": "0x29181C0",
+      "key": "cloud_subtab_title"
+    },
+    {
+      "offset": "0x2919630",
+      "key": "cloud_upload_cancelled"
+    },
+    {
+      "offset": "0x2919670",
+      "key": "cloud_upload_completed"
+    },
+    {
+      "offset": "0x2919530",
+      "key": "cloud_upload_error_kind"
+    },
+    {
+      "offset": "0x2919650",
+      "key": "cloud_upload_failed"
+    },
+    {
+      "offset": "0x2919690",
+      "key": "cloud_upload_flow_started"
+    },
+    {
+      "offset": "0x2919930",
+      "key": "cloud_upload_main_button_tapped"
+    },
+    {
+      "offset": "0x29196B0",
+      "key": "cloud_upload_requested"
+    },
+    {
+      "offset": "0x293E3C2",
+      "key": "codeless_setup_enabled"
+    },
+    {
+      "offset": "0x2921E90",
+      "key": "comparison_paywall_already_purchased"
+    },
+    {
+      "offset": "0x2921E70",
+      "key": "comparison_paywall_continue"
+    },
+    {
+      "offset": "0x2921E40",
+      "key": "comparison_paywall_free_trial_enabled"
+    },
+    {
+      "offset": "0x2921E10",
+      "key": "comparison_paywall_free_trial_subtitle"
+    },
+    {
+      "offset": "0x2921DE0",
+      "key": "comparison_paywall_free_trial_title"
+    },
+    {
+      "offset": "0x2920FC0",
+      "key": "comparison_paywall_monthly_price"
+    },
+    {
+      "offset": "0x2920FF0",
+      "key": "comparison_paywall_monthly_sub"
+    },
+    {
+      "offset": "0x2921010",
+      "key": "comparison_paywall_monthly_sub_with_free_trial"
+    },
+    {
+      "offset": "0x2921040",
+      "key": "comparison_paywall_monthly_sub_with_free_trial_plural"
+    },
+    {
+      "offset": "0x2921DC0",
+      "key": "comparison_paywall_title"
+    },
+    {
+      "offset": "0x2921D90",
+      "key": "comparison_paywall_waiting_for_payment"
+    },
+    {
+      "offset": "0x2921D50",
+      "key": "comparison_paywall_waiting_for_payment_popup_body"
+    },
+    {
+      "offset": "0x2921D10",
+      "key": "comparison_paywall_waiting_for_payment_popup_headline"
+    },
+    {
+      "offset": "0x2921080",
+      "key": "comparison_paywall_weekly_price"
+    },
+    {
+      "offset": "0x29210A0",
+      "key": "comparison_paywall_weekly_sub"
+    },
+    {
+      "offset": "0x29210C0",
+      "key": "comparison_paywall_weekly_sub_with_free_trial"
+    },
+    {
+      "offset": "0x29210F0",
+      "key": "comparison_paywall_weekly_sub_with_free_trial_plural"
+    },
+    {
+      "offset": "0x2921130",
+      "key": "comparison_paywall_yearly_price"
+    },
+    {
+      "offset": "0x2921150",
+      "key": "comparison_paywall_yearly_sub"
+    },
+    {
+      "offset": "0x2921170",
+      "key": "comparison_paywall_yearly_sub_with_free_trial"
+    },
+    {
+      "offset": "0x29211A0",
+      "key": "comparison_paywall_yearly_sub_with_free_trial_plural"
+    },
+    {
+      "offset": "0x2893B00",
+      "key": "consent_popup_background_tapped"
+    },
+    {
+      "offset": "0x2893AE0",
+      "key": "consent_popup_body_text_tapped"
+    },
+    {
+      "offset": "0x2893AB0",
+      "key": "consent_popup_close_button_tapped"
+    },
+    {
+      "offset": "0x2893B20",
+      "key": "consent_popup_hit"
+    },
+    {
+      "offset": "0x2893A90",
+      "key": "consent_popup_main_cta_tapped"
+    },
+    {
+      "offset": "0x28925E0",
+      "key": "control_bar_overflow_presets"
+    },
+    {
+      "offset": "0x2892AC0",
+      "key": "countdown_24hrs_paywall_my_account_cta_tapped"
+    },
+    {
+      "offset": "0x28EFFE0",
+      "key": "creator_program_remote_localization"
+    },
+    {
+      "offset": "0x29CF783",
+      "key": "custom_mute_enabled"
+    },
+    {
+      "offset": "0x29C6501",
+      "key": "custom_one_point_five_click_enabled"
+    },
+    {
+      "offset": "0x29C6540",
+      "key": "custom_template_id"
+    },
+    {
+      "offset": "0x29306F0",
+      "key": "days_since_most_recent_subscription_cancellation"
+    },
+    {
+      "offset": "0x29CBA9C",
+      "key": "debug_dialog_disabled"
+    },
+    {
+      "offset": "0x29D532F",
+      "key": "debug_mode_enabled"
+    },
+    {
+      "offset": "0x29D2212",
+      "key": "deeplinkplus_enabled"
+    },
+    {
+      "offset": "0x28F0260",
+      "key": "default_project_creation_selected_resolution"
+    },
+    {
+      "offset": "0x28A71E0",
+      "key": "delete_account_popup_msg"
+    },
+    {
+      "offset": "0x28AA3B0",
+      "key": "demo_mode_enabled"
+    },
+    {
+      "offset": "0x28D88E0",
+      "key": "demo_mode_popup_msg"
+    },
+    {
+      "offset": "0x28AA3D0",
+      "key": "demo_mode_popup_msg_ios"
+    },
+    {
+      "offset": "0x269A317",
+      "key": "direct_remote_ip"
+    },
+    {
+      "offset": "0x345CB5A",
+      "key": "disabled_ext"
+    },
+    {
+      "offset": "0x2892580",
+      "key": "discover_mdt_templates_seen"
+    },
+    {
+      "offset": "0x2662B87",
+      "key": "dns_resolution_config"
+    },
+    {
+      "offset": "0x2655691",
+      "key": "dns_resolution_failure"
+    },
+    {
+      "offset": "0x292D0EB",
+      "key": "downloads_count"
+    },
+    {
+      "offset": "0x2654696",
+      "key": "downstream_remote_address"
+    },
+    {
+      "offset": "0x267CDE7",
+      "key": "drop_overloads"
+    },
+    {
+      "offset": "0x28D87C0",
+      "key": "earned_watermark_removal_ticket"
+    },
+    {
+      "offset": "0x28D8030",
+      "key": "effect_clouds_desc"
+    },
+    {
+      "offset": "0x28D8010",
+      "key": "effect_clouds_name"
+    },
+    {
+      "offset": "0x28D52C0",
+      "key": "effect_param_feature_size"
+    },
+    {
+      "offset": "0x28D13B0",
+      "key": "effect_volumetricclouds_name"
+    },
+    {
+      "offset": "0x28D0DF0",
+      "key": "effectpreset_cloudy"
+    },
+    {
+      "offset": "0x28CF240",
+      "key": "effects_editing_features"
+    },
+    {
+      "offset": "0x28C03D0",
+      "key": "element_resolution"
+    },
+    {
+      "offset": "0x2918020",
+      "key": "empty_cloud_tab_text"
+    },
+    {
+      "offset": "0x29D2D51",
+      "key": "enable_in_app_preview"
+    },
+    {
+      "offset": "0x2892740",
+      "key": "enabled_feature_flags"
+    },
+    {
+      "offset": "0x293D33E",
+      "key": "event_collection_enabled"
+    },
+    {
+      "offset": "0x28C8BE0",
+      "key": "event_test_enabled"
+    },
+    {
+      "offset": "0x290D81A",
+      "key": "experiment_active_payload"
+    },
+    {
+      "offset": "0x296878B",
+      "key": "experiment_id"
+    },
+    {
+      "offset": "0x296DD83",
+      "key": "experiment_ids"
+    },
+    {
+      "offset": "0x290D359",
+      "key": "experiment_metadata"
+    },
+    {
+      "offset": "0x290D807",
+      "key": "experiment_payload"
+    },
+    {
+      "offset": "0x29F2CF0",
+      "key": "experiments_refresh_interval"
+    },
+    {
+      "offset": "0x28C6670",
+      "key": "export_and_share"
+    },
+    {
+      "offset": "0x2917E70",
+      "key": "export_card_cloud_subtitle"
+    },
+    {
+      "offset": "0x28C6450",
+      "key": "export_click_package"
+    },
+    {
+      "offset": "0x2893290",
+      "key": "export_completed"
+    },
+    {
+      "offset": "0x28CF130",
+      "key": "export_current_frame_png"
+    },
+    {
+      "offset": "0x28C4930",
+      "key": "export_empty_project"
+    },
+    {
+      "offset": "0x28CD540",
+      "key": "export_failed_details"
+    },
+    {
+      "offset": "0x28CF110",
+      "key": "export_failed_storage_details"
+    },
+    {
+      "offset": "0x28CD560",
+      "key": "export_failed_storage_details_ios"
+    },
+    {
+      "offset": "0x28CF0F0",
+      "key": "export_failed_storage_title"
+    },
+    {
+      "offset": "0x292C8D0",
+      "key": "export_image_format"
+    },
+    {
+      "offset": "0x28C3E70",
+      "key": "export_lock_warning"
+    },
+    {
+      "offset": "0x28EFDA0",
+      "key": "export_menu_items"
+    },
+    {
+      "offset": "0x28EFDC0",
+      "key": "export_menu_items_multishare"
+    },
+    {
+      "offset": "0x287AEB0",
+      "key": "export_operation"
+    },
+    {
+      "offset": "0x28CF0D0",
+      "key": "export_project_package"
+    },
+    {
+      "offset": "0x28C4910",
+      "key": "export_project_too_short"
+    },
+    {
+      "offset": "0x291723B",
+      "key": "export_screen"
+    },
+    {
+      "offset": "0x292C940",
+      "key": "export_shared_external_app"
+    },
+    {
+      "offset": "0x292C9C0",
+      "key": "export_ui_close_button_tapped"
+    },
+    {
+      "offset": "0x292C9E0",
+      "key": "export_ui_scrolled"
+    },
+    {
+      "offset": "0x28C3D40",
+      "key": "export_uniqueproject_complete"
+    },
+    {
+      "offset": "0x28C3C40",
+      "key": "export_user_cancel"
+    },
+    {
+      "offset": "0x28CF0B0",
+      "key": "export_with_watermark"
+    },
+    {
+      "offset": "0x28CF090",
+      "key": "export_xml_embed"
+    },
+    {
+      "offset": "0x28C8930",
+      "key": "exported_project_ids"
+    },
+    {
+      "offset": "0x28EFEA0",
+      "key": "exported_video_attachment"
+    },
+    {
+      "offset": "0x28932B0",
+      "key": "exported_with_template_toggle_on"
+    },
+    {
+      "offset": "0x28C3E90",
+      "key": "exporting_image_seq"
+    },
+    {
+      "offset": "0x28CF060",
+      "key": "external_subscription_popup_body"
+    },
+    {
+      "offset": "0x28CF030",
+      "key": "external_subscription_popup_title"
+    },
+    {
+      "offset": "0x28CF010",
+      "key": "external_wm_ticket_popup_body"
+    },
+    {
+      "offset": "0x28CEFF0",
+      "key": "external_wm_ticket_popup_title"
+    },
+    {
+      "offset": "0x29172B0",
+      "key": "failed_cloud_deletions_decoding_failed"
+    },
+    {
+      "offset": "0x29172E0",
+      "key": "failed_cloud_uploads_decoding_failed"
+    },
+    {
+      "offset": "0x28CEFD0",
+      "key": "failed_save_profile_popup_msg"
+    },
+    {
+      "offset": "0x28CEFB0",
+      "key": "feature_export_mp4_gif"
+    },
+    {
+      "offset": "0x28CEF90",
+      "key": "feature_keyframes_easing"
+    },
+    {
+      "offset": "0x28CEF70",
+      "key": "feature_layer_blending_modes"
+    },
+    {
+      "offset": "0x293EA97",
+      "key": "feature_names"
+    },
+    {
+      "offset": "0x2A0DE81",
+      "key": "feature_support"
+    },
+    {
+      "offset": "0x28CEF50",
+      "key": "feature_vector_graphics"
+    },
+    {
+      "offset": "0x28EFDE0",
+      "key": "features_with_new_badge"
+    },
+    {
+      "offset": "0x268EEAF",
+      "key": "filter_disabled"
+    },
+    {
+      "offset": "0x26A2E12",
+      "key": "filter_enabled"
+    },
+    {
+      "offset": "0x28FFB6F",
+      "key": "firebase_crashlytics_collection_enabled"
+    },
+    {
+      "offset": "0x296D5B0",
+      "key": "firebase_feature_rollouts"
+    },
+    {
+      "offset": "0x28E59F0",
+      "key": "first_party_analytics_disabled"
+    },
+    {
+      "offset": "0x2A0E055",
+      "key": "fixed_features"
+    },
+    {
+      "offset": "0x28913F0",
+      "key": "forced_subscription_tier_key"
+    },
+    {
+      "offset": "0x2A3A004",
+      "key": "fpd_enabled"
+    },
+    {
+      "offset": "0x28CEE70",
+      "key": "full_screen_preview"
+    },
+    {
+      "offset": "0x289FE20",
+      "key": "future_member_features"
+    },
+    {
+      "offset": "0x28A0E00",
+      "key": "fxcat_experimental"
+    },
+    {
+      "offset": "0x29F0951",
+      "key": "fyber_close_enabled"
+    },
+    {
+      "offset": "0x2941372",
+      "key": "gdpv4_nux_enabled"
+    },
+    {
+      "offset": "0x29D24FB",
+      "key": "gesture_view_api_enabled"
+    },
+    {
+      "offset": "0x28933B0",
+      "key": "get_started_info_popup_close_tapped"
+    },
+    {
+      "offset": "0x28C8750",
+      "key": "gif_export_resolution"
+    },
+    {
+      "offset": "0x2A0FE89",
+      "key": "google_max_ad_content_rating"
+    },
+    {
+      "offset": "0x28AA970",
+      "key": "gs_export_share_desc"
+    },
+    {
+      "offset": "0x28AA950",
+      "key": "gs_export_share_title"
+    },
+    {
+      "offset": "0x28F3290",
+      "key": "has_active_subscriptions"
+    },
+    {
+      "offset": "0x28C8850",
+      "key": "has_ever_completed_in_app_survey_popup"
+    },
+    {
+      "offset": "0x28C8E30",
+      "key": "has_ever_seen_templates_program_consent_popup"
+    },
+    {
+      "offset": "0x28C88B0",
+      "key": "has_ever_tapped_review_cta"
+    },
+    {
+      "offset": "0x2894820",
+      "key": "has_migrated_paywall_hits_to_wolf"
+    },
+    {
+      "offset": "0x33ED9B7",
+      "key": "hevent_engine12experimental"
+    },
+    {
+      "offset": "0x28C8600",
+      "key": "high_res_video_export_resolution"
+    },
+    {
+      "offset": "0x2917140",
+      "key": "home_info_popup_header"
+    },
+    {
+      "offset": "0x29197F0",
+      "key": "home_screen_get_started_with_template_tapped"
+    },
+    {
+      "offset": "0x2919730",
+      "key": "home_screen_template_circle_tapped"
+    },
+    {
+      "offset": "0x29196D0",
+      "key": "home_screen_view_all_templates_tapped"
+    },
+    {
+      "offset": "0x2889A00",
+      "key": "ic_brightness_template"
+    },
+    {
+      "offset": "0x2889C00",
+      "key": "ic_cancel_template"
+    },
+    {
+      "offset": "0x288A8E0",
+      "key": "ic_export_currentframe"
+    },
+    {
+      "offset": "0x288A900",
+      "key": "ic_export_currentframe_wh"
+    },
+    {
+      "offset": "0x25847C0",
+      "key": "ic_export_gif"
+    },
+    {
+      "offset": "0x288A920",
+      "key": "ic_export_gif_wh"
+    },
+    {
+      "offset": "0x288A940",
+      "key": "ic_export_imagesequence"
+    },
+    {
+      "offset": "0x288A960",
+      "key": "ic_export_imagesequence_wh"
+    },
+    {
+      "offset": "0x288A980",
+      "key": "ic_export_package"
+    },
+    {
+      "offset": "0x288A9A0",
+      "key": "ic_export_package_wh"
+    },
+    {
+      "offset": "0x25847D0",
+      "key": "ic_export_video"
+    },
+    {
+      "offset": "0x288A9C0",
+      "key": "ic_export_video_wh"
+    },
+    {
+      "offset": "0x25847E0",
+      "key": "ic_export_webp"
+    },
+    {
+      "offset": "0x25847F0",
+      "key": "ic_export_xml"
+    },
+    {
+      "offset": "0x288A9E0",
+      "key": "ic_exportpreview_next"
+    },
+    {
+      "offset": "0x288AA00",
+      "key": "ic_exportpreview_prev"
+    },
+    {
+      "offset": "0x2584B00",
+      "key": "ic_media_icloud"
+    },
+    {
+      "offset": "0x288B230",
+      "key": "ic_media_icloud_download"
+    },
+    {
+      "offset": "0x288B5C0",
+      "key": "ic_opacity_template"
+    },
+    {
+      "offset": "0x2584D70",
+      "key": "ic_preview_mode"
+    },
+    {
+      "offset": "0x288B900",
+      "key": "ic_preview_mode_camera_off"
+    },
+    {
+      "offset": "0x288B920",
+      "key": "ic_preview_mode_camera_on"
+    },
+    {
+      "offset": "0x288B940",
+      "key": "ic_preview_mode_canvas_off"
+    },
+    {
+      "offset": "0x288B960",
+      "key": "ic_preview_mode_canvas_on"
+    },
+    {
+      "offset": "0x288B980",
+      "key": "ic_preview_mode_grid_off"
+    },
+    {
+      "offset": "0x288B9A0",
+      "key": "ic_preview_mode_grid_on"
+    },
+    {
+      "offset": "0x288B9C0",
+      "key": "ic_preview_mode_on"
+    },
+    {
+      "offset": "0x288B9E0",
+      "key": "ic_preview_mode_solo_off"
+    },
+    {
+      "offset": "0x288BA00",
+      "key": "ic_preview_mode_solo_off_50"
+    },
+    {
+      "offset": "0x288BA20",
+      "key": "ic_preview_mode_solo_on"
+    },
+    {
+      "offset": "0x2584E20",
+      "key": "ic_reviewplay"
+    },
+    {
+      "offset": "0x2584E30",
+      "key": "ic_reviewplay2"
+    },
+    {
+      "offset": "0x288BB80",
+      "key": "ic_reviewplay_ipad"
+    },
+    {
+      "offset": "0x288BBA0",
+      "key": "ic_reviewplay_select"
+    },
+    {
+      "offset": "0x288BBC0",
+      "key": "ic_reviewplay_select_ipad"
+    },
+    {
+      "offset": "0x288BC60",
+      "key": "ic_saturation_template"
+    },
+    {
+      "offset": "0x288BF40",
+      "key": "ic_spoid_preview"
+    },
+    {
+      "offset": "0x288C800",
+      "key": "ic_viewmode_pixel_preview_off"
+    },
+    {
+      "offset": "0x288C820",
+      "key": "ic_viewmode_pixel_preview_on"
+    },
+    {
+      "offset": "0x288C8E0",
+      "key": "ic_watermarkbottom_cue"
+    },
+    {
+      "offset": "0x288C900",
+      "key": "ic_watermarktop_cue"
+    },
+    {
+      "offset": "0x288C9C0",
+      "key": "icon_custom_resolution"
+    },
+    {
+      "offset": "0x29D23DA",
+      "key": "idfv_in_adrequest_enabled"
+    },
+    {
+      "offset": "0x29D32C2",
+      "key": "ignore_device_mute_switch_for_rewarded_ads"
+    },
+    {
+      "offset": "0x297A745",
+      "key": "ignore_reresolution_requests"
+    },
+    {
+      "offset": "0x28C86D0",
+      "key": "img_export_format"
+    },
+    {
+      "offset": "0x28C86B0",
+      "key": "img_export_quality"
+    },
+    {
+      "offset": "0x28C8730",
+      "key": "img_export_resolution"
+    },
+    {
+      "offset": "0x29D2D67",
+      "key": "in_app_preview_status_url"
+    },
+    {
+      "offset": "0x291FAE0",
+      "key": "in_app_subscription"
+    },
+    {
+      "offset": "0x2893620",
+      "key": "in_app_survey_popup_background_tapped"
+    },
+    {
+      "offset": "0x2893650",
+      "key": "in_app_survey_popup_hit"
+    },
+    {
+      "offset": "0x28C8820",
+      "key": "in_app_survey_popup_last_presentation_date"
+    },
+    {
+      "offset": "0x28935F0",
+      "key": "in_app_survey_popup_main_cta_tapped"
+    },
+    {
+      "offset": "0x28935C0",
+      "key": "in_app_survey_popup_secondary_cta_tapped"
+    },
+    {
+      "offset": "0x28E9830",
+      "key": "in_app_unsubscription_started"
+    },
+    {
+      "offset": "0x291F310",
+      "key": "injet_has_migrated_paywall_hits"
+    },
+    {
+      "offset": "0x29D959A",
+      "key": "inspector_enabled"
+    },
+    {
+      "offset": "0x29D3B1A",
+      "key": "inspector_enabled_debug_menu"
+    },
+    {
+      "offset": "0x28E8C40",
+      "key": "invalid_oracle_product"
+    },
+    {
+      "offset": "0x2921CE0",
+      "key": "inverted_checkbox_paywall_already_purchased"
+    },
+    {
+      "offset": "0x2921CB0",
+      "key": "inverted_checkbox_paywall_continue"
+    },
+    {
+      "offset": "0x2921C80",
+      "key": "inverted_checkbox_paywall_free_trial_enabled"
+    },
+    {
+      "offset": "0x2921C50",
+      "key": "inverted_checkbox_paywall_free_trial_subtitle"
+    },
+    {
+      "offset": "0x2921C20",
+      "key": "inverted_checkbox_paywall_free_trial_title"
+    },
+    {
+      "offset": "0x29211E0",
+      "key": "inverted_checkbox_paywall_monthly_sub"
+    },
+    {
+      "offset": "0x2921210",
+      "key": "inverted_checkbox_paywall_monthly_sub_with_free_trial"
+    },
+    {
+      "offset": "0x2921250",
+      "key": "inverted_checkbox_paywall_monthly_sub_with_free_trial_plural"
+    },
+    {
+      "offset": "0x2921C00",
+      "key": "inverted_checkbox_paywall_title"
+    },
+    {
+      "offset": "0x2921BD0",
+      "key": "inverted_checkbox_paywall_waiting_for_payment"
+    },
+    {
+      "offset": "0x2921B90",
+      "key": "inverted_checkbox_paywall_waiting_for_payment_popup_body"
+    },
+    {
+      "offset": "0x2921B50",
+      "key": "inverted_checkbox_paywall_waiting_for_payment_popup_headline"
+    },
+    {
+      "offset": "0x2921290",
+      "key": "inverted_checkbox_paywall_weekly_sub"
+    },
+    {
+      "offset": "0x29212C0",
+      "key": "inverted_checkbox_paywall_weekly_sub_with_free_trial"
+    },
+    {
+      "offset": "0x2921300",
+      "key": "inverted_checkbox_paywall_weekly_sub_with_free_trial_plural"
+    },
+    {
+      "offset": "0x2921340",
+      "key": "inverted_checkbox_paywall_yearly_sub"
+    },
+    {
+      "offset": "0x2921370",
+      "key": "inverted_checkbox_paywall_yearly_sub_with_free_trial"
+    },
+    {
+      "offset": "0x29213B0",
+      "key": "inverted_checkbox_paywall_yearly_sub_with_free_trial_plural"
+    },
+    {
+      "offset": "0x28F03D0",
+      "key": "is_advanced_rating_and_review_enabled"
+    },
+    {
+      "offset": "0x29CB9D5",
+      "key": "is_analytics_logging_enabled"
+    },
+    {
+      "offset": "0x293E425",
+      "key": "is_app_indexing_enabled"
+    },
+    {
+      "offset": "0x28F01F0",
+      "key": "is_apple_analytics_enabled"
+    },
+    {
+      "offset": "0x29F1270",
+      "key": "is_auto_storekit"
+    },
+    {
+      "offset": "0x29CBACA",
+      "key": "is_closable_area_disabled"
+    },
+    {
+      "offset": "0x2A3A480",
+      "key": "is_enabled"
+    },
+    {
+      "offset": "0x28F0320",
+      "key": "is_fallback_on_bspmonetization_enabled"
+    },
+    {
+      "offset": "0x2931F10",
+      "key": "is_first_paywall"
+    },
+    {
+      "offset": "0x28EFC80",
+      "key": "is_in_app_tracking_consent_enabled"
+    },
+    {
+      "offset": "0x28F0470",
+      "key": "is_korean_style_onboarding"
+    },
+    {
+      "offset": "0x28F0180",
+      "key": "is_new_templates_experience_enabled"
+    },
+    {
+      "offset": "0x2893000",
+      "key": "is_premium_effect"
+    },
+    {
+      "offset": "0x28F0230",
+      "key": "is_revamped_pro_features_export_enabled"
+    },
+    {
+      "offset": "0x29CBC77",
+      "key": "is_scroll_enabled"
+    },
+    {
+      "offset": "0x28F0120",
+      "key": "is_second_cta_in_project_creation_enabled"
+    },
+    {
+      "offset": "0x29CB9F2",
+      "key": "is_secondary_analytics_logging_enabled"
+    },
+    {
+      "offset": "0x28F0010",
+      "key": "is_targeted_ads_consent_popup_enabled"
+    },
+    {
+      "offset": "0x28F0150",
+      "key": "is_templates_library_enabled_on_ipads"
+    },
+    {
+      "offset": "0x29CBCB5",
+      "key": "javascript_session_service_enabled"
+    },
+    {
+      "offset": "0x29D2B37",
+      "key": "jw_handling_enabled"
+    },
+    {
+      "offset": "0x28C8770",
+      "key": "keep_sharescreen_when_export_started"
+    },
+    {
+      "offset": "0x291BE00",
+      "key": "korean_onboarding_settings_analytics_subtitle"
+    },
+    {
+      "offset": "0x291BDD0",
+      "key": "korean_onboarding_settings_analytics_title"
+    },
+    {
+      "offset": "0x291BDA0",
+      "key": "korean_onboarding_settings_description"
+    },
+    {
+      "offset": "0x291BD70",
+      "key": "korean_onboarding_settings_profiling_subtitle"
+    },
+    {
+      "offset": "0x291BD40",
+      "key": "korean_onboarding_settings_profiling_title"
+    },
+    {
+      "offset": "0x291BD10",
+      "key": "korean_onboarding_settings_technical_subtitle"
+    },
+    {
+      "offset": "0x291BCE0",
+      "key": "korean_onboarding_settings_technical_title"
+    },
+    {
+      "offset": "0x28A6240",
+      "key": "landing_tab_templates"
+    },
+    {
+      "offset": "0x290DD6A",
+      "key": "last_experiment_start_time"
+    },
+    {
+      "offset": "0x28C8C40",
+      "key": "last_prompted_review_version"
+    },
+    {
+      "offset": "0x28C88D0",
+      "key": "last_review_popup_presentation_sessions_count"
+    },
+    {
+      "offset": "0x312C660",
+      "key": "link_resolution"
+    },
+    {
+      "offset": "0x29D2522",
+      "key": "local_plist_enabled"
+    },
+    {
+      "offset": "0x28EFF30",
+      "key": "lowest_locked_resolution"
+    },
+    {
+      "offset": "0x2929F70",
+      "key": "main_editor_preset_preview_screen"
+    },
+    {
+      "offset": "0x29CECC6",
+      "key": "malicious_reporting_enabled"
+    },
+    {
+      "offset": "0x28A7AA0",
+      "key": "manage_subscription"
+    },
+    {
+      "offset": "0x2892AF0",
+      "key": "manage_subscription_button_tapped"
+    },
+    {
+      "offset": "0x29CBB70",
+      "key": "manual_tracking_urls"
+    },
+    {
+      "offset": "0x26A5A03",
+      "key": "masked_remote_address"
+    },
+    {
+      "offset": "0x29CC9B4",
+      "key": "max_ad_content_rating"
+    },
+    {
+      "offset": "0x29C3BB9",
+      "key": "max_num_ads"
+    },
+    {
+      "offset": "0x2921B30",
+      "key": "max_paywall_benefit_1"
+    },
+    {
+      "offset": "0x2921B10",
+      "key": "max_paywall_benefit_2"
+    },
+    {
+      "offset": "0x2921AF0",
+      "key": "max_paywall_benefit_3"
+    },
+    {
+      "offset": "0x2921AD0",
+      "key": "max_paywall_title"
+    },
+    {
+      "offset": "0x2A37C18",
+      "key": "media_banner_template"
+    },
+    {
+      "offset": "0x2894E20",
+      "key": "media_replacement_info_popup_shown"
+    },
+    {
+      "offset": "0x28C4450",
+      "key": "members_only_feature"
+    },
+    {
+      "offset": "0x2893FD0",
+      "key": "members_only_feature_msg"
+    },
+    {
+      "offset": "0x28CEA60",
+      "key": "members_only_feature_msg_body"
+    },
+    {
+      "offset": "0x28CEA30",
+      "key": "members_only_feature_msg_for_camera"
+    },
+    {
+      "offset": "0x28CEA00",
+      "key": "members_only_feature_msg_for_layerparent"
+    },
+    {
+      "offset": "0x2893FF0",
+      "key": "members_only_feature_title_camera"
+    },
+    {
+      "offset": "0x2894050",
+      "key": "members_only_feature_title_easing"
+    },
+    {
+      "offset": "0x2894080",
+      "key": "members_only_feature_title_effect"
+    },
+    {
+      "offset": "0x2894020",
+      "key": "members_only_feature_title_layerparenting"
+    },
+    {
+      "offset": "0x296D796",
+      "key": "message_tracking_id"
+    },
+    {
+      "offset": "0x2A3A110",
+      "key": "metrics_is_enabled"
+    },
+    {
+      "offset": "0x28E9060",
+      "key": "monetization_lib_sk2_blocking_oracle_verify"
+    },
+    {
+      "offset": "0x28E9090",
+      "key": "monetization_lib_sk2_send_transactions_updates_to_oracle"
+    },
+    {
+      "offset": "0x2988426",
+      "key": "monitoring_experiment"
+    },
+    {
+      "offset": "0x28CE9C0",
+      "key": "more_export_optoin"
+    },
+    {
+      "offset": "0x29305F0",
+      "key": "most_recent_subscription_active_duration"
+    },
+    {
+      "offset": "0x29306B0",
+      "key": "most_recent_subscription_active_duration_in_days"
+    },
+    {
+      "offset": "0x2A2A84B",
+      "key": "n_loadadsuccess"
+    },
+    {
+      "offset": "0x289D4D0",
+      "key": "n_month_subscription_member"
+    },
+    {
+      "offset": "0x2A1349B",
+      "key": "n_storekitclosewithoutviewuniqueid"
+    },
+    {
+      "offset": "0x289D4F0",
+      "key": "n_week_subscription_member"
+    },
+    {
+      "offset": "0x29CC6A8",
+      "key": "native_custom_templates"
+    },
+    {
+      "offset": "0x2892AA0",
+      "key": "native_review_popup_requested"
+    },
+    {
+      "offset": "0x29C4520",
+      "key": "native_template_type"
+    },
+    {
+      "offset": "0x29CC697",
+      "key": "native_templates"
+    },
+    {
+      "offset": "0x29D395A",
+      "key": "native_validator_enabled"
+    },
+    {
+      "offset": "0x29D24DF",
+      "key": "native_view_signals_enabled"
+    },
+    {
+      "offset": "0x28D9880",
+      "key": "new_feature_camera_object"
+    },
+    {
+      "offset": "0x28D9860",
+      "key": "new_feature_camera_object_text"
+    },
+    {
+      "offset": "0x28D9840",
+      "key": "new_feature_layer_parenting"
+    },
+    {
+      "offset": "0x28D9810",
+      "key": "new_feature_layer_parenting_text"
+    },
+    {
+      "offset": "0x28D97F0",
+      "key": "new_feature_view_options"
+    },
+    {
+      "offset": "0x28D97D0",
+      "key": "new_feature_view_options_text"
+    },
+    {
+      "offset": "0x28EFD40",
+      "key": "new_media_replacement_logic_enabled"
+    },
+    {
+      "offset": "0x28C8340",
+      "key": "new_scene_preset_resolution"
+    },
+    {
+      "offset": "0x28CE920",
+      "key": "no_ads_available"
+    },
+    {
+      "offset": "0x28CE8C0",
+      "key": "no_thanks_show_watermark"
+    },
+    {
+      "offset": "0x28CE8A0",
+      "key": "no_thanks_show_watermark_1"
+    },
+    {
+      "offset": "0x28CE880",
+      "key": "no_thanks_show_watermark_2"
+    },
+    {
+      "offset": "0x28CE860",
+      "key": "no_thanks_show_watermark_3"
+    },
+    {
+      "offset": "0x29CECE2",
+      "key": "non_malicious_reporting_enabled"
+    },
+    {
+      "offset": "0x29D4700",
+      "key": "number_of_max_concurrent_operation_for_generating_signals"
+    },
+    {
+      "offset": "0x2930590",
+      "key": "number_of_non_renewing_subscriptions_active"
+    },
+    {
+      "offset": "0x2930540",
+      "key": "number_of_non_renewing_subscriptions_purchased"
+    },
+    {
+      "offset": "0x28E2DC0",
+      "key": "number_of_preloaded_ads"
+    },
+    {
+      "offset": "0x2930510",
+      "key": "number_of_subscriptions_purchased"
+    },
+    {
+      "offset": "0x2930570",
+      "key": "number_subscriptions_active"
+    },
+    {
+      "offset": "0x28E7820",
+      "key": "oracle_request_signatures"
+    },
+    {
+      "offset": "0x3178DD0",
+      "key": "oracle_verify"
+    },
+    {
+      "offset": "0x2921AA0",
+      "key": "other_options_paywall_already_purchased"
+    },
+    {
+      "offset": "0x2921A70",
+      "key": "other_options_paywall_button_title"
+    },
+    {
+      "offset": "0x2921A50",
+      "key": "other_options_paywall_continue"
+    },
+    {
+      "offset": "0x29213F0",
+      "key": "other_options_paywall_discount_label"
+    },
+    {
+      "offset": "0x2921A20",
+      "key": "other_options_paywall_free_trial_enabled"
+    },
+    {
+      "offset": "0x29219F0",
+      "key": "other_options_paywall_free_trial_subtitle"
+    },
+    {
+      "offset": "0x29219C0",
+      "key": "other_options_paywall_free_trial_title"
+    },
+    {
+      "offset": "0x2921420",
+      "key": "other_options_paywall_monthly_sub"
+    },
+    {
+      "offset": "0x2921450",
+      "key": "other_options_paywall_monthly_sub_with_free_trial"
+    },
+    {
+      "offset": "0x2921490",
+      "key": "other_options_paywall_monthly_sub_with_free_trial_plural"
+    },
+    {
+      "offset": "0x2921990",
+      "key": "other_options_paywall_panel_view_title"
+    },
+    {
+      "offset": "0x2921970",
+      "key": "other_options_paywall_title"
+    },
+    {
+      "offset": "0x2921940",
+      "key": "other_options_paywall_waiting_for_payment"
+    },
+    {
+      "offset": "0x2921900",
+      "key": "other_options_paywall_waiting_for_payment_popup_body"
+    },
+    {
+      "offset": "0x29218C0",
+      "key": "other_options_paywall_waiting_for_payment_popup_headline"
+    },
+    {
+      "offset": "0x29214D0",
+      "key": "other_options_paywall_weekly_sub"
+    },
+    {
+      "offset": "0x2921500",
+      "key": "other_options_paywall_weekly_sub_with_free_trial"
+    },
+    {
+      "offset": "0x2921540",
+      "key": "other_options_paywall_weekly_sub_with_free_trial_plural"
+    },
+    {
+      "offset": "0x2921580",
+      "key": "other_options_paywall_yearly_sub"
+    },
+    {
+      "offset": "0x29215B0",
+      "key": "other_options_paywall_yearly_sub_with_free_trial"
+    },
+    {
+      "offset": "0x29215F0",
+      "key": "other_options_paywall_yearly_sub_with_free_trial_plural"
+    },
+    {
+      "offset": "0x297A880",
+      "key": "outlier_detection_experimental"
+    },
+    {
+      "offset": "0x2917270",
+      "key": "overlay_cloud_subtab"
+    },
+    {
+      "offset": "0x2A0E040",
+      "key": "overridable_features"
+    },
+    {
+      "offset": "0x29D0CF9",
+      "key": "paid_v2_user_enabled"
+    },
+    {
+      "offset": "0x29CC89F",
+      "key": "pauid_pub_enabled"
+    },
+    {
+      "offset": "0x29CC88C",
+      "key": "pauid_user_enabled"
+    },
+    {
+      "offset": "0x29D53DD",
+      "key": "pauid_v2_pub_enabled"
+    },
+    {
+      "offset": "0x29D53C7",
+      "key": "pauid_v2_user_enabled"
+    },
+    {
+      "offset": "0x29218A0",
+      "key": "paywall_alert_cancel"
+    },
+    {
+      "offset": "0x2921880",
+      "key": "paywall_alert_retry"
+    },
+    {
+      "offset": "0x2930BC0",
+      "key": "paywall_dismiss_count"
+    },
+    {
+      "offset": "0x2931E90",
+      "key": "paywall_dismissable"
+    },
+    {
+      "offset": "0x319A050",
+      "key": "paywall_error"
+    },
+    {
+      "offset": "0x2921850",
+      "key": "paywall_generic_error_alert_message"
+    },
+    {
+      "offset": "0x2921820",
+      "key": "paywall_generic_error_alert_title"
+    },
+    {
+      "offset": "0x2930BA0",
+      "key": "paywall_hit_count"
+    },
+    {
+      "offset": "0x2931EB0",
+      "key": "paywall_is_blocking"
+    },
+    {
+      "offset": "0x2921800",
+      "key": "paywall_monthly_label"
+    },
+    {
+      "offset": "0x2931E70",
+      "key": "paywall_presentation_id"
+    },
+    {
+      "offset": "0x2931F30",
+      "key": "paywall_presentation_pending"
+    },
+    {
+      "offset": "0x2931F50",
+      "key": "paywall_presented"
+    },
+    {
+      "offset": "0x2931ED0",
+      "key": "paywall_products_displayed"
+    },
+    {
+      "offset": "0x28D9FC6",
+      "key": "paywall_style"
+    },
+    {
+      "offset": "0x28D9FE2",
+      "key": "paywall_trigger"
+    },
+    {
+      "offset": "0x29217C0",
+      "key": "paywall_unavailable_status_alert_message_app_store"
+    },
+    {
+      "offset": "0x2921790",
+      "key": "paywall_unavailable_status_alert_title"
+    },
+    {
+      "offset": "0x2921770",
+      "key": "paywall_weekly_label"
+    },
+    {
+      "offset": "0x2930C20",
+      "key": "paywall_with_free_trial_checkbox_tap_count"
+    },
+    {
+      "offset": "0x2930C70",
+      "key": "paywall_with_purchase_button_tap_count"
+    },
+    {
+      "offset": "0x2921750",
+      "key": "paywall_yearly_label"
+    },
+    {
+      "offset": "0x2927580",
+      "key": "pico_tracking_consent"
+    },
+    {
+      "offset": "0x29C4535",
+      "key": "policy_validator_enabled"
+    },
+    {
+      "offset": "0x29298B0",
+      "key": "popup_button_tapped"
+    },
+    {
+      "offset": "0x29F06B1",
+      "key": "popup_type"
+    },
+    {
+      "offset": "0x28BFFA0",
+      "key": "precompose_dynamic_resolution"
+    },
+    {
+      "offset": "0x28BFFC0",
+      "key": "precompose_fixed_resolution"
+    },
+    {
+      "offset": "0x28CE720",
+      "key": "pref_low_quality_preview_detail"
+    },
+    {
+      "offset": "0x28CE700",
+      "key": "pref_low_quality_preview_title"
+    },
+    {
+      "offset": "0x28E2FC0",
+      "key": "preload_completed_homemade_ads"
+    },
+    {
+      "offset": "0x28E2E90",
+      "key": "preload_completed_network_ads"
+    },
+    {
+      "offset": "0x28EFCD0",
+      "key": "premium_effects_segment_id"
+    },
+    {
+      "offset": "0x28D94A0",
+      "key": "premium_feature_bottom_sheet_free_export_button_subheading"
+    },
+    {
+      "offset": "0x28D94E0",
+      "key": "premium_feature_bottom_sheet_free_export_button_title"
+    },
+    {
+      "offset": "0x28EFB30",
+      "key": "premium_feature_export"
+    },
+    {
+      "offset": "0x2B5EE0E",
+      "key": "premium_member"
+    },
+    {
+      "offset": "0x2B5EE1D",
+      "key": "premium_try"
+    },
+    {
+      "offset": "0x292D192",
+      "key": "premium_users"
+    },
+    {
+      "offset": "0x292A680",
+      "key": "preset_empty_state_crisper_popup_show"
+    },
+    {
+      "offset": "0x287C277",
+      "key": "preset_export"
+    },
+    {
+      "offset": "0x292A660",
+      "key": "preset_export_button_tapped"
+    },
+    {
+      "offset": "0x292A6B0",
+      "key": "preset_import_crisper_popup_show"
+    },
+    {
+      "offset": "0x28EFE50",
+      "key": "preset_save_and_apply_enabled"
+    },
+    {
+      "offset": "0x28EFE70",
+      "key": "preset_save_preview_apply_export_enabled"
+    },
+    {
+      "offset": "0x2892600",
+      "key": "presets_panel_seen"
+    },
+    {
+      "offset": "0x28CE6E0",
+      "key": "preview_no_effects"
+    },
+    {
+      "offset": "0x289CAB0",
+      "key": "preview_zoom_toggle"
+    },
+    {
+      "offset": "0x289CA80",
+      "key": "preview_zoom_two_finger_double_tap"
+    },
+    {
+      "offset": "0x297A762",
+      "key": "priority_experimental"
+    },
+    {
+      "offset": "0x2892B50",
+      "key": "pro_feature_used"
+    },
+    {
+      "offset": "0x2921730",
+      "key": "pro_paywall_benefit_1"
+    },
+    {
+      "offset": "0x2921710",
+      "key": "pro_paywall_benefit_2"
+    },
+    {
+      "offset": "0x29216F0",
+      "key": "pro_paywall_benefit_3"
+    },
+    {
+      "offset": "0x29216D0",
+      "key": "pro_paywall_title"
+    },
+    {
+      "offset": "0x2919880",
+      "key": "project_list_explore_templates_tapped"
+    },
+    {
+      "offset": "0x287C250",
+      "key": "project_package_export"
+    },
+    {
+      "offset": "0x28C8210",
+      "key": "project_package_freeuser_maxdownloadsize"
+    },
+    {
+      "offset": "0x2893460",
+      "key": "project_package_import_popup_dismissed"
+    },
+    {
+      "offset": "0x2893490",
+      "key": "project_package_import_popup_shown"
+    },
+    {
+      "offset": "0x28C0410",
+      "key": "project_resolution"
+    },
+    {
+      "offset": "0x28C64A0",
+      "key": "projectlist_export_click_package"
+    },
+    {
+      "offset": "0x28A61A0",
+      "key": "prompt_for_reviews"
+    },
+    {
+      "offset": "0x29CED02",
+      "key": "protection_enabled"
+    },
+    {
+      "offset": "0x28C8E00",
+      "key": "prsented_new_feature_identifiers"
+    },
+    {
+      "offset": "0x28CD6B0",
+      "key": "purchase_prompt_popup_a"
+    },
+    {
+      "offset": "0x28CE4C0",
+      "key": "purchase_prompt_popup_b"
+    },
+    {
+      "offset": "0x28CE4A0",
+      "key": "purchase_prompt_popup_c"
+    },
+    {
+      "offset": "0x28CE480",
+      "key": "purchase_prompt_popup_d"
+    },
+    {
+      "offset": "0x28CD6D0",
+      "key": "purchase_prompt_popup_e"
+    },
+    {
+      "offset": "0x28CD6F0",
+      "key": "purchase_prompt_popup_f"
+    },
+    {
+      "offset": "0x28CE3B0",
+      "key": "purchase_watermark_removal_ticket"
+    },
+    {
+      "offset": "0x28EB230",
+      "key": "rating_view_close_tapped"
+    },
+    {
+      "offset": "0x28EB1D0",
+      "key": "rating_view_main_cta_tapped"
+    },
+    {
+      "offset": "0x28EB1B0",
+      "key": "rating_view_shown"
+    },
+    {
+      "offset": "0x29686D6",
+      "key": "regional_defaults_enabled"
+    },
+    {
+      "offset": "0x28CD710",
+      "key": "release_event_popup_msg"
+    },
+    {
+      "offset": "0x26A57CD",
+      "key": "remote_address"
+    },
+    {
+      "offset": "0x26AE456",
+      "key": "remote_address_range"
+    },
+    {
+      "offset": "0x297CB68",
+      "key": "remote_certificate"
+    },
+    {
+      "offset": "0x2963D40",
+      "key": "remote_config_data"
+    },
+    {
+      "offset": "0x2963D53",
+      "key": "remote_config_timestamp"
+    },
+    {
+      "offset": "0x2950DDE",
+      "key": "remote_document"
+    },
+    {
+      "offset": "0x2950E00",
+      "key": "remote_document_read_time"
+    },
+    {
+      "offset": "0x269A364",
+      "key": "remote_ip"
+    },
+    {
+      "offset": "0x289FE60",
+      "key": "remove_watermark"
+    },
+    {
+      "offset": "0x28E2F00",
+      "key": "requested_with_only_homemade_ads"
+    },
+    {
+      "offset": "0x28CE370",
+      "key": "review_feedback_msg"
+    },
+    {
+      "offset": "0x28CE350",
+      "key": "review_feedback_title"
+    },
+    {
+      "offset": "0x28CE330",
+      "key": "review_popup_msg"
+    },
+    {
+      "offset": "0x28F0400",
+      "key": "review_popup_sessions_span_after_interaction_with_cta"
+    },
+    {
+      "offset": "0x28CE310",
+      "key": "review_popup_title"
+    },
+    {
+      "offset": "0x2A39F6A",
+      "key": "ri_enabled"
+    },
+    {
+      "offset": "0x299AF65",
+      "key": "ring_hash_experimental"
+    },
+    {
+      "offset": "0x299B64E",
+      "key": "rls_experimental"
+    },
+    {
+      "offset": "0x2664567",
+      "key": "routing_enabled"
+    },
+    {
+      "offset": "0x28C89B0",
+      "key": "scene_setting_resolution_link"
+    },
+    {
+      "offset": "0x2930CA0",
+      "key": "screen_time_since_last_paywall"
+    },
+    {
+      "offset": "0x29E09FA",
+      "key": "sdk_experiments"
+    },
+    {
+      "offset": "0x25D7A30",
+      "key": "search_ads"
+    },
+    {
+      "offset": "0x28C8950",
+      "key": "selected_webp_preview_size"
+    },
+    {
+      "offset": "0x29D37A8",
+      "key": "send_inspector_enabled_signal"
+    },
+    {
+      "offset": "0x28E7890",
+      "key": "send_local_data_to_oracle"
+    },
+    {
+      "offset": "0x28E7710",
+      "key": "send_receipt_to_oracle"
+    },
+    {
+      "offset": "0x298BEDF",
+      "key": "server_features"
+    },
+    {
+      "offset": "0x29A86FD",
+      "key": "server_listener_resource_name_template"
+    },
+    {
+      "offset": "0x29437E4",
+      "key": "service_disabled"
+    },
+    {
+      "offset": "0x29437C7",
+      "key": "service_disabled_use_browser"
+    },
+    {
+      "offset": "0x29686AE",
+      "key": "session_stitching_token_feature_enabled"
+    },
+    {
+      "offset": "0x2910100",
+      "key": "sessions_enabled"
+    },
+    {
+      "offset": "0x26A2E6B",
+      "key": "shadow_enabled"
+    },
+    {
+      "offset": "0x28EFF10",
+      "key": "share_eligibility_watch_ads_cap"
+    },
+    {
+      "offset": "0x28EFEE0",
+      "key": "share_eligibility_watch_ads_enabled"
+    },
+    {
+      "offset": "0x28F01B0",
+      "key": "should_always_show_explore_templates_section_in_homepage"
+    },
+    {
+      "offset": "0x28F0390",
+      "key": "should_wait_for_products_fetch_before_app_start_paywall"
+    },
+    {
+      "offset": "0x28C8A70",
+      "key": "show_am36_effect_browser_update_popup_once"
+    },
+    {
+      "offset": "0x28A8E80",
+      "key": "show_crash_tracking_id"
+    },
+    {
+      "offset": "0x28C84C0",
+      "key": "show_experiment_effects"
+    },
+    {
+      "offset": "0x2917D90",
+      "key": "sign_in_cloud_alert_body"
+    },
+    {
+      "offset": "0x2917D70",
+      "key": "sign_in_cloud_alert_title"
+    },
+    {
+      "offset": "0x28EFEC0",
+      "key": "sign_in_disabled_pp_import"
+    },
+    {
+      "offset": "0x2893830",
+      "key": "sign_in_popup_dismissed"
+    },
+    {
+      "offset": "0x2893850",
+      "key": "sign_in_popup_shown"
+    },
+    {
+      "offset": "0x2893810",
+      "key": "sign_in_popup_type"
+    },
+    {
+      "offset": "0x2A39FD0",
+      "key": "signals_disabled"
+    },
+    {
+      "offset": "0x28960F0",
+      "key": "signin_email_popup_msg"
+    },
+    {
+      "offset": "0x28CE140",
+      "key": "single_export_without_wartermark"
+    },
+    {
+      "offset": "0x28C3C60",
+      "key": "standard_watermark"
+    },
+    {
+      "offset": "0x29CD097",
+      "key": "star_rating"
+    },
+    {
+      "offset": "0x29E1E33",
+      "key": "storekit_click_type"
+    },
+    {
+      "offset": "0x29F3760",
+      "key": "storekit_flow_type"
+    },
+    {
+      "offset": "0x29E1108",
+      "key": "storekit_time"
+    },
+    {
+      "offset": "0x2963F7C",
+      "key": "subscription_id"
+    },
+    {
+      "offset": "0x289DDB0",
+      "key": "subscription_ids"
+    },
+    {
+      "offset": "0x28E6AF0",
+      "key": "subscription_period"
+    },
+    {
+      "offset": "0x289DD10",
+      "key": "subscription_started"
+    },
+    {
+      "offset": "0x28E78D0",
+      "key": "subscription_update"
+    },
+    {
+      "offset": "0x2A37F40",
+      "key": "supported_features"
+    },
+    {
+      "offset": "0x2891DF0",
+      "key": "temp_cloudimport"
+    },
+    {
+      "offset": "0x28926A0",
+      "key": "template_editor_seen"
+    },
+    {
+      "offset": "0x2894EB0",
+      "key": "template_editor_trigger_point"
+    },
+    {
+      "offset": "0x287C267",
+      "key": "template_export"
+    },
+    {
+      "offset": "0x2893B40",
+      "key": "template_export_enabling"
+    },
+    {
+      "offset": "0x28EFE00",
+      "key": "template_export_toggle_enabled"
+    },
+    {
+      "offset": "0x287C2C2",
+      "key": "template_id"
+    },
+    {
+      "offset": "0x2894F00",
+      "key": "template_import_clip_selection_editor_closed"
+    },
+    {
+      "offset": "0x2894F30",
+      "key": "template_import_clip_selection_editor_opened"
+    },
+    {
+      "offset": "0x2895010",
+      "key": "template_import_closed"
+    },
+    {
+      "offset": "0x2895030",
+      "key": "template_import_editor_opened"
+    },
+    {
+      "offset": "0x28EFD70",
+      "key": "template_import_in_project_enabled"
+    },
+    {
+      "offset": "0x2894FC0",
+      "key": "template_import_media_replace_button_tapped"
+    },
+    {
+      "offset": "0x2894FA0",
+      "key": "template_import_media_replaced"
+    },
+    {
+      "offset": "0x2894FF0",
+      "key": "template_import_media_selected"
+    },
+    {
+      "offset": "0x2894ED0",
+      "key": "template_import_timeline_accessed"
+    },
+    {
+      "offset": "0x28D9B80",
+      "key": "template_media_crop_tooltip_body"
+    },
+    {
+      "offset": "0x2920BD0",
+      "key": "template_outline_shake"
+    },
+    {
+      "offset": "0x2893890",
+      "key": "template_pp_id_list"
+    },
+    {
+      "offset": "0x28EFE20",
+      "key": "template_revamped_import_flow_enabled"
+    },
+    {
+      "offset": "0x288CCC0",
+      "key": "template_selected"
+    },
+    {
+      "offset": "0x2A39D80",
+      "key": "template_settings"
+    },
+    {
+      "offset": "0x2893230",
+      "key": "template_sharing_toggle_off"
+    },
+    {
+      "offset": "0x2893250",
+      "key": "template_sharing_toggle_on"
+    },
+    {
+      "offset": "0x2A39D6F",
+      "key": "template_type"
+    },
+    {
+      "offset": "0x2A39D4F",
+      "key": "template_url"
+    },
+    {
+      "offset": "0x29171E0",
+      "key": "templates_for_you"
+    },
+    {
+      "offset": "0x2919B50",
+      "key": "templates_gallery_screen_all_templates_filter_tapped"
+    },
+    {
+      "offset": "0x2919B20",
+      "key": "templates_gallery_screen_load_more_tapped"
+    },
+    {
+      "offset": "0x29199E0",
+      "key": "templates_gallery_screen_refreshed"
+    },
+    {
+      "offset": "0x2919AE0",
+      "key": "templates_gallery_screen_saved_templates_filter_tapped"
+    },
+    {
+      "offset": "0x29199C0",
+      "key": "templates_gallery_screen_shown"
+    },
+    {
+      "offset": "0x2919AB0",
+      "key": "templates_gallery_screen_template_circle_tapped"
+    },
+    {
+      "offset": "0x2919A70",
+      "key": "templates_gallery_screen_template_favorite_toggled"
+    },
+    {
+      "offset": "0x2919A40",
+      "key": "templates_gallery_screen_template_filter_tapped"
+    },
+    {
+      "offset": "0x2919A10",
+      "key": "templates_gallery_screen_template_tapped"
+    },
+    {
+      "offset": "0x2919980",
+      "key": "templates_gallery_screen_view_your_templates_tapped"
+    },
+    {
+      "offset": "0x25B6940",
+      "key": "templates_icon"
+    },
+    {
+      "offset": "0x2917200",
+      "key": "templates_missing_thumb"
+    },
+    {
+      "offset": "0x2892640",
+      "key": "templates_panel_seen"
+    },
+    {
+      "offset": "0x2920B20",
+      "key": "templates_presets_library_entry_point_name"
+    },
+    {
+      "offset": "0x2920AE0",
+      "key": "templates_presets_library_main_editor_entry_point_name"
+    },
+    {
+      "offset": "0x2920AC0",
+      "key": "templates_presets_library_name"
+    },
+    {
+      "offset": "0x2920A90",
+      "key": "templates_presets_library_view_all"
+    },
+    {
+      "offset": "0x2892A60",
+      "key": "templates_program"
+    },
+    {
+      "offset": "0x28F0290",
+      "key": "templates_program_consent_popup_position"
+    },
+    {
+      "offset": "0x2919E00",
+      "key": "templates_stories_screen_back_button_tapped"
+    },
+    {
+      "offset": "0x2919C00",
+      "key": "templates_stories_screen_dismissed_after_watching_last_video"
+    },
+    {
+      "offset": "0x2919DD0",
+      "key": "templates_stories_screen_next_button_tapped"
+    },
+    {
+      "offset": "0x2919DA0",
+      "key": "templates_stories_screen_previous_button_tapped"
+    },
+    {
+      "offset": "0x2919D60",
+      "key": "templates_stories_screen_see_all_saved_templates_tapped"
+    },
+    {
+      "offset": "0x2919C40",
+      "key": "templates_stories_screen_shown"
+    },
+    {
+      "offset": "0x2919D20",
+      "key": "templates_stories_screen_swiped_down_to_dismiss_stories"
+    },
+    {
+      "offset": "0x2919CE0",
+      "key": "templates_stories_screen_swiped_down_to_see_next"
+    },
+    {
+      "offset": "0x2919CA0",
+      "key": "templates_stories_screen_swiped_up_to_see_previous"
+    },
+    {
+      "offset": "0x2919C60",
+      "key": "templates_stories_screen_template_favorite_toggled"
+    },
+    {
+      "offset": "0x2919BD0",
+      "key": "templates_stories_screen_use_template_tapped"
+    },
+    {
+      "offset": "0x2919B90",
+      "key": "templates_stories_screen_video_did_play_to_end_time"
+    },
+    {
+      "offset": "0x29198F0",
+      "key": "templates_subtab_opened"
+    },
+    {
+      "offset": "0x2920700",
+      "key": "templates_tab"
+    },
+    {
+      "offset": "0x2892680",
+      "key": "templates_tab_seen"
+    },
+    {
+      "offset": "0x29CBD11",
+      "key": "test_mode_enabled"
+    },
+    {
+      "offset": "0x28E76D0",
+      "key": "third_party_unsubscription"
+    },
+    {
+      "offset": "0x2930CC0",
+      "key": "time_since_last_paywall"
+    },
+    {
+      "offset": "0x2930620",
+      "key": "time_since_most_recent_subscription_cancellation"
+    },
+    {
+      "offset": "0x28CC9D0",
+      "key": "tooltip_review_play"
+    },
+    {
+      "offset": "0x2930680",
+      "key": "total_days_with_an_active_subscription"
+    },
+    {
+      "offset": "0x28C83A0",
+      "key": "total_export_count"
+    },
+    {
+      "offset": "0x29305C0",
+      "key": "total_time_with_an_active_subscription"
+    },
+    {
+      "offset": "0x28EA750",
+      "key": "tracking_authorization_status"
+    },
+    {
+      "offset": "0x2927D80",
+      "key": "tracking_consent"
+    },
+    {
+      "offset": "0x2920040",
+      "key": "tracking_consent_outcome"
+    },
+    {
+      "offset": "0x28A8E40",
+      "key": "tracking_id_error"
+    },
+    {
+      "offset": "0x28EA770",
+      "key": "tracking_permission_changed"
+    },
+    {
+      "offset": "0x28EA5B0",
+      "key": "tracking_popup_shown"
+    },
+    {
+      "offset": "0x29CBCD8",
+      "key": "tracking_urls_and_actions"
+    },
+    {
+      "offset": "0x28CDE10",
+      "key": "trial_popup_title_for_camera"
+    },
+    {
+      "offset": "0x28CDDF0",
+      "key": "trial_popup_title_for_easing"
+    },
+    {
+      "offset": "0x28CDDD0",
+      "key": "trial_popup_title_for_effect"
+    },
+    {
+      "offset": "0x28CDDA0",
+      "key": "trial_popup_title_for_layerparenting"
+    },
+    {
+      "offset": "0x345D5E9",
+      "key": "tsi_tracing_enabled"
+    },
+    {
+      "offset": "0x28A7160",
+      "key": "unlink_popup_msg"
+    },
+    {
+      "offset": "0x28A7130",
+      "key": "unlink_unverified_email_popup_msg"
+    },
+    {
+      "offset": "0x28A7100",
+      "key": "unlink_unverified_email_popup_title"
+    },
+    {
+      "offset": "0x28A7200",
+      "key": "unsave_profile_popup_button"
+    },
+    {
+      "offset": "0x28A7240",
+      "key": "unsave_profile_popup_msg"
+    },
+    {
+      "offset": "0x28A7220",
+      "key": "unsave_profile_popup_title"
+    },
+    {
+      "offset": "0x2888D77",
+      "key": "upload_to_cloud"
+    },
+    {
+      "offset": "0x2917AE0",
+      "key": "upsell_paywall_price_indicator1_yearly"
+    },
+    {
+      "offset": "0x2654A55",
+      "key": "upstream_remote_address"
+    },
+    {
+      "offset": "0x26551B8",
+      "key": "upstream_remote_reset"
+    },
+    {
+      "offset": "0x268768D",
+      "key": "use_remote_address"
+    },
+    {
+      "offset": "0x28CDC60",
+      "key": "use_watermark_removal_ticket"
+    },
+    {
+      "offset": "0x317BBF0",
+      "key": "user_tracking"
+    },
+    {
+      "offset": "0x2A37BE0",
+      "key": "vertical_leader_template"
+    },
+    {
+      "offset": "0x2A37BF9",
+      "key": "vertical_media_banner_template"
+    },
+    {
+      "offset": "0x28C86F0",
+      "key": "video_export_codec"
+    },
+    {
+      "offset": "0x28C8240",
+      "key": "video_export_quality"
+    },
+    {
+      "offset": "0x28C85C0",
+      "key": "video_export_resolution"
+    },
+    {
+      "offset": "0x287C290",
+      "key": "video_template_export"
+    },
+    {
+      "offset": "0x28BE6E0",
+      "key": "view_options_review_play"
+    },
+    {
+      "offset": "0x29D24CA",
+      "key": "view_signals_enabled"
+    },
+    {
+      "offset": "0x29F37A0",
+      "key": "visibility_checks_enabled"
+    },
+    {
+      "offset": "0x288CD20",
+      "key": "watermark_delete"
+    },
+    {
+      "offset": "0x288CD40",
+      "key": "watermark_horizontal"
+    },
+    {
+      "offset": "0x288CD60",
+      "key": "watermark_horizontal_x"
+    },
+    {
+      "offset": "0x29CBF72",
+      "key": "watermark_overlay_png_base64"
+    },
+    {
+      "offset": "0x28EFB00",
+      "key": "watermark_premium_feature_export"
+    },
+    {
+      "offset": "0x28DA7D0",
+      "key": "watermark_removal"
+    },
+    {
+      "offset": "0x28CDB40",
+      "key": "watermark_removal_ticket"
+    },
+    {
+      "offset": "0x2892DA0",
+      "key": "watermark_remove_button_tapped"
+    },
+    {
+      "offset": "0x2892DC0",
+      "key": "watermark_tapped"
+    },
+    {
+      "offset": "0x288CD80",
+      "key": "watermark_vertical"
+    },
+    {
+      "offset": "0x288CDA0",
+      "key": "watermark_vertical_x"
+    },
+    {
+      "offset": "0x29216B0",
+      "key": "web_page_paywall_title"
+    },
+    {
+      "offset": "0x28E7940",
+      "key": "web_unsubscription_flow_presentation_failed"
+    },
+    {
+      "offset": "0x28E9870",
+      "key": "web_unsubscription_flow_presented"
+    },
+    {
+      "offset": "0x29F3780",
+      "key": "web_view_fs_state_enabled"
+    },
+    {
+      "offset": "0x28C87C0",
+      "key": "webp_export_compression"
+    },
+    {
+      "offset": "0x28C8B00",
+      "key": "webp_export_hooking"
+    },
+    {
+      "offset": "0x28C8650",
+      "key": "webp_export_quality"
+    },
+    {
+      "offset": "0x28C8690",
+      "key": "webp_export_resolution"
+    },
+    {
+      "offset": "0x28C8800",
+      "key": "webp_export_resolution_ratio"
+    },
+    {
+      "offset": "0x28C87A0",
+      "key": "webp_export_speed_ratio"
+    },
+    {
+      "offset": "0x28C8970",
+      "key": "webp_preview_size_toggle"
+    },
+    {
+      "offset": "0x29A7097",
+      "key": "weighted_target_experimental"
+    },
+    {
+      "offset": "0x28BE760",
+      "key": "without_premium_effects"
+    },
+    {
+      "offset": "0x2585EF0",
+      "key": "wolf_alightcreative_motion_post_onboarding_2025_06_25"
+    },
+    {
+      "offset": "0x29D27B6",
+      "key": "wvc_scroll_enabled"
+    },
+    {
+      "offset": "0x297A7C3",
+      "key": "xds_cluster_impl_experimental"
+    },
+    {
+      "offset": "0x29AAE92",
+      "key": "xds_cluster_manager_experimental"
+    },
+    {
+      "offset": "0x297A78C",
+      "key": "xds_override_host_experimental"
+    },
+    {
+      "offset": "0x29AA4E1",
+      "key": "xds_wrr_locality_experimental"
+    }
+  ],
+  "iap_oracle_error_candidates": {
+    "21000": [
+      {
+        "offset": "0x289DA00",
+        "context": [
+          "roduct List Unavailable)",
+          "21002 (Invalid Delegate State)",
+          "21001 (Invalid Dependency State)",
+          "21000 (Unknown Error)",
+          "_TtC12AlightMotion10IAPManager",
+          "paymentObserver",
+          "authStateListenerHandle",
+          "userRecordListenerHandle",
+          "accountRecordListenerHandle",
+          "restoringPurchases",
+          "processingTasks"
+        ]
+      }
+    ],
+    "21001": [
+      {
+        "offset": "0x289D9D0",
+        "context": [
+          "roduct Information Unavailable)",
+          "21003 (Product List Unavailable)",
+          "21002 (Invalid Delegate State)",
+          "21001 (Invalid Dependency State)",
+          "21000 (Unknown Error)",
+          "_TtC12AlightMotion10IAPManager",
+          "paymentObserver",
+          "authStateListenerHandle",
+          "userRecordListenerHandle",
+          "accountRecordListenerHandle"
+        ]
+      }
+    ],
+    "21002": [
+      {
+        "offset": "0x289D9B0",
+        "context": [
+          "e Account Info)",
+          "21004 (Product Information Unavailable)",
+          "21003 (Product List Unavailable)",
+          "21002 (Invalid Delegate State)",
+          "21001 (Invalid Dependency State)",
+          "21000 (Unknown Error)",
+          "_TtC12AlightMotion10IAPManager",
+          "paymentObserver",
+          "authStateListenerHandle",
+          "userRecordListenerHandle"
+        ]
+      }
+    ],
+    "21003": [
+      {
+        "offset": "0x289D980",
+        "context": [
+          "erver Error: ",
+          "21005 (Unable to Retrieve Account Info)",
+          "21004 (Product Information Unavailable)",
+          "21003 (Product List Unavailable)",
+          "21002 (Invalid Delegate State)",
+          "21001 (Invalid Dependency State)",
+          "21000 (Unknown Error)",
+          "_TtC12AlightMotion10IAPManager",
+          "paymentObserver",
+          "authStateListener"
+        ]
+      }
+    ],
+    "21004": [
+      {
+        "offset": "0x289D950",
+        "context": [
+          "rs: [",
+          "21007 (Invalid Task)",
+          "21006 (Server Error: ",
+          "21005 (Unable to Retrieve Account Info)",
+          "21004 (Product Information Unavailable)",
+          "21003 (Product List Unavailable)",
+          "21002 (Invalid Delegate State)",
+          "21001 (Invalid Dependency State)",
+          "21000 (Unknown Error)",
+          "_TtC12AlightMotio"
+        ]
+      }
+    ],
+    "21005": [
+      {
+        "offset": "0x289D920",
+        "context": [
+          "roduct List Empty)",
+          "21008 (Invalid Identifiers: [",
+          "21007 (Invalid Task)",
+          "21006 (Server Error: ",
+          "21005 (Unable to Retrieve Account Info)",
+          "21004 (Product Information Unavailable)",
+          "21003 (Product List Unavailable)",
+          "21002 (Invalid Delegate State)",
+          "21001 (Invalid Dependency State)"
+        ]
+      }
+    ],
+    "21006": [
+      {
+        "offset": "0x289D900",
+        "context": [
+          "egistration Failure)",
+          "21009 (Product List Empty)",
+          "21008 (Invalid Identifiers: [",
+          "21007 (Invalid Task)",
+          "21006 (Server Error: ",
+          "21005 (Unable to Retrieve Account Info)",
+          "21004 (Product Information Unavailable)",
+          "21003 (Product List Unavailable)",
+          "21002 (Invalid Delegate State)",
+          "21001 (Invalid De"
+        ]
+      }
+    ],
+    "21007": [
+      {
+        "offset": "0x289D8E0",
+        "context": [
+          "nvalid Receipt)",
+          "21015 (Registration Failure)",
+          "21009 (Product List Empty)",
+          "21008 (Invalid Identifiers: [",
+          "21007 (Invalid Task)",
+          "21006 (Server Error: ",
+          "21005 (Unable to Retrieve Account Info)",
+          "21004 (Product Information Unavailable)",
+          "21003 (Product List Unavailable)",
+          "21002 (Invalid De"
+        ]
+      }
+    ],
+    "21008": [
+      {
+        "offset": "0x289D8C0",
+        "context": [
+          "ervice Unavailable)",
+          "21016 (Invalid Receipt)",
+          "21015 (Registration Failure)",
+          "21009 (Product List Empty)",
+          "21008 (Invalid Identifiers: [",
+          "21007 (Invalid Task)",
+          "21006 (Server Error: ",
+          "21005 (Unable to Retrieve Account Info)",
+          "21004 (Product Information Unavailable)",
+          "21003 (Product List Unavailable)"
+        ]
+      }
+    ],
+    "21009": [
+      {
+        "offset": "0x289D8A0",
+        "context": [
+          "uota Limit)",
+          "21018 (Service Unavailable)",
+          "21016 (Invalid Receipt)",
+          "21015 (Registration Failure)",
+          "21009 (Product List Empty)",
+          "21008 (Invalid Identifiers: [",
+          "21007 (Invalid Task)",
+          "21006 (Server Error: ",
+          "21005 (Unable to Retrieve Account Info)",
+          "21004 (Product Information Unavailable)"
+        ]
+      }
+    ],
+    "21014": [
+      {
+        "offset": "0x2884D0C",
+        "context": [
+          "81 L806.312266,449.463833 C804.636328,434.881113 807.274965,424.715819 814.228177,418.967953 C817.381681,426.037577 816.21014,434.459227 810.713554,444.232901 L810.425391,444.739642 L821.881292,430.789374 C816.564439,420.388301 816.225606,410.369845 820.864791,400.734006 C825.650183,403.348826 827.617263,410.754171 826.76603,422.950043 L826.72"
+        ]
+      }
+    ],
+    "21015": [
+      {
+        "offset": "0x289D880",
+        "context": [
+          "erver Error: ",
+          "21020 (Quota Limit)",
+          "21018 (Service Unavailable)",
+          "21016 (Invalid Receipt)",
+          "21015 (Registration Failure)",
+          "21009 (Product List Empty)",
+          "21008 (Invalid Identifiers: [",
+          "21007 (Invalid Task)",
+          "21006 (Server Error: ",
+          "21005 (Unable to Retrieve Account Info)",
+          "21004 (Product In"
+        ]
+      }
+    ],
+    "21016": [
+      {
+        "offset": "0x289D860",
+        "context": [
+          "ion Error: ",
+          "21022 (Server Error: ",
+          "21020 (Quota Limit)",
+          "21018 (Service Unavailable)",
+          "21016 (Invalid Receipt)",
+          "21015 (Registration Failure)",
+          "21009 (Product List Empty)",
+          "21008 (Invalid Identifiers: [",
+          "21007 (Invalid Task)",
+          "21006 (Server Error: ",
+          "21005 (Unable to Retrieve Account"
+        ]
+      }
+    ],
+    "21018": [
+      {
+        "offset": "0x289D840",
+        "context": [
+          "ction)",
+          "21023 (App Store Connection Error: ",
+          "21022 (Server Error: ",
+          "21020 (Quota Limit)",
+          "21018 (Service Unavailable)",
+          "21016 (Invalid Receipt)",
+          "21015 (Registration Failure)",
+          "21009 (Product List Empty)",
+          "21008 (Invalid Identifiers: [",
+          "21007 (Invalid Task)",
+          "21006 (Server Error: "
+        ]
+      }
+    ],
+    "21020": [
+      {
+        "offset": "0x289D820",
+        "context": [
+          "21024 (Unverified Transaction)",
+          "21023 (App Store Connection Error: ",
+          "21022 (Server Error: ",
+          "21020 (Quota Limit)",
+          "21018 (Service Unavailable)",
+          "21016 (Invalid Receipt)",
+          "21015 (Registration Failure)",
+          "21009 (Product List Empty)",
+          "21008 (Invalid Identifiers: [",
+          "21007 (Invalid Task)"
+        ]
+      }
+    ],
+    "21021": [
+      {
+        "offset": "0x267308B",
+        "context": [
+          "p1r1u1:1B1C1D1E1F1G1H1I1J1K1L1M1N1O1P1Q1R1S1T1U1V1W1Y1j1k1q1v1w1x1y1z1&1*1,1;1X1Z1!1\"1(1)1?2002012020a20c20e20i20o20s20t2102112121a21c21e21i21o21s21t",
+          "220221222a22c22e22i22o22s22t2a02a12aa2ac2ae2ai2ao2as2at",
+          "2c02c12c2ca2cc2ce2ci2co2cs2ct2e02e12e2ea2ec2ee2ei2eo"
+        ]
+      }
+    ],
+    "21022": [
+      {
+        "offset": "0x2613286",
+        "context": [
+          "ssuer: O=certSIGN OU=certSIGN ROOT CA",
+          "# Subject: O=certSIGN OU=certSIGN ROOT CA",
+          "# Label: \"certSIGN ROOT CA\"",
+          "# Serial: 35210227249154",
+          "# MD5 Fingerprint: 18:98:c0:d6:e9:3a:fc:f9:b0:f5:0c:f7:4b:01:44:17",
+          "# SHA1 Fingerprint: fa:b7:ee:36:97:26:62:fb:2d:b0:2a:f6:bf:03:fd:e8:7c:4b:2f:9b",
+          "# SHA256 Fingerprint: ea:a9:62:c4:fa:4a:6b:af:eb:e4:15:19:6d:35:1"
+        ]
+      },
+      {
+        "offset": "0x2672B8B",
+        "context": [
+          "1o01s01t",
+          "0202102202a02c02e02i02o02s02t0a0a10a20aa0ac0ae0ai0ao0as0at",
+          "0c0c10c20ca0cc0ce0ci0co0cs0ct0e0e10e20ea0ec0ee0ei0eo0es0et0i0i10i20ia0ic0ie0ii0io0is0it0o0o10o20oa0oc0oe0oi0oo0os0ot0s0s10s20s"
+        ]
+      },
+      {
+        "offset": "0x289D800",
+        "context": [
+          "21025 (Receipt Unavailable)",
+          "21024 (Unverified Transaction)",
+          "21023 (App Store Connection Error: ",
+          "21022 (Server Error: ",
+          "21020 (Quota Limit)",
+          "21018 (Service Unavailable)",
+          "21016 (Invalid Receipt)",
+          "21015 (Registration Failure)",
+          "21009 (Product List Empty)",
+          "21008 (Invalid Identifiers: ["
+        ]
+      }
+    ],
+    "21023": [
+      {
+        "offset": "0x289D7D0",
+        "context": [
+          "_selected",
+          "21099 (Test Error)",
+          "21025 (Receipt Unavailable)",
+          "21024 (Unverified Transaction)",
+          "21023 (App Store Connection Error: ",
+          "21022 (Server Error: ",
+          "21020 (Quota Limit)",
+          "21018 (Service Unavailable)",
+          "21016 (Invalid Receipt)",
+          "21015 (Registration Failure)",
+          "21009 (Product Li"
+        ]
+      }
+    ],
+    "21024": [
+      {
+        "offset": "0x289D7B0",
+        "context": [
+          "e_vs_total",
+          "projects_selected",
+          "21099 (Test Error)",
+          "21025 (Receipt Unavailable)",
+          "21024 (Unverified Transaction)",
+          "21023 (App Store Connection Error: ",
+          "21022 (Server Error: ",
+          "21020 (Quota Limit)",
+          "21018 (Service Unavailable)",
+          "21016 (Invalid Receipt)",
+          "21015 (Registrati"
+        ]
+      }
+    ],
+    "21025": [
+      {
+        "offset": "0x289D790",
+        "context": [
+          "_font_details",
+          "available_vs_total",
+          "projects_selected",
+          "21099 (Test Error)",
+          "21025 (Receipt Unavailable)",
+          "21024 (Unverified Transaction)",
+          "21023 (App Store Connection Error: ",
+          "21022 (Server Error: ",
+          "21020 (Quota Limit)",
+          "21018 (Service Unavailable)",
+          "21016 (Invalid Re"
+        ]
+      }
+    ],
+    "21034": [
+      {
+        "offset": "0x262A7CE",
+        "context": [
+          "rust",
+          "# Subject: CN=IdenTrust Commercial Root CA 1 O=IdenTrust",
+          "# Label: \"IdenTrust Commercial Root CA 1\"",
+          "# Serial: 13298821034946342390520003877796839426",
+          "# MD5 Fingerprint: b3:3e:77:73:75:ee:a0:d3:e3:7e:49:63:49:59:bb:c7",
+          "# SHA1 Fingerprint: df:71:7e:aa:4a:d9:4e:c9:55:84:99:60:2d:48:de:5f:bc:f0:3a:25",
+          "# SHA256 Fingerprint: 5d:56:49:9b:e4:d2:e0:8b"
+        ]
+      },
+      {
+        "offset": "0x262B130",
+        "context": [
+          " Subject: CN=IdenTrust Public Sector Root CA 1 O=IdenTrust",
+          "# Label: \"IdenTrust Public Sector Root CA 1\"",
+          "# Serial: 13298821034946342390521976156843933698",
+          "# MD5 Fingerprint: 37:06:a5:b0:fc:89:9d:ba:f4:6b:8c:1a:64:cd:d5:ba",
+          "# SHA1 Fingerprint: ba:29:41:60:77:98:3f:f4:f3:ef:f2:31:05:3b:2e:ea:6d:4d:45:fd",
+          "# SHA256 Fingerprint: 30:d0:89:5a:9a:44:8a:26"
+        ]
+      }
+    ],
+    "21038": [
+      {
+        "offset": "0x2637E4B",
+        "context": [
+          " Global Root GC CA O=WISeKey OU=OISTE Foundation Endorsed",
+          "# Label: \"OISTE WISeKey Global Root GC CA\"",
+          "# Serial: 44084345621038548146064804565436152554",
+          "# MD5 Fingerprint: a9:d6:b9:2d:2f:93:64:f8:a5:69:ca:91:e9:68:07:23",
+          "# SHA1 Fingerprint: e0:11:84:5e:34:de:be:88:81:b9:9c:f6:16:26:d1:96:1f:c3:b9:31",
+          "# SHA256 Fingerprint: 85:60:f9:1c:36:24:da:ba:95"
+        ]
+      }
+    ],
+    "21093": [
+      {
+        "offset": "0x287FB27",
+        "context": [
+          "781,211.583333 154.0625,236.575521 150,265.460939 C145.9375,236.575521 133.449219,211.583333 112.535156,190.484375 C91.6210937,169.385417 66.2770203,155.890625 36.5029358,150 C66.2770203,144.109375 91.6210937,130.614583 112.535156,109.515625 C133.449219,88.4166667 145.9375,63.4244787 150,34.539061 C154.0625,63.4244787 166.550781,88.4166667 187"
+        ]
+      },
+      {
+        "offset": "0x287FB79",
+        "context": [
+          "211.583333 112.535156,190.484375 C91.6210937,169.385417 66.2770203,155.890625 36.5029358,150 C66.2770203,144.109375 91.6210937,130.614583 112.535156,109.515625 C133.449219,88.4166667 145.9375,63.4244787 150,34.539061 C154.0625,63.4244787 166.550781,88.4166667 187.464844,109.515625 C208.378906,130.614583 233.72298,144.109375 263.497064,150 C233"
+        ]
+      }
+    ],
+    "21096": [
+      {
+        "offset": "0x28C7B2B",
+        "context": [
+          "com.alightcreative.motion.int",
+          "Failed to localize int number(",
+          "_TtC12AlightMotionP33_1BB6AFA50B881A2E4AC78210966109EC16QAActivityLogger",
+          "prevTruncateTime",
+          "prevTruncateOffset",
+          "dateFormatter",
+          "_TtC12AlightMotionP33_1BB6AFA50B881A2E4AC78210966109EC21SupportActivityLogger",
+          "----------------------------"
+        ]
+      },
+      {
+        "offset": "0x28C7BCB",
+        "context": [
+          "vTruncateTime",
+          "prevTruncateOffset",
+          "dateFormatter",
+          "_TtC12AlightMotionP33_1BB6AFA50B881A2E4AC78210966109EC21SupportActivityLogger",
+          "--------------------------------------------------------",
+          "------Logs older than 10 minutes are discarded--------",
+          "Alight Motion QA Activity.log",
+          "---------------------------"
+        ]
+      }
+    ],
+    "21099": [
+      {
+        "offset": "0x289D770",
+        "context": [
+          "r_explain",
+          "imported_font_details",
+          "available_vs_total",
+          "projects_selected",
+          "21099 (Test Error)",
+          "21025 (Receipt Unavailable)",
+          "21024 (Unverified Transaction)",
+          "21023 (App Store Connection Error: ",
+          "21022 (Server Error: ",
+          "21020 (Quota Limit)",
+          "21018 (Service Un"
+        ]
+      }
+    ],
+    "21106": [
+      {
+        "offset": "0x2881680",
+        "context": [
+          "343 0.353279058,117.528523 0.235804976,115.412836 L0.229573279,115.198036 L-0.00166102775,25.4142666 C-0.00560618993,23.2110665 1.77142938,21.4181229 3.97459225,21.4041208 L32.4808633,21.2229504 C36.2858633,21.1987678 39.4133155,24.2184926 39.5224698,28.0220035 L39.5761525,29.8925929 L59.3411167,29.2447184 C63.0664015,29.1093289 65.9793438,28."
+        ]
+      }
+    ],
+    "21123": [
+      {
+        "offset": "0x2885A83",
+        "context": [
+          "8536,434.813677 663.154164,437.880434 675.21359,445.571078 L663.587244,431.682847 C649.790921,430.680355 641.505575,423.211233 638.731207,409.275482 C643.240682,408.813388 650.009633,413.822461 659.038059,424.302701 L652.476052,408.805407 C639.778136,402.532525 633.708758,393.948143 634.267917,383.052261 C639.617563,383.943224 644.912968,389.5"
+        ]
+      }
+    ],
+    "21125": [
+      {
+        "offset": "0x2886D60",
+        "context": [
+          "75 C812.030483,733.403066 805.888348,735.746212 799.746212,735.746212 C793.753885,735.746212 787.761557,733.515972 783.121125,729.055491 L782.775648,728.716774 L692.067854,638.009577 C679.879353,644.697078 665.883775,648.5 651,648.5 C627.389827,648.5 606.014827,638.930087 590.54237,623.45763 C575.069913,607.985173 565.5,586.610173 565.5,563 C5"
+        ]
+      }
+    ],
+    "21151": [
+      {
+        "offset": "0x261755D",
+        "context": [
+          "aNCMEAwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYE",
+          "FDqahQcQZyi27/a9BUFuIMGU2g/eMA0GCSqGSIb3DQEBCwUAA4IBAQCZ21151fmX",
+          "WWcDYfF+OwYxdS2hII5PZYe096acvNjpL9DbWu7PdIxztDhC2gV7+AJ1uP2lsdeu",
+          "9tfeE8tTEH6KRtGX+rcuKxGrkLAngPnon1rpN5+r5N9ss4UXnT3ZJE95kTXWXwTr",
+          "gIOrmgIttRD02JDHBHNA7XIloKmf7J6raBKZV8aPEjoJpL1E/QYVN8Gb5DKj7Tjo",
+          "2GTzLH4U/ALqn83/B2gX2"
+        ]
+      }
+    ],
+    "21190": [
+      {
+        "offset": "0x29C252F",
+        "context": [
+          "13b1b1fc2e9",
+          "0442a8d2bc315057",
+          "2b6490d2aa20585389941b9233ad146315605779bfb30108c3",
+          "387483d4b03e7f5d9998",
+          "26708adaaa315b57be921190",
+          "HTTPProxy",
+          "HTTPSProxy",
+          "ipsec",
+          "utun",
+          "__SCOPED__",
+          "network-interface",
+          "v16@?0@\"NSObject<OS_nw_path>\"8",
+          "B16@?0@\"NSObject<OS_nw_interface>\"8",
+          "0945b0d8b3354c5a92930cbb15ac117e02656a5bb6bf",
+          "2b7d88d2bc",
+          "397496cbb6335971888f07901ea"
+        ]
+      }
+    ],
+    "21194": [
+      {
+        "offset": "0x260FF34",
+        "context": [
+          "# Subject: CN=Secure Global CA O=SecureTrust Corporation",
+          "# Label: \"Secure Global CA\"",
+          "# Serial: 9751836167731051554232119481456978597",
+          "# MD5 Fingerprint: cf:f4:27:0d:d4:ed:dc:65:16:49:6d:3d:da:bf:6e:de",
+          "# SHA1 Fingerprint: 3a:44:73:5a:e5:81:90:1f:24:86:61:46:1e:3b:9c:c4:5f:f5:3a:1b",
+          "# SHA256 Fingerprint: 42:00:f5:04:3a:c8:59:0e:bb:52:7d:20:9e:"
+        ]
+      }
+    ],
+    "21199": [
+      {
+        "offset": "0x28801DC",
+        "context": [
+          "8468 101.337873,60.043403 116.335273,58.7313006 C138.831373,56.7631469 146.319721,45.9207985 165.455083,44.2466712 C178.211991,43.1305864 192.875209,45.5283937 209.444737,51.4400933 L217.056566,138.443691 C199.166,132.950805 184.515946,130.703464 173.106404,131.70167 C155.99209,133.198978 147.513615,144.527911 124.02132,146.583221 C108.35979,1"
+        ]
+      }
+    ],
+    "21221": [
+      {
+        "offset": "0x2672ED4",
+        "context": [
+          "1001010210a10c10e10i10o10s10t110111211a11c11e11i11o11s11t",
+          "1201212212a12c12e12i12o12s12t1a01a1a21aa1ac1ae1ai1ao1as1at",
+          "1c01c1c21ca1cc1ce1ci1co1cs1ct1e01e1e21ea1ec1ee1ei1eo1es1et1i01i1i21ia1ic1ie1ii1io1is1it1o01o1o21oa1oc1oe1oi1oo1os1ot1s01s1s21sa"
+        ]
+      }
+    ],
+    "21222": [
+      {
+        "offset": "0x25F842D",
+        "context": [
+          "0BQco{0123456789abcdef",
+          "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909"
+        ]
+      },
+      {
+        "offset": "0x2648AED",
+        "context": [
+          "000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990001020304050607080910111213141516171819202122232425262728293031323"
+        ]
+      },
+      {
+        "offset": "0x2648BB5",
+        "context": [
+          "616263646566676869707172737475767778798081828384858687888990919293949596979899000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990001020304050607080910111213141516171819202122232425262728293031323"
+        ]
+      },
+      {
+        "offset": "0x2648C7D",
+        "context": [
+          "61626364656667686970717273747576777879808182838485868788899091929394959697989900010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
+        ]
+      },
+      {
+        "offset": "0x26730D8",
+        "context": [
+          "1X1Z1!1\"1(1)1?2002012020a20c20e20i20o20s20t2102112121a21c21e21i21o21s21t",
+          "220221222a22c22e22i22o22s22t2a02a12aa2ac2ae2ai2ao2as2at",
+          "2c02c12c2ca2cc2ce2ci2co2cs2ct2e02e12e2ea2ec2ee2ei2eo2es2et2i02i12i2ia2ic2ie2ii2io2is2it2o02o12o2oa2oc2oe2oi2oo2os2ot2s02s12s2sa2s"
+        ]
+      },
+      {
+        "offset": "0x26DF0D3",
+        "context": [
+          "6\\367\\370\\371\\372\\373\\374\\375\\376\\3770123456789abcdef",
+          "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909"
+        ]
+      }
+    ],
+    "21230": [
+      {
+        "offset": "0x289F7E6",
+        "context": [
+          "onChangeHandler",
+          "elementOrder",
+          "oldModificationSerial",
+          "oldValue",
+          "_TtC12AlightMotionP33_C29593218D4FB68C21230DC4B94A73DB24MultiKeypathsObservation",
+          "oldValueForKeyPath",
+          "_TtC12AlightMotionP33_C29593218D4FB68C21230DC4B94A73DB26KeyableKeypathsObservation",
+          "_TtC12AlightMotion9UndoBatch"
+        ]
+      },
+      {
+        "offset": "0x289F866",
+        "context": [
+          "B94A73DB24MultiKeypathsObservation",
+          "oldValueForKeyPath",
+          "_TtC12AlightMotionP33_C29593218D4FB68C21230DC4B94A73DB26KeyableKeypathsObservation",
+          "_TtC12AlightMotion9UndoBatch",
+          "autoExpire",
+          "committed",
+          "committedImplicitly",
+          "rolledBack",
+          "lastUpdate",
+          "_TtC12AlightMotionP33_4638BCFC4DA39454A8C8F8764E3F21FB2"
+        ]
+      }
+    ],
+    "21233": [
+      {
+        "offset": "0x287F64F",
+        "context": [
+          "855,57.7727227 C86.9857717,79.6097603 114.165179,91.4256366 130.585937,91.4256366 C147.006696,91.4256366 174.186103,80.8212331 152.38602,57.7727227 C138.917242,43.5326265 162.130736,37.2564044 164.318601,34.539061 L221.085937,34.5390625 C223.847361,34.5390625 226.085937,36.7776388 226.085937,39.5390625 L226.085937,97.6603488 C229.237705,103.04"
+        ]
+      },
+      {
+        "offset": "0x287F8EA",
+        "context": [
+          "5937,225.539062 L162.964651,225.539062 C157.582655,228.69083 140.35853,235.056453 152.38602,247.772723 C174.186103,270.821233 147.006696,281.425637 130.585937,281.425637 C114.165179,281.425637 86.9857717,269.60976 108.785855,247.772723 C121.314929,235.222409 102.101747,228.763149 97.5986517,225.539062 Z",
+          "com.alightcreative.vector.c"
+        ]
+      }
+    ],
+    "21258": [
+      {
+        "offset": "0x26294C5",
+        "context": [
+          "n O=GlobalSign OU=GlobalSign ECC Root CA - R4",
+          "# Label: \"GlobalSign ECC Root CA - R4\"",
+          "# Serial: 14367148294922964480859022125800977897474",
+          "# MD5 Fingerprint: 20:f0:27:68:d1:7e:a0:9d:0e:e6:2a:ca:df:5c:89:8e",
+          "# SHA1 Fingerprint: 69:69:56:2e:40:80:f4:24:a1:e7:19:9f:14:ba:f3:ee:58:ab:6a:bb",
+          "# SHA256 Fingerprint: be:c9:49:11:c2:95:56:76:db:6c:0a:55:09:"
+        ]
+      }
+    ],
+    "21265": [
+      {
+        "offset": "0x2881BBA",
+        "context": [
+          "821 267.010481,139.408537 266.458197,139.408537 C266.379821,139.408537 266.301718,139.399323 266.225494,139.381084 L243.212658,133.876219 L242.980306,134.571215 C241.431628,139.110868 239.892268,141.764671 238.521495,141.764671 C237.082278,141.764671 235.45722,138.839243 233.830656,133.87721 L210.821625,139.381084 C210.745401,139.399323 210.66"
+        ]
+      }
+    ],
+    "21267": [
+      {
+        "offset": "0x29C1ED9",
+        "context": [
+          "3bd276711674f54b2bc055e",
+          "2362a2d1be2354738b9c1c9911ba0a7436615176b1bd0516c7b8a56127c6eea0",
+          "65738dd3f0325d4195d15a8003aa496212674d1aa3a308008ad381673ec9e2f950795e296bcb30c22b080b6c4714d9286ebcbc6907e8bfcdabb22de019e96ee47e3c48727fb1ec166cc1ce86f48809ac41a097bcda83216ae115779e791b6c9ed08975208c91723621c0e3316c3359a5940325c32e84a6fa79b060081945405f"
+        ]
+      }
+    ],
+    "21287": [
+      {
+        "offset": "0x287FE25",
+        "context": [
+          "65 L64.8615875,97.2080402 L43.2355693,98.7045293 C41.9975914,98.7901955 40.6504383,97.9386815 39.8611667,96.571623 C38.8212875,94.7704993 39.077109,92.6760017 40.43256,91.8934317 L142.702775,32.8476955 C144.058226,32.0651255 146.000025,32.8908264 147.039904,34.69195 C147.829176,36.0590085 147.893032,37.6514343 147.199854,38.6807215 L135.090847"
+        ]
+      }
+    ],
+    "21290": [
+      {
+        "offset": "0x2882670",
+        "context": [
+          "1527,269.799231 C593.743706,273.284458 597.202438,277.612694 599.557723,282.78394 C604.346615,293.298393 599.557723,303.212904 605.825166,306.341874 C612.092609,309.470844 619.751854,297.193269 618.027282,299.975145 C616.606547,311.314496 608.683591,319.656115 594.258415,325 Z",
+          "com.alightcreative.vector.umbrella",
+          "M248.5,283 C249.1"
+        ]
+      }
+    ],
+    "21295": [
+      {
+        "offset": "0x28847F1",
+        "context": [
+          "95 657.225818,360.032345 661.454348,359.562371 C663.707362,365.752477 659.732452,373.846856 649.529618,383.845508 L652.821295,398.923538 C654.381701,387.504862 657.419348,380.973882 661.934236,379.330597 C664.536996,386.48162 662.203855,396.008251 654.934813,407.910491 L661.705224,423.331932 L661.626648,422.206159 C660.873894,410.34305 662.853"
+        ]
+      }
+    ],
+    "21300": [
+      {
+        "offset": "0x28835F4",
+        "context": [
+          "com.alightcreative.vector.roundbanner",
+          "M101,26 L100.00023,49.5104304 C95.0779226,48.5065508 91.1546966,47.4213007 86.2305435,46.2546768 L81.1201354,44.7497131 L97.0946,27.7748 L79.5150758,43.4150758 C78.3606545,44.569497 78.907312,46.5419605 80.4912831,46.9374511 C114.28417,55.3749612 147.043304,60.0160013 180.766096,60.859489 L18"
+        ]
+      }
+    ],
+    "21303": [
+      {
+        "offset": "0x287E42E",
+        "context": [
+          "69493 121.924824 273.369493 132.161309 264.504436 137.279552 227.085278 115.675591 167.826569 149.888623 227.278189 184.213031 264.504436 162.720448 273.369493 167.838691 273.369493 178.075176 245.008302 194.449517 272.892237 210.548314 272.892237 220.7848 264.02718 225.903043 236.04679 209.748557 236.04679 242.719994 227.181733 247.838237 218"
+        ]
+      }
+    ],
+    "21314": [
+      {
+        "offset": "0x25F8410",
+        "context": [
+          "0BQco{0123456789abcdef",
+          "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182"
+        ]
+      },
+      {
+        "offset": "0x2648ADC",
+        "context": [
+          "0001020304050607080910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989900010203040506070809101112131415161718192021222324"
+        ]
+      },
+      {
+        "offset": "0x2648BA4",
+        "context": [
+          "253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990001020304050607080910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989900010203040506070809101112131415161718192021222324"
+        ]
+      },
+      {
+        "offset": "0x2648C6C",
+        "context": [
+          "2535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989900010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
+        ]
+      },
+      {
+        "offset": "0x26DF0B6",
+        "context": [
+          "57\\360\\361\\362\\363\\364\\365\\366\\367\\370\\371\\372\\373\\374\\375\\376\\3770123456789abcdef",
+          "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182"
+        ]
+      }
+    ],
+    "21332": [
+      {
+        "offset": "0x2885520",
+        "context": [
+          "0934 833.56861,435.04321 837.722786,436.555206 C833.884494,447.100827 824.620246,451.794981 809.930042,450.637667 L809.421332,450.595441 L796.660492,461.486633 L797.735671,461.062805 C810.687543,456.022282 818.913573,455.217814 822.413761,458.6494 C814.052525,468.373661 803.325864,470.92833 790.23378,466.313407 L789.7652,466.14554 L774.834434,"
+        ]
+      }
+    ],
+    "21339": [
+      {
+        "offset": "0x28828F3",
+        "context": [
+          "92244 C320.893253,342.139881 317.491082,344.485508 314.833931,348.529127 C308.08062,345.091183 302.14309,343.37221 297.021339,343.37221 C288.284421,343.37221 281.094384,347.502256 275.451226,355.762348 C268.080715,350.552563 259.597343,347.27327 250.00111,345.924469 L250,405.999 L250.116621,406.006728 C250.61396,406.064493 251,406.487164 251,4"
+        ]
+      }
+    ],
+    "21347": [
+      {
+        "offset": "0x287DBD1",
+        "context": [
+          "09 38.7446646,14.6778497 C45.1959752,5.78404868 55.6725191,0 67.5,0 C81.0009276,0 92.7415913,7.53658581 98.7443682,18.6321347 C102.308791,16.9441785 106.294133,16 110.5,16 C125.687831,16 138,28.3121694 138,43.5 C138,58.4899309 126.006599,70.678653 111.092213,70.9937496 L28.8789062,71.1445312 C12.9237957,70.9399678 0,57.979241 0,42 Z"
+        ]
+      }
+    ],
+    "21355": [
+      {
+        "offset": "0x295DEF6",
+        "context": [
+          "alidateBounds() const",
+          "nanoseconds_ >= 0",
+          "nanoseconds_ < kNanosPerSecond",
+          "Timestamp seconds out of range: %s",
+          "seconds_ >= -62135596800L",
+          "seconds_ < 253402300800L",
+          "Timestamp firebase::(anonymous namespace)::MakeNormalizedTimestamp(int64_t, int64_t)",
+          "nanos < kNanosPerSecond",
+          "Timestamp",
+          "seconds: ",
+          "nanos: ",
+          "Invalid message: timestamp beyond the earliest supp"
+        ]
+      }
+    ],
+    "21359": [
+      {
+        "offset": "0x2885A35",
+        "context": [
+          "1042 C664.023407,451.717721 654.589589,447.037643 650.707179,436.370808 C654.98536,434.813677 663.154164,437.880434 675.21359,445.571078 L663.587244,431.682847 C649.790921,430.680355 641.505575,423.211233 638.731207,409.275482 C643.240682,408.813388 650.009633,413.822461 659.038059,424.302701 L652.476052,408.805407 C639.778136,402.532525 633.7"
+        ]
+      }
+    ],
+    "21364": [
+      {
+        "offset": "0x2884C2C",
+        "context": [
+          "284 773.100621,470.620007 L772.714186,471.057265 L787.76301,462.356297 C788.320319,448.325337 792.137195,439.547296 799.21364,436.022175 C802.612224,439.525487 801.214276,446.989882 795.019796,458.415358 L794.755203,458.900481 L806.312266,449.463833 C804.636328,434.881113 807.274965,424.715819 814.228177,418.967953 C817.381681,426.037577 816.2"
+        ]
+      }
+    ],
+    "21370": [
+      {
+        "offset": "0x2624F0D",
+        "context": [
+          "=QuoVadis Root CA 3 G3 O=QuoVadis Limited",
+          "# Label: \"QuoVadis Root CA 3 G3\"",
+          "# Serial: 268090761170461462463995952157327242137089239581",
+          "# MD5 Fingerprint: df:7d:b9:ad:54:6f:68:a1:df:89:57:03:97:43:b0:d7",
+          "# SHA1 Fingerprint: 48:12:bd:92:3c:a8:c4:39:06:e7:30:6d:27:96:e6:a4:cf:22:2e:7d",
+          "# SHA256 Fingerprint: 88:ef:81:de:20:2e:b0:18:45:2e:43:f8:64:72:"
+        ]
+      }
+    ],
+    "21383": [
+      {
+        "offset": "0x32E2E06",
+        "context": [
+          "129E59CAA10ColorAssetVv",
+          "&2138366AA10ColorAssetVv",
+          "&3F9De66AA10ColorAssetVv",
+          "0FafafaAA10ColorAssetVv",
+          "&1EaeaecAA10ColorAssetVv"
+        ]
+      }
+    ],
+    "21393": [
+      {
+        "offset": "0x2625880",
+        "context": [
+          "rt Assured ID Root G2 O=DigiCert Inc OU=www.digicert.com",
+          "# Label: \"DigiCert Assured ID Root G2\"",
+          "# Serial: 15385348160840213938643033620894905419",
+          "# MD5 Fingerprint: 92:38:b9:f8:63:24:82:65:2c:57:33:e6:fe:81:8f:9d",
+          "# SHA1 Fingerprint: a1:4b:48:d9:43:ee:0a:0e:40:90:4f:3c:e0:a4:c0:91:93:51:5d:3f",
+          "# SHA256 Fingerprint: 7d:05:eb:b6:82:33:9f:8c:94:51:e"
+        ]
+      }
+    ],
+    "21397": [
+      {
+        "offset": "0x3343C12",
+        "context": [
+          "17minimumResolutionxv",
+          ">3nowAC",
+          ">4lock33_41108A65148213976E25559AC8E53CEELLSo6NSLockCvpfi",
+          ">5sleep5until9toleranceyAC7InstantVyx_G_xSgtYaKF",
+          ">7InstantV",
+          ">AAs8DurationVRszrlEACyAEGycfC",
+          ">yxGs0C0AAMc",
+          "?s0C0AAMc"
+        ]
+      }
+    ],
+    "21426": [
+      {
+        "offset": "0x287E1D7",
+        "context": [
+          "5724 57.1705705 72.8216292 52.0523276 81.6866861 57.1705705 81.6866861 100.155738 141.134943 134.478205 141.134943 66.0521426 103.908696 44.5595589 103.908696 34.323073 112.773753 29.20483 141.134943 45.5791708 141.134943 13.3815764 150 8.2633334 158.865057 13.3815764 158.865057 45.6905481 187.419158 29.20483 196.284215 34.323073 196.284215 44"
+        ]
+      }
+    ],
+    "21427": [
+      {
+        "offset": "0x2884C58",
+        "context": [
+          "7265 L787.76301,462.356297 C788.320319,448.325337 792.137195,439.547296 799.21364,436.022175 C802.612224,439.525487 801.214276,446.989882 795.019796,458.415358 L794.755203,458.900481 L806.312266,449.463833 C804.636328,434.881113 807.274965,424.715819 814.228177,418.967953 C817.381681,426.037577 816.21014,434.459227 810.713554,444.232901 L810.4"
+        ]
+      }
+    ],
+    "21471": [
+      {
+        "offset": "0x2882FBB",
+        "context": [
+          " C166.548338,341.045198 162.548755,342.28701 159,345.21768 C183.270337,309.791848 212.248676,291.726445 245.935016,291.021471 L247,291.005 L247,287 C246.447715,287 246,286.552285 246,286 L246,285 C246,284.447715 246.447715,284 247,284 L247.08525,284.000292 C247.291085,283.417544 247.846781,283 248.5,283 Z",
+          "com.alightcreative.vector.ho"
+        ]
+      }
+    ],
+    "21474": [
+      {
+        "offset": "0x2887EC5",
+        "context": [
+          "7.4167389 505.416983,76 519.500244,76 Z",
+          "com.alightcreative.vector.key",
+          "M885.805425,440 C911.781891,440 934.321474,454.756756 945.543182,476.366935 L1079.74041,476.36749 L1103.50284,505.89265 C1104.2347,506.802005 1104.14956,508.119931 1103.30676,508.927589 L1079.74041,531.511312 L1065.08668,515.207726 L1052.00592,531.511312 L1037.2"
+        ]
+      },
+      {
+        "offset": "0x29EF2BC",
+        "context": [
+          "<style>body, #iaBody {margin: 0; padding: 0;}img {border: 0;} #iaClose {position: fixed; top: 5px; right: 5px; z-index:2147483647 !important;} #iaLoading {display: block;}</style>",
+          "<link rel=\"stylesheet\" type=\"text/css\" href=\"http://cdn2.inner-active.mobi/wv-css/prod/300412/fs_ios.css\" />",
+          "<link rel=\"stylesheet\" type=\"text/css\" href=\"https://cd"
+        ]
+      }
+    ],
+    "21478": [
+      {
+        "offset": "0x29C7148",
+        "context": [
+          "55efff4e",
+          "3a718646",
+          "8c9afa17",
+          "8ce9afeb",
+          "b471cd0b",
+          "14bcfd5e",
+          "8cc246e7",
+          "5bea547a",
+          "bc616306",
+          "f2df1223",
+          "d922a1fe",
+          "199a553d",
+          "fb0b7bc0",
+          "8a21478d",
+          "96f2794c",
+          "de112a9f",
+          "b722535d",
+          "0ea3f81d",
+          "8a2de5cf",
+          "ff6ec093",
+          "ff939516",
+          "3f412031",
+          "a51ff0de",
+          "dead966b",
+          "bd589d6b",
+          "9b565365",
+          "1efac9d4",
+          "3135056b",
+          "b07aeddb",
+          "2b3bc1a1",
+          "7252d465",
+          "cfdf5653",
+          "e38ee62b",
+          "482af061",
+          "89566d29",
+          "c8a18f5b",
+          "6409862c",
+          "f04934c2"
+        ]
+      }
+    ],
+    "21486": [
+      {
+        "offset": "0x2880D27",
+        "context": [
+          "888 C82.5467479,179.097682 73.6225422,173.968092 64.7410069,168.774497 C63.3158161,167.941002 61.9039006,167.51373 60.2921486,167.524893 L59.5387669,167.546226 C57.0150666,167.601506 46.8707749,167.587653 39.836032,167.572842 L39.8360353,167.674034 C39.8361603,171.522754 36.7291647,174.649661 32.8805226,174.67412 L4.51514272,174.854396 C2.3729"
+        ]
+      }
+    ],
+    "21495": [
+      {
+        "offset": "0x2881846",
+        "context": [
+          "08324 113.448415,-1.92216889 123.339844,1.54296875 Z",
+          "com.alightcreative.vector.airplane2",
+          "M238.521495,15 C249.362045,15 253.024991,35.4337501 252.913239,59.8933504 L252.950189,59.4063495 L276.05,71.008 L276.05,68.4063495 C276.05,67.30178 276.945431,66.4063495 278.05,66.4063495 L287.05,66.4063495 C288.154569,66.4063495 2"
+        ]
+      },
+      {
+        "offset": "0x2881C15",
+        "context": [
+          "3 266.225494,139.381084 L243.212658,133.876219 L242.980306,134.571215 C241.431628,139.110868 239.892268,141.764671 238.521495,141.764671 C237.082278,141.764671 235.45722,138.839243 233.830656,133.87721 L210.821625,139.381084 C210.745401,139.399323 210.667297,139.408537 210.588922,139.408537 C210.076086,139.408537 209.653415,139.022496 209.5956"
+        ]
+      },
+      {
+        "offset": "0x2882027",
+        "context": [
+          "01,71.005 L224.093357,59.4063495 L224.129687,59.879384 L224.127625,58.4171434 C224.168807,34.6171036 227.899778,15 238.521495,15 Z",
+          "com.alightcreative.vector.paperplane",
+          "9 23.5342964 32.1912603 36.9940993 94.1848252 17.1894456 37.1099098 41.6830913 45.1944187 70.9940993 58.4375195 55.4265754 44.1629437 45.0021719 71.6274"
+        ]
+      }
+    ],
+    "21496": [
+      {
+        "offset": "0x28807A9",
+        "context": [
+          "om.alightcreative.vector.thumbsup",
+          "M108.66407,1.38468266 C113.897287,-0.328228405 118.487401,1.07379845 122.214964,5.05433555 C125.671265,8.74532363 127.530475,13.3323897 128.396074,18.1968133 L128.724019,20.0719885 C129.472501,24.4564537 130.081554,28.8998406 130.081554,33.3082245 C130.081554,37.7977583 126.655732,61.784609 125.86"
+        ]
+      }
+    ],
+    "21503": [
+      {
+        "offset": "0x29C1DCD",
+        "context": [
+          "fbc27ac2f88274538",
+          "656497cff03c5550d28e0c8604bd0b3e19605747bfa31001c588a97820",
+          "655581cbba3c5342988f5a8003aa497319600c51b5b21503d599b2612bd7",
+          "3a638bdeba234f5d8fbe1a801eac",
+          "3a799dceb6335d5eb098189a02a1",
+          "1f58add0be375962949e1e90029b097f047c4c59bcb512",
+          "2362a7dcb2354e53b998039c13bd276711674f54b2bc055e",
+          "2362a2d1be2354738b9c1c9911ba0a7436615176b1bd0516c7b8a"
+        ]
+      }
+    ],
+    "21507": [
+      {
+        "offset": "0x287DF72",
+        "context": [
+          "73753 271.014042 103.908696 265.895799 103.908696 255.659313 141.134943 234.166729 141.134943 165.29904 81.6866861 199.621507 81.6866861 242.829429 72.8216292 247.947672 63.9565724 242.829429 63.9565724 209.857993 36.1657307 225.903043 27.3006738 220.7848 27.3006738 210.548314 54.9950601 194.558953 26.6338698 178.184612 26.6338698 167.948126 3"
+        ]
+      }
+    ],
+    "21525": [
+      {
+        "offset": "0x2885154",
+        "context": [
+          "51,330.184769 838.880763,334.548403 C839.239229,336.546603 838.932544,339.481297 837.960707,343.352487 L837.840894,343.821525 L839.238604,350.252369 L840.179384,347.163373 C843.110171,337.654452 845.068361,332.442445 846.053953,331.527352 C851.336412,338.638968 849.907522,347.8161 841.767281,359.058748 L841.454932,359.486677 L842.590516,373.89"
+        ]
+      }
+    ],
+    "21567": [
+      {
+        "offset": "0x29C6F3D",
+        "context": [
+          "b09b3064",
+          "90722a4d",
+          "f7e4bff8",
+          "f861d40b",
+          "8e66c608",
+          "dc62a6a5",
+          "f0b56359",
+          "9d9b7605",
+          "49e86bdc",
+          "d189ce15",
+          "3bba8ecb",
+          "dd8290b7",
+          "f429c433",
+          "321567cf",
+          "21e53437",
+          "148dee29",
+          "48ef076c",
+          "a065252d",
+          "c9085478",
+          "8a374e46",
+          "f35b371b",
+          "95f74bcd",
+          "fc8cdb4d",
+          "26d02b32",
+          "dcd0730e",
+          "9f546475",
+          "acd0b7ca",
+          "4749b9e7",
+          "90c948f7",
+          "0e78e19f",
+          "d1a4034a",
+          "88351364",
+          "ea882abe",
+          "c9b56fce",
+          "86be0a92",
+          "e33640cf",
+          "f67d3d37",
+          "9fadd200"
+        ]
+      }
+    ],
+    "21573": [
+      {
+        "offset": "0x2624F04",
+        "context": [
+          "bject: CN=QuoVadis Root CA 3 G3 O=QuoVadis Limited",
+          "# Label: \"QuoVadis Root CA 3 G3\"",
+          "# Serial: 268090761170461462463995952157327242137089239581",
+          "# MD5 Fingerprint: df:7d:b9:ad:54:6f:68:a1:df:89:57:03:97:43:b0:d7",
+          "# SHA1 Fingerprint: 48:12:bd:92:3c:a8:c4:39:06:e7:30:6d:27:96:e6:a4:cf:22:2e:7d",
+          "# SHA256 Fingerprint: 88:ef:81:de:20:2e:b0:18:45:2e:43:"
+        ]
+      }
+    ],
+    "21581": [
+      {
+        "offset": "0x2881152",
+        "context": [
+          "creative.vector.pointinghand",
+          "M123.339844,1.54296875 C136.47526,6.14453125 141.020192,12.3374022 136.974638,20.1215816 L244.058887,20.4877087 C247.804255,20.8681487 256.400295,22.8703344 255.311286,34.8686364 C254.41216,44.7773088 244.585781,47.8709115 239.477526,47.9806353 L179.797374,48.197912 L180.126273,48.4306083 C183.590442,50.93"
+        ]
+      }
+    ],
+    "21582": [
+      {
+        "offset": "0x29C723A",
+        "context": [
+          "3135056b",
+          "b07aeddb",
+          "2b3bc1a1",
+          "7252d465",
+          "cfdf5653",
+          "e38ee62b",
+          "482af061",
+          "89566d29",
+          "c8a18f5b",
+          "6409862c",
+          "f04934c2",
+          "9a03d0f1",
+          "0d55b7f8",
+          "c2158223",
+          "56921e0e",
+          "695d104a",
+          "cb3c797e",
+          "be2c9f32",
+          "7346a88c",
+          "6ef81024",
+          "5319e373",
+          "a62551f4",
+          "d0456a1c",
+          "052febdd",
+          "b3f633ed",
+          "958838f4",
+          "37811405",
+          "ccdf41df",
+          "4d5d2178",
+          "e2e324c8",
+          "787fecd0",
+          "5cb538cf",
+          "6e6a64ac",
+          "e2901f6d",
+          "af915aa7",
+          "f4a89483",
+          "399b658b",
+          "49420449"
+        ]
+      }
+    ],
+    "21585": [
+      {
+        "offset": "0x2883786",
+        "context": [
+          "9622357 L188.209148,60.9839972 L190.440301,60.9972843 L192.004899,61 L193.562095,60.9972826 L196.187173,60.980467 L197.821585,60.9622429 L199.199763,60.9422518 L200.873782,60.9122781 L201.653359,60.8957546 C235.901731,60.160107 269.187816,55.5067973 303.508717,46.9374511 C305.051005,46.5523681 305.609856,44.6722188 304.572541,43.5078702 L304.4"
+        ]
+      }
+    ],
+    "21589": [
+      {
+        "offset": "0x26115BD",
+        "context": [
+          "ification Authority O=COMODO CA Limited",
+          "# Label: \"COMODO ECC Certification Authority\"",
+          "# Serial: 41578283867086692638256921589707938090",
+          "# MD5 Fingerprint: 7c:62:ff:74:9d:31:53:5e:68:4a:d5:78:aa:1e:bf:23",
+          "# SHA1 Fingerprint: 9f:74:4e:9f:2b:4d:ba:ec:0f:31:2c:50:b6:56:3b:8e:2d:93:c3:11",
+          "# SHA256 Fingerprint: 17:93:92:7a:06:14:54:97:89:ad:ce:2f:8f:34"
+        ]
+      }
+    ],
+    "21592": [
+      {
+        "offset": "0x262D3C2",
+        "context": [
+          "t GB CA O=WISeKey OU=OISTE Foundation Endorsed",
+          "# Label: \"OISTE WISeKey Global Root GB CA\"",
+          "# Serial: 157768595616588414422159278966750757568",
+          "# MD5 Fingerprint: a4:eb:b9:61:28:2e:b7:2f:98:b0:35:26:90:99:51:1d",
+          "# SHA1 Fingerprint: 0f:f9:40:76:18:d3:d7:6a:4b:98:f0:a8:35:9e:0c:fd:27:ac:cc:ed",
+          "# SHA256 Fingerprint: 6b:9c:08:e8:6e:b0:f7:67:cf:ad:65:cd:"
+        ]
+      }
+    ],
+    "21608": [
+      {
+        "offset": "0x28DDAD0",
+        "context": [
+          "eachabilityManager",
+          "reachabilityQueue",
+          "reachability",
+          "mutableState",
+          "_TtCC9Alamofire26NetworkReachabilityManagerP33_E21608B303999A2A22D832CA16A740D011WeakManager",
+          "_TtC9Alamofire7Adapter",
+          "adaptHandler",
+          "_TtC9Alamofire7Retrier",
+          "retryHandler",
+          "_TtC9Alamofire11Interceptor",
+          "adapters",
+          "retriers",
+          "_TtC9Alamofire22DataResponseSeria"
+        ]
+      },
+      {
+        "offset": "0x33840B1",
+        "context": [
+          "_enum_equalsySbAE_AEtFZ",
+          "OSQAAMc",
+          "OpMV",
+          "mutableState33_E21608B303999A2A22D832CA16A740D0LLAA9ProtectedCyAC07MutableF0VGvpfi",
+          "OreachabilityACSo09SCNetworkC3Refa_tc33_E21608B303999A2A22D832CA16A740D0LlfC",
+          "notifyListeneryySo09SCNetwo"
+        ]
+      },
+      {
+        "offset": "0x338411F",
+        "context": [
+          "eState33_E21608B303999A2A22D832CA16A740D0LLAA9ProtectedCyAC07MutableF0VGvpfi",
+          "OreachabilityACSo09SCNetworkC3Refa_tc33_E21608B303999A2A22D832CA16A740D0LlfC",
+          "notifyListeneryySo09SCNetworkC5FlagsVF",
+          "OstartListening7onQueue0G16UpdatePerformingSbSo17OS_dispatch_queueC_yAC0bC6StatusOctF"
+        ]
+      }
+    ],
+    "21620": [
+      {
+        "offset": "0x28BF0B6",
+        "context": [
+          "tMotion22NoAnimationPlayerLayer\",N,R,VplayerLayer",
+          "bounds",
+          "_TtCC12AlightMotion18ProjectPreviewViewP33_BDF73EE948A21620FAC7A8881B08631B15OverlayDelegate",
+          "v32@0:8@16^{CGContext=}24",
+          "transparent_checker_sm.pdf",
+          "PreviewEndMoveHandle",
+          "PreviewCnlMoveHandle",
+          "PreviewEndMoveWrap",
+          "PreviewCnlMoveWrap"
+        ]
+      }
+    ],
+    "21625": [
+      {
+        "offset": "0x2881C6D",
+        "context": [
+          "0868 239.892268,141.764671 238.521495,141.764671 C237.082278,141.764671 235.45722,138.839243 233.830656,133.87721 L210.821625,139.381084 C210.745401,139.399323 210.667297,139.408537 210.588922,139.408537 C210.076086,139.408537 209.653415,139.022496 209.59565,138.525158 L209.588922,138.408537 L209.588922,134.454888 C209.588922,134.115527 209.76"
+        ]
+      }
+    ],
+    "21629": [
+      {
+        "offset": "0x287DF92",
+        "context": [
+          "895799 103.908696 255.659313 141.134943 234.166729 141.134943 165.29904 81.6866861 199.621507 81.6866861 242.829429 72.8216292 247.947672 63.9565724 242.829429 63.9565724 209.857993 36.1657307 225.903043 27.3006738 220.7848 27.3006738 210.548314 54.9950601 194.558953 26.6338698 178.184612 26.6338698 167.948126 35.4989266 162.829883 72.7251737 "
+        ]
+      },
+      {
+        "offset": "0x287E173",
+        "context": [
+          "32967 27.3971293 89.2846197 27.3971293 79.0481338 36.2621862 73.9298908 63.9565724 89.9192522 63.9565724 57.1705705 72.8216292 52.0523276 81.6866861 57.1705705 81.6866861 100.155738 141.134943 134.478205 141.134943 66.0521426 103.908696 44.5595589 103.908696 34.323073 112.773753 29.20483 141.134943 45.5791708 141.134943 13.3815764 150 8.263333"
+        ]
+      }
+    ],
+    "21632": [
+      {
+        "offset": "0x2884A1C",
+        "context": [
+          "421 683.793637,434.696714 682.117699,449.279435 L693.674761,458.716083 C687.256019,447.016534 685.769873,439.390431 689.216325,435.837776 C696.292769,439.362898 700.109646,448.140939 700.666955,462.171899 L715.715779,470.872867 C707.52248,461.664067 704.252784,454.116674 705.90669,448.230686 C713.883597,450.611344 719.326311,458.794714 722.234"
+        ]
+      }
+    ],
+    "21635": [
+      {
+        "offset": "0x28800BC",
+        "context": [
+          "7.67266 207.72891,267.390287 207.171975,266.589052 Z",
+          "com.alightcreative.vector.flag",
+          "M72.6787619,44.2305652 C72.4216357,41.2915986 74.5956968,38.7006535 77.5346634,38.4435272 C80.47363,38.1864009 83.0645751,40.3604621 83.3217014,43.2994286 L84.0278402,51.3706318 C90.5687289,57.5898468 101.337873,60.043403 116.335273,58.7313006 C138.8313"
+        ]
+      }
+    ],
+    "21637": [
+      {
+        "offset": "0x288546D",
+        "context": [
+          "1378 849.698757,409.45988 C846.955216,423.24079 838.822482,430.697975 825.300557,431.831434 L824.842721,431.867246 L813.216374,445.755477 L814.255214,445.098379 C825.746086,437.890934 833.56861,435.04321 837.722786,436.555206 C833.884494,447.100827 824.620246,451.794981 809.930042,450.637667 L809.421332,450.595441 L796.660492,461.486633 L797.7"
+        ]
+      }
+    ],
+    "21642": [
+      {
+        "offset": "0x2635F21",
+        "context": [
+          "ertification Authority ECC O=SSL Corporation",
+          "# Label: \"SSL.com Root Certification Authority ECC\"",
+          "# Serial: 8495723813297216424",
+          "# MD5 Fingerprint: 2e:da:e4:39:7f:9c:8f:37:d1:70:9f:26:17:51:3a:8e",
+          "# SHA1 Fingerprint: c3:19:7c:39:24:e6:54:af:1b:c4:ab:20:95:7a:e2:c3:0e:13:02:6a",
+          "# SHA256 Fingerprint: 34:17:bb:06:cc:60:07:da:1b:96:1c:92:0b:8a:b4:ce:3"
+        ]
+      }
+    ],
+    "21666": [
+      {
+        "offset": "0x29B1D84",
+        "context": [
+          "fe_frombytes_strict",
+          "(s[31] & 0x80) == 0",
+          "constant_time_conditional_memxor",
+          "!buffers_alias(dst, n, src, n)",
+          "fe_sq_tl",
+          "fe_mul121666",
+          "GRPC_SSL_get_srtp_profiles",
+          "d1_srtp.cc",
+          "GRPC_EVP_BytesToKey",
+          "derive_key.c",
+          "nkey <= EVP_MAX_KEY_LENGTH",
+          "niv <= EVP_MAX_IV_LENGTH",
+          "parse_integer",
+          "*out == NULL",
+          "GRPC_EVP_MD_CTX_cleanup",
+          "digest.c",
+          "ctx->pctx == NULL || ctx->pctx_ops !"
+        ]
+      }
+    ],
+    "21674": [
+      {
+        "offset": "0x29C20D2",
+        "context": [
+          "1f3660f0aaab5e7b51d5e777be899f2f66854218f0d50c7791fc32332c051d1366df56ada96eaae0e85a3bb83b5093b40ce6bd28a22b654c30a94f36216749c6b3c0100b08dcc08ad53287fa3bf27d0ebfaab1d78be9633929487dedce6f5a7f423833a82a8da831464ea301ac8db4a34a0e21824c33afed4f2575b9cecd79cbafb385a80f4ee0cb87f7c4e1f8fcd9976267b294b857b8dea9c1f5f0223fdf25ae2a05f2d43c55894ab50fdeb"
+        ]
+      }
+    ],
+    "21677": [
+      {
+        "offset": "0x260CF26",
+        "context": [
+          "sured ID Root CA O=DigiCert Inc OU=www.digicert.com",
+          "# Label: \"DigiCert Assured ID Root CA\"",
+          "# Serial: 17154717934120587862167794914071425081",
+          "# MD5 Fingerprint: 87:ce:0b:7b:2a:0e:49:00:e1:58:71:9b:37:a8:93:72",
+          "# SHA1 Fingerprint: 05:63:b8:63:0d:62:d7:5a:bb:c8:ab:1e:4b:df:b5:a8:99:b2:4d:43",
+          "# SHA256 Fingerprint: 3e:90:99:b5:01:5e:8f:48:6c:00:bc:ea:"
+        ]
+      }
+    ],
+    "21688": [
+      {
+        "offset": "0x28817E4",
+        "context": [
+          "36377,28.8582083 C70.884451,27.9560345 72.8899589,27.0934831 74.6882108,23.8474862 C82.3079219,10.08324 113.448415,-1.92216889 123.339844,1.54296875 Z",
+          "com.alightcreative.vector.airplane2",
+          "M238.521495,15 C249.362045,15 253.024991,35.4337501 252.913239,59.8933504 L252.950189,59.4063495 L276.05,71.008 L276.05,68.4063495 C2"
+        ]
+      }
+    ],
+    "21694": [
+      {
+        "offset": "0x287DC1D",
+        "context": [
+          "276,0 92.7415913,7.53658581 98.7443682,18.6321347 C102.308791,16.9441785 106.294133,16 110.5,16 C125.687831,16 138,28.3121694 138,43.5 C138,58.4899309 126.006599,70.678653 111.092213,70.9937496 L28.8789062,71.1445312 C12.9237957,70.9399678 0,57.979241 0,42 Z",
+          "com.alightcreative.vector.heart",
+          "M0,19.5 C0,8.73044738 8.73044738,0 19.5,0 C27."
+        ]
+      }
+    ],
+    "21699": [
+      {
+        "offset": "0x2882110",
+        "context": [
+          "48252 17.1894456 37.1099098 41.6830913 45.1944187 70.9940993 58.4375195 55.4265754 44.1629437 45.0021719 71.6274772 59.321699 123.856502 5 Z",
+          "com.alightcreative.vector.flame",
+          "M594.258415,325 C627.984786,318.796166 640.244951,302.75271 631.038908,276.869633 C631.038908,284.752841 626.558102,291.740275 624.536932,290.006903 C622.73974,2"
+        ]
+      }
+    ],
+    "21701": [
+      {
+        "offset": "0x2880129",
+        "context": [
+          "05652 C72.4216357,41.2915986 74.5956968,38.7006535 77.5346634,38.4435272 C80.47363,38.1864009 83.0645751,40.3604621 83.3217014,43.2994286 L84.0278402,51.3706318 C90.5687289,57.5898468 101.337873,60.043403 116.335273,58.7313006 C138.831373,56.7631469 146.319721,45.9207985 165.455083,44.2466712 C178.211991,43.1305864 192.875209,45.5283937 209.44"
+        ]
+      }
+    ],
+    "21706": [
+      {
+        "offset": "0x2887BC9",
+        "context": [
+          "7 L489.735974,366.679178 L492.008256,282.974751 C485.12058,282.779585 473.497896,282.245107 457.140205,281.371316 L490.821706,168.160139 C490.511586,167.882235 490.114447,167.700015 489.677074,167.658802 L489.487302,167.649904 L486.572321,167.649904 C485.769542,167.649904 485.050264,168.129022 484.736223,168.856875 L484.678913,169.005694 L464."
+        ]
+      }
+    ],
+    "21708": [
+      {
+        "offset": "0x292C5F8",
+        "context": [
+          "Feature.swift",
+          "ShareVideoAndPackage/ShareVideoAndPackageFeature.swift",
+          "_TtC20ShareVideoAndPackageP33_6B667AA24921708D7008DC7C7A164A3012BundleFinder",
+          "_TtC20ShareVideoAndPackage29ShareVideoAndPackageResources",
+          "AlightMotion_ShareVideoAndPackage.bundle",
+          "ShareVideoAndPackage/TuistBundle+ShareVideoAndPackage.swift",
+          "unable to"
+        ]
+      }
+    ],
+    "21719": [
+      {
+        "offset": "0x28820FB",
+        "context": [
+          "2603 36.9940993 94.1848252 17.1894456 37.1099098 41.6830913 45.1944187 70.9940993 58.4375195 55.4265754 44.1629437 45.0021719 71.6274772 59.321699 123.856502 5 Z",
+          "com.alightcreative.vector.flame",
+          "M594.258415,325 C627.984786,318.796166 640.244951,302.75271 631.038908,276.869633 C631.038908,284.752841 626.558102,291.740275 624.536932,29"
+        ]
+      }
+    ],
+    "21726": [
+      {
+        "offset": "0x287E709",
+        "context": [
+          "516 70.4498504,63.6996285 71.6123857,64.2236285 L243.710568,141.794977 C248.242078,143.837504 250.259796,149.166814 248.217268,153.698323 C247.315042,155.699984 245.712229,157.302797 243.710568,158.205023 Z",
+          "com.alightcreative.vector.lightning",
+          "128.543789 199.080998 158.355086 199.080998 59.1373108 291.901824 99.5848189 223.73928 69."
+        ]
+      }
+    ],
+    "21727": [
+      {
+        "offset": "0x262DAD8",
+        "context": [
+          "# Subject: CN=SZAFIR ROOT CA2 O=Krajowa Izba Rozliczeniowa S.A.",
+          "# Label: \"SZAFIR ROOT CA2\"",
+          "# Serial: 357043034767186914217277344587386743377558296292",
+          "# MD5 Fingerprint: 11:64:c1:89:b0:24:b1:8c:b1:07:7e:89:9e:51:9e:99",
+          "# SHA1 Fingerprint: e2:52:fa:95:3f:ed:db:24:60:bd:6e:28:f3:9c:cc:cf:5e:b3:3f:de",
+          "# SHA256 Fingerprint: a1:33:9d:33:28:1a:0b:56:e"
+        ]
+      }
+    ],
+    "21741": [
+      {
+        "offset": "0x29C233A",
+        "context": [
+          "8e36f8fdfda1c4475f4af12dbfbdbadfd5ab5a83647ceabeef256ee2e8398f8de8f5d2636a07f8bd5ff4df9caaf4a8ef5437bf7ab81714cd028def5c2174116237d0c80dcc4db19f155efdfbf458842a8ebe9e448ae3526e069cf13b3d47f660daae462dfeb5452f108a84c3808a462e634ce48a0e97b2fab754dc3e12c9090727620b9215e4c712a322791e190f99ee3aa1044763f7f1c31559b637c624a7f7131202f74497f13a4c866c474"
+        ]
+      }
+    ],
+    "21763": [
+      {
+        "offset": "0x2643611",
+        "context": [
+          "N=GlobalSign Root E46 O=GlobalSign nv-sa",
+          "# Label: \"GlobalSign Root E46\"",
+          "# Serial: 1552617690338932563915843282459653771421763",
+          "# MD5 Fingerprint: b5:b8:66:ed:de:08:83:e3:c9:e2:01:34:06:ac:51:6f",
+          "# SHA1 Fingerprint: 39:b4:6c:d5:fe:80:06:eb:e2:2f:4a:bb:08:33:a0:af:db:b9:dd:84",
+          "# SHA256 Fingerprint: cb:b9:c4:4d:84:b8:04:3e:10:50:ea:31:a6:9f:51:49:55"
+        ]
+      }
+    ],
+    "21768": [
+      {
+        "offset": "0x2882838",
+        "context": [
+          "251,286.552285 250.552285,287 250,287 L250.000265,291.020425 C283.72063,291.708367 313.042808,309.774118 337.966798,345.21768 C333.496417,342.086419 329.187632,340.844607 325.040443,341.492244 C320.893253,342.139881 317.491082,344.485508 314.833931,348.529127 C308.08062,345.091183 302.14309,343.37221 297.021339,343.37221 C288.284421,343.37221 "
+        ]
+      },
+      {
+        "offset": "0x2882E20",
+        "context": [
+          "952 246.287415,406.04932 246.862245,406.005102 L247,405.999 L247.00083,345.569167 C244.580288,345.334842 242.092206,345.21768 239.536584,345.21768 C225.538826,345.21768 214.665626,348.151838 206.916984,354.020155 C203.272564,349.004167 198.509206,346.070009 192.626909,345.21768 C186.744612,344.365351 181.781146,345.469167 177.736513,348.529127"
+        ]
+      },
+      {
+        "offset": "0x2882E35",
+        "context": [
+          "932 246.862245,406.005102 L247,405.999 L247.00083,345.569167 C244.580288,345.334842 242.092206,345.21768 239.536584,345.21768 C225.538826,345.21768 214.665626,348.151838 206.916984,354.020155 C203.272564,349.004167 198.509206,346.070009 192.626909,345.21768 C186.744612,344.365351 181.781146,345.469167 177.736513,348.529127 C177.695083,344.2849"
+        ]
+      },
+      {
+        "offset": "0x2882E4B",
+        "context": [
+          "102 L247,405.999 L247.00083,345.569167 C244.580288,345.334842 242.092206,345.21768 239.536584,345.21768 C225.538826,345.21768 214.665626,348.151838 206.916984,354.020155 C203.272564,349.004167 198.509206,346.070009 192.626909,345.21768 C186.744612,344.365351 181.781146,345.469167 177.736513,348.529127 C177.695083,344.284917 175.449162,341.9392"
+        ]
+      },
+      {
+        "offset": "0x2882EB9",
+        "context": [
+          "38826,345.21768 214.665626,348.151838 206.916984,354.020155 C203.272564,349.004167 198.509206,346.070009 192.626909,345.21768 C186.744612,344.365351 181.781146,345.469167 177.736513,348.529127 C177.695083,344.284917 175.449162,341.939289 170.99875,341.492244 C166.548338,341.045198 162.548755,342.28701 159,345.21768 C183.270337,309.791848 212.2"
+        ]
+      },
+      {
+        "offset": "0x2882F78",
+        "context": [
+          "7 C177.695083,344.284917 175.449162,341.939289 170.99875,341.492244 C166.548338,341.045198 162.548755,342.28701 159,345.21768 C183.270337,309.791848 212.248676,291.726445 245.935016,291.021471 L247,291.005 L247,287 C246.447715,287 246,286.552285 246,286 L246,285 C246,284.447715 246.447715,284 247,284 L247.08525,284.000292 C247.291085,283.41754"
+        ]
+      },
+      {
+        "offset": "0x288843C",
+        "context": [
+          "5166 482.254834,557 469,557 Z",
+          "com.alightcreative.vector.car3",
+          "M1378.99795,125 C1392.15722,125.026783 1399.21768,132.112543 1402.4988,140.465862 L1420.99222,185.386344 C1427.85651,186.240757 1439.03068,194.287555 1439.00048,209.498456 L1439.00048,261.20788 C1439.00048,263.969304 1436.76184,266.20788 1434.00042,266.20788 L1422.1908"
+        ]
+      }
+    ],
+    "21771": [
+      {
+        "offset": "0x28879E7",
+        "context": [
+          "06059 550.259596,366.510303 550.259596,366.614552 C550.259596,372.980831 545.098708,378.14172 538.732429,378.14172 C532.217719,378.14172 526.847078,373.077647 526.431263,366.611064 L526.415415,366.30693 L523.1017,283.365 L519.99948,283.371316 C518.714231,283.371316 517.428984,283.368808 516.143741,283.363792 L512.816148,366.684097 C512.560456,"
+        ]
+      }
+    ],
+    "21772": [
+      {
+        "offset": "0x28857BE",
+        "context": [
+          "2988,501.426004 769.986796,500.446166 L769.880019,500.319997 C768.184359,498.433751 759.385463,493.20101 743.48333,484.621772 L741.829401,483.971083 L711.150488,500.668196 L710.112245,500.668196 C708.138315,499.863376 708.138315,498.805728 710.112245,492.965994 L710.614361,491.937111 L736.762,481.977 L721.681245,476.044935 C709.732797,482.9623"
+        ]
+      }
+    ],
+    "21778": [
+      {
+        "offset": "0x2621A26",
+        "context": [
+          "Subject: CN=TeliaSonera Root CA v1 O=TeliaSonera",
+          "# Label: \"TeliaSonera Root CA v1\"",
+          "# Serial: 199041966741090107964904287217786801558",
+          "# MD5 Fingerprint: 37:41:49:1b:18:56:9a:26:f5:ad:c2:66:fb:40:a5:4c",
+          "# SHA1 Fingerprint: 43:13:bb:96:f1:d5:86:9b:c1:4e:6a:92:f6:cf:f6:34:69:87:82:37",
+          "# SHA256 Fingerprint: dd:69:36:fe:21:f8:f0:77:c1:23:a1:a5:21:c1:2"
+        ]
+      }
+    ],
+    "21781": [
+      {
+        "offset": "0x2885585",
+        "context": [
+          "2,450.637667 L809.421332,450.595441 L796.660492,461.486633 L797.735671,461.062805 C810.687543,456.022282 818.913573,455.217814 822.413761,458.6494 C814.052525,468.373661 803.325864,470.92833 790.23378,466.313407 L789.7652,466.14554 L774.834434,474.130449 C786.522015,471.482841 795.557642,472.350507 801.941315,476.733448 C790.581543,483.227081 "
+        ]
+      }
+    ],
+    "21783": [
+      {
+        "offset": "0x2887CE1",
+        "context": [
+          "264,168.129022 484.736223,168.856875 L484.678913,169.005694 L464.140205,229.371316 C459.190205,244.031437 442.17268,242.217838 444.912207,229.752314 L445.001303,229.371316 L472.179534,150.825144 C475.61995,140.882204 484.909804,134.171537 495.401098,134.00324 L495.805192,134 L544.196355,134 Z M519.500244,76 C533.583505,76 545.000244,87.4167389"
+        ]
+      }
+    ],
+    "21824": [
+      {
+        "offset": "0x29C213E",
+        "context": [
+          "654c30a94f36216749c6b3c0100b08dcc08ad53287fa3bf27d0ebfaab1d78be9633929487dedce6f5a7f423833a82a8da831464ea301ac8db4a34a0e21824c33afed4f2575b9cecd79cbafb385a80f4ee0cb87f7c4e1f8fcd9976267b294b857b8dea9c1f5f0223fdf25ae2a05f2d43c55894ab50fdeb63da73a755da4c74a606dd0f3bb76070f8ed9f7a5221c881df6dfc7af22a3cc93175b97ae484e7c6440add752a0c03ef2f7b88c7a940"
+        ]
+      }
+    ],
+    "21849": [
+      {
+        "offset": "0x28816F0",
+        "context": [
+          "8993,23.2110665 1.77142938,21.4181229 3.97459225,21.4041208 L32.4808633,21.2229504 C36.2858633,21.1987678 39.4133155,24.2184926 39.5224698,28.0220035 L39.5761525,29.8925929 L59.3411167,29.2447184 C63.0664015,29.1093289 65.9793438,28.97785 67.0136377,28.8582083 C70.884451,27.9560345 72.8899589,27.0934831 74.6882108,23.8474862 C82.3079219,10.083"
+        ]
+      }
+    ],
+    "21851": [
+      {
+        "offset": "0x2929785",
+        "context": [
+          "ures/Popup/Implementation/Logic/PopupFeature.swift",
+          "Popup/PopupFeature.swift",
+          "_TtC5PopupP33_F0D102AD20B98DA531F0CD021851F92412BundleFinder",
+          "_TtC5Popup14PopupResources",
+          "/Users/distiller/project/Features/Popup/Implementation/Logic/Popup+Dependencies.swift",
+          "popupUserEventTracker",
+          "AlightMotion_Popup.bundle",
+          "Popup/"
+        ]
+      }
+    ],
+    "21853": [
+      {
+        "offset": "0x2885D97",
+        "context": [
+          "037 652.752764,326.879035 656.811455,325 Z",
+          "com.alightcreative.vector.bomb",
+          "M104.5,401 L111.159532,413.671339 L125.218534,410.97752 L119.463833,424.084603 L130.33559,433.396805 L120.073566,436.122305 C126.474442,443.019156 133.204401,446.289187 140.263444,445.932397 C158.942002,442.263441 158.942002,435.817378 177.374477,433.665208 C187.2"
+        ]
+      }
+    ],
+    "21862": [
+      {
+        "offset": "0x287E132",
+        "context": [
+          "70117 26.6338698 132.051874 26.6338698 121.815388 55.1879711 105.32967 27.3971293 89.2846197 27.3971293 79.0481338 36.2621862 73.9298908 63.9565724 89.9192522 63.9565724 57.1705705 72.8216292 52.0523276 81.6866861 57.1705705 81.6866861 100.155738 141.134943 134.478205 141.134943 66.0521426 103.908696 44.5595589 103.908696 34.323073 112.773753 "
+        ]
+      }
+    ],
+    "21907": [
+      {
+        "offset": "0x2882489",
+        "context": [
+          "39,279.262409 572.983592,281.034686 C566.612123,283.207582 563.040457,278.820922 562.268593,267.874707 C555.800075,281.521907 554.337671,292.222053 557.881383,299.975145 C562.552591,310.195025 572.229913,317.467852 586.913351,321.793625 C575.495167,313.462166 569.786076,303.848656 569.786076,292.953093 C569.786076,289.628289 571.222934,305.897"
+        ]
+      }
+    ],
+    "21909": [
+      {
+        "offset": "0x287EAF5",
+        "context": [
+          "M119.971628,0.5250761 C54.1236509,0.5250761 0.533673786,53.8451844 0.533673786,119.456588 C0.533673786,193.793164 61.2190963,254.194698 135.813274,254.194698 C210.424976,254.194698 271.110399,193.793164 271.110399,119.456588 C271.110399,103.812086 254.191029,103.812086 254.191029,119.456588 C254.191029,184.610616 201.323039,237.275329 135.8"
+        ]
+      }
+    ],
+    "21913": [
+      {
+        "offset": "0x29C75AD",
+        "context": [
+          "c3d4071b",
+          "01e29ca5",
+          "52e90d5e",
+          "68451cc4",
+          "13bd074f",
+          "4a794aa1",
+          "a61bad1d",
+          "3fcf3d21",
+          "1c8ea38f",
+          "bcd52d26",
+          "a6182adc",
+          "715070fd",
+          "6e23c1bf",
+          "cc21913e",
+          "d727c73b",
+          "4dd11c5a",
+          "dfcb0e2a",
+          "62fdf500",
+          "31a1934b",
+          "5bfc9406",
+          "5abdbfd3",
+          "1f2ce156",
+          "22bdeec5",
+          "568e25d2",
+          "3bd78356",
+          "68b66845",
+          "a1e35633",
+          "f1972233",
+          "fa46c5f9",
+          "337db19d",
+          "1ca4d9a2",
+          "016926e9",
+          "dbb82473",
+          "cba0d5e2",
+          "b12356b7",
+          "3333663b",
+          "24a16ebf",
+          "27a0e33f"
+        ]
+      }
+    ],
+    "21914": [
+      {
+        "offset": "0x28853E9",
+        "context": [
+          " 836.439026,408.747401 L835.953913,408.989805 L829.391905,424.487099 L830.182668,423.576571 C838.816551,413.716941 845.321914,409.011378 849.698757,409.45988 C846.955216,423.24079 838.822482,430.697975 825.300557,431.831434 L824.842721,431.867246 L813.216374,445.755477 L814.255214,445.098379 C825.746086,437.890934 833.56861,435.04321 837.72278"
+        ]
+      }
+    ],
+    "21939": [
+      {
+        "offset": "0x2886133",
+        "context": [
+          "5058,470.949643 171.789885,469.398922 174.29769,469.639555 C178.842662,470.075662 183.590611,472.303123 188.541539,476.321939 C196.84718,468.007784 197.94249,458.958794 191.827469,449.174969 C186.43465,442.780651 177.374477,441.343147 163.934894,447.145598 L162.963816,447.752043 C150.833627,455.235023 145.10924,455.235023 139,455.235023 C129.8"
+        ]
+      },
+      {
+        "offset": "0x28F3F69",
+        "context": [
+          "erator",
+          "_TtCC12Dependencies25WithRandomNumberGenerator25_AnyRandomNumberGenerator",
+          "_TtC12DependenciesP33_27E219396EBB03CBC8DFCBE33EF8698C17DependencyObjects",
+          "Dependencies/WithDependencies.swift",
+          "@\"FBLPromise\"24@?0@\"NSObject<OS_dispatch_queue>\"8@\"NSArray\"16",
+          "@\"FBLPromise\"16@?0@?<v@?>8",
+          "@\"FBLPromise\"24@?0@\"NSObject<OS_dispatch_queu"
+        ]
+      }
+    ],
+    "21941": [
+      {
+        "offset": "0x2882CE7",
+        "context": [
+          "171 271.881207,430.463648 270.291114,432.583234 C268.618303,434.813083 266.207879,436.435308 263.76491,437.276716 C261.321941,438.118125 258.367162,438.173141 256.289274,437.616915 C252.158054,436.511038 249.72458,434.127359 247.950818,431.459396 C246.400524,428.89004 246,425.552285 246,425 L246,407 C246,406.380952 246.287415,406.04932 246.862"
+        ]
+      }
+    ],
+    "21958": [
+      {
+        "offset": "0x2887142",
+        "context": [
+          "3,134 723.908247,144.775697 724.282862,158.3082 L724.282862,158.3082 L726.609948,242.371316 C726.353291,257.293204 709.221958,257.293204 709.471088,242.371316 L709.471088,242.371316 L707.52458,171.594921 C707.494802,170.512175 706.608491,169.649904 705.525336,169.649904 L705.525336,169.649904 L704.125856,169.649904 C703.045201,169.649904 702.1"
+        ]
+      }
+    ],
+    "21976": [
+      {
+        "offset": "0x262B13F",
+        "context": [
+          "enTrust Public Sector Root CA 1 O=IdenTrust",
+          "# Label: \"IdenTrust Public Sector Root CA 1\"",
+          "# Serial: 13298821034946342390521976156843933698",
+          "# MD5 Fingerprint: 37:06:a5:b0:fc:89:9d:ba:f4:6b:8c:1a:64:cd:d5:ba",
+          "# SHA1 Fingerprint: ba:29:41:60:77:98:3f:f4:f3:ef:f2:31:05:3b:2e:ea:6d:4d:45:fd",
+          "# SHA256 Fingerprint: 30:d0:89:5a:9a:44:8a:26:20:91:63:55:22"
+        ]
+      }
+    ],
+    "21984": [
+      {
+        "offset": "0x29C6B85",
+        "context": [
+          "433a39c0",
+          "13c30127",
+          "e8e218f7",
+          "b3e6f866",
+          "839abe3c",
+          "af293d49",
+          "81379237",
+          "0f131eba",
+          "dd79c069",
+          "fc2ee5d5",
+          "eb3a8dae",
+          "f8ec0a39",
+          "028c1e56",
+          "39121984",
+          "6f345199",
+          "2a40dafc",
+          "2b407462",
+          "58ca93cb",
+          "d145b2b9",
+          "6e1e6108",
+          "1b004426",
+          "14dfc7cd",
+          "9e1b49b4",
+          "5bcb84a1",
+          "baf2ccf6",
+          "6eb0430c",
+          "28c2a1dd",
+          "99c2bf3e",
+          "58367cec",
+          "8b0dc5ed",
+          "cc1528c6",
+          "c149da95",
+          "f181fb69",
+          "42dd65e7",
+          "bec00484",
+          "172aadbf",
+          "400d50a9",
+          "788e56af"
+        ]
+      }
+    ],
+    "21993": [
+      {
+        "offset": "0x2881494",
+        "context": [
+          ".33272 C104.657487,129.33272 99.3928382,129.326386 93.9234096,129.31648 C93.0181879,129.313432 92.0154339,128.990356 91.2199361,128.536222 C82.2865867,123.431015 73.362381,118.301426 64.4808457,113.10783 C63.0556549,112.274336 61.6437394,111.847063 60.0319874,111.858227 L59.2786057,111.879559 C56.7549054,111.934839 46.6106137,111.920987 39.575"
+        ]
+      }
+    ],
+    "21994": [
+      {
+        "offset": "0x288623F",
+        "context": [
+          ",447.752043 C150.833627,455.235023 145.10924,455.235023 139,455.235023 C129.848264,454.424882 122.254913,451.029056 116.219947,445.047546 L115.997919,451.375675 L104.5,442.848656 L93.0020809,451.375675 L92.4999375,437.069731 L78.6644103,433.396805 L89.5361668,424.084603 L83.7814657,410.97752 L97.8404677,413.671339 L104.5,401 Z",
+          "com.alightcreati"
+        ]
+      }
+    ]
+  },
+  "high_confidence_network_indicators": [
+    {
+      "offset": "0x25B6640",
+      "value": "https://firebaselogging.googleapis.com/v0cc/log/logging-pa.googleapis.com/v1/firelog/legacy/batchttps://crashlyticsreports-pa.googleapis.com/v1/firelog/legacy/bbatc"
+    },
+    {
+      "offset": "0x2657469",
+      "value": "google.golang.org/protobuf/types/known/anypb"
+    },
+    {
+      "offset": "0x265DD02",
+      "value": "google.golang.org/genproto/googleapis/api/expr/v1alpha1"
+    },
+    {
+      "offset": "0x267B1CF",
+      "value": "Z-google.golang.org/protobuf/types/descriptorpb"
+    },
+    {
+      "offset": "0x267C872",
+      "value": "Z1google.golang.org/protobuf/types/known/durationpb"
+    },
+    {
+      "offset": "0x267C9C4",
+      "value": "Z.google.golang.org/protobuf/types/known/emptypb"
+    },
+    {
+      "offset": "0x269F598",
+      "value": "google.golang.org/grpc/lookup/grpc_lookup_v1b"
+    },
+    {
+      "offset": "0x26AACC9",
+      "value": "Z7google.golang.org/genproto/googleapis/rpc/status"
+    },
+    {
+      "offset": "0x26ABDC1",
+      "value": "google.golang.org/protobuf/types/known/structpb"
+    },
+    {
+      "offset": "0x26AD985",
+      "value": "Z2google.golang.org/protobuf/types/known/timestamppb"
+    },
+    {
+      "offset": "0x26BC015",
+      "value": "Z1google.golang.org/protobuf/types/known/wrapperspb"
+    },
+    {
+      "offset": "0x287D510",
+      "value": "https://www.twitter.com/alightcreative"
+    },
+    {
+      "offset": "0x287D540",
+      "value": "https://www.instagram.com/alightmotion"
+    },
+    {
+      "offset": "0x287D570",
+      "value": "https://www.youtube.com/alightmotion"
+    },
+    {
+      "offset": "0x287D5A0",
+      "value": "https://alightcreative.com/amhelpcenter"
+    },
+    {
+      "offset": "0x2890950",
+      "value": "https://alightmotion.preproduction.oracle.bendingspoonsapps.com"
+    },
+    {
+      "offset": "0x2890990",
+      "value": "https://alightmotion.oracle.bendingspoonsapps.com"
+    },
+    {
+      "offset": "0x2890AF8",
+      "value": "alightmotion.com"
+    },
+    {
+      "offset": "0x2890BB0",
+      "value": "https://api.picox.bendingspoons.com/v1/events"
+    },
+    {
+      "offset": "0x2893D80",
+      "value": "https://alight-motion.bendingspoons.com"
+    },
+    {
+      "offset": "0x2896090",
+      "value": "alightcreative.com"
+    },
+    {
+      "offset": "0x289C305",
+      "value": "alight-creative-staging.appspot.com"
+    },
+    {
+      "offset": "0x289C880",
+      "value": "https://itunes.apple.com/app/id1459833443"
+    },
+    {
+      "offset": "0x289CBB1",
+      "value": "bendingspoons.com"
+    },
+    {
+      "offset": "0x289CBF0",
+      "value": "alight-creative-staging.firebaseapp.com"
+    },
+    {
+      "offset": "0x289D310",
+      "value": "https://alight-fonts.firebaseapp.com/appdata/fontthumbs/20180905A/webp/"
+    },
+    {
+      "offset": "0x28A069B",
+      "value": "http://alightmotion.com"
+    },
+    {
+      "offset": "0x28A2B60",
+      "value": "https://support.alightmotion.com/hc/en-us/articles/10536791122449-Elements-The-Complete-Guide"
+    },
+    {
+      "offset": "0x28A6780",
+      "value": "https://alightcreative.com/privacy"
+    },
+    {
+      "offset": "0x28A7B60",
+      "value": "https://apps.apple.com/account/subscriptions"
+    },
+    {
+      "offset": "0x28A7B90",
+      "value": "https://play.google.com/store/account/subscriptions?sku="
+    },
+    {
+      "offset": "0x28A8D10",
+      "value": "https://alightcreative.com/copyright_policy.pdf"
+    },
+    {
+      "offset": "0x28A8D40",
+      "value": "https://www.alightcreative.com/tos"
+    },
+    {
+      "offset": "0x28A8D70",
+      "value": "https://alightcreative.com"
+    },
+    {
+      "offset": "0x28A8F20",
+      "value": "www.AlightCreative.com"
+    },
+    {
+      "offset": "0x28AAAC0",
+      "value": "https://alightcreative.com/amsampleprojects"
+    },
+    {
+      "offset": "0x28ABA20",
+      "value": "https://alightcreative.com/amuserguide"
+    },
+    {
+      "offset": "0x28B7670",
+      "value": "https://alightcreative.com/am36effectbrowser"
+    },
+    {
+      "offset": "0x28B7EA0",
+      "value": "https://guide.alightmotion.com/effects/"
+    },
+    {
+      "offset": "0x28B9A40",
+      "value": "http://alightcreative.com/am/share/u/"
+    },
+    {
+      "offset": "0x28C3DF0",
+      "value": "https://support.alightmotion.com/hc/en-us/categories/10537526619921-Troubleshooting"
+    },
+    {
+      "offset": "0x28C5050",
+      "value": "https://alightcreative.com/am/share/u/"
+    },
+    {
+      "offset": "0x28E0223",
+      "value": "https://itunes.apple.com/us/app/chrome/id535886823"
+    },
+    {
+      "offset": "0x28E026E",
+      "value": "https://itunes.apple.com/us/app/firefox-web-browser/id989804926"
+    },
+    {
+      "offset": "0x28E02CD",
+      "value": "https://itunes.apple.com/us/app/opera-mini-web-browser/id363729560"
+    },
+    {
+      "offset": "0x28E1DD6",
+      "value": "com.firebase.app"
+    },
+    {
+      "offset": "0x28E1ED4",
+      "value": "https://firebaseappcheck.googleapis.com/v1"
+    },
+    {
+      "offset": "0x28E24C5",
+      "value": "com.google.app"
+    },
+    {
+      "offset": "0x28E5090",
+      "value": "https://policies.google.com/privacy"
+    },
+    {
+      "offset": "0x28E53B0",
+      "value": "https://www.apple.com/legal/privacy/en-ww/"
+    },
+    {
+      "offset": "0x28EB1F0",
+      "value": "https://apps.apple.com/app/id"
+    },
+    {
+      "offset": "0x28F4B80",
+      "value": "https://janus.bendingspoons.com/apps/AlightMotion/platforms/ios/settings/64cca74ecd7cb3b6153ab17c"
+    },
+    {
+      "offset": "0x28F4C40",
+      "value": "https://janus.bendingspoons.com/apps/AlightMotion/platforms/ios/settings/645deec4cb986e6a9815e8fc"
+    },
+    {
+      "offset": "0x28F4DB0",
+      "value": "https://janus.bendingspoons.com/apps/AlightMotion/platforms/ios/settings/639ca32df49cbc452da65651"
+    },
+    {
+      "offset": "0x28F4E80",
+      "value": "https://janus.bendingspoons.com/apps/AlightMotion/platforms/ios/settings/63e4d6bae8a7c3f13c277535"
+    },
+    {
+      "offset": "0x28F5050",
+      "value": "https://janus.bendingspoons.com/apps/AlightMotion/platforms/ios/settings/64215cabeff919fed17dc08a"
+    },
+    {
+      "offset": "0x28F5130",
+      "value": "https://janus.bendingspoons.com/apps/AlightMotion/platforms/ios/settings/63d1135ee996687f0620da31"
+    },
+    {
+      "offset": "0x28F5240",
+      "value": "https://janus.bendingspoons.com/apps/AlightMotion/platforms/ios/settings/631b2465574aa16fbbc1eba7"
+    },
+    {
+      "offset": "0x28F52F0",
+      "value": "https://janus.bendingspoons.com/apps/AlightMotion/platforms/ios/settings/642c297344b840ef9776e051"
+    },
+    {
+      "offset": "0x28F63C3",
+      "value": "http://www.google.com/"
+    },
+    {
+      "offset": "0x28F69A4",
+      "value": "google.com"
+    },
+    {
+      "offset": "0x28F69AF",
+      "value": "facebook.com"
+    },
+    {
+      "offset": "0x28F69D9",
+      "value": "gc.apple.com"
+    },
+    {
+      "offset": "0x28F6B40",
+      "value": "apple.com"
+    },
+    {
+      "offset": "0x28F7560",
+      "value": "identitytoolkit.googleapis.com"
+    },
+    {
+      "offset": "0x28F757F",
+      "value": "staging-www.sandbox.googleapis.com"
+    },
+    {
+      "offset": "0x28F75A2",
+      "value": "staging-identitytoolkit.sandbox.googleapis.com"
+    },
+    {
+      "offset": "0x28F78DD",
+      "value": "securetoken.googleapis.com"
+    },
+    {
+      "offset": "0x28F9A5C",
+      "value": "https://firebase.google.com/docs/auth/ios/phone-auth"
+    },
+    {
+      "offset": "0x28FA65D",
+      "value": "https://cloud.google.com/recaptcha-enterprise/docs/instrument-ios-apps"
+    },
+    {
+      "offset": "0x28FB31B",
+      "value": "firebaseapp.com"
+    },
+    {
+      "offset": "0x28FC16E",
+      "value": "https://console.firebase.google.com/"
+    },
+    {
+      "offset": "0x28FE529",
+      "value": "com.crashlytics.dev"
+    },
+    {
+      "offset": "0x28FFC13",
+      "value": "com.crashlytics.CLSUserDefaults.io"
+    },
+    {
+      "offset": "0x2900E69",
+      "value": "https://firebase.google.com/docs/crashlytics/get-started?platform=ios#force-test-crash"
+    },
+    {
+      "offset": "0x2904473",
+      "value": "https://firebase-settings.crashlytics.com"
+    },
+    {
+      "offset": "0x290529B",
+      "value": "https://developers.facebook.com/docs/ios/getting-started"
+    },
+    {
+      "offset": "0x2906170",
+      "value": "type.googleapis.com/google.protobuf.Int64Value"
+    },
+    {
+      "offset": "0x29061A0",
+      "value": "type.googleapis.com/google.protobuf.UInt64Value"
+    },
+    {
+      "offset": "0x290621D",
+      "value": "https://www.googleapis.com/auth/userinfo.email"
+    },
+    {
+      "offset": "0x290624C",
+      "value": "https://www.googleapis.com/auth/userinfo.profile"
+    },
+    {
+      "offset": "0x2906AFD",
+      "value": "https://firebase.google.com/docs/cloud-messaging/ios/client#fetching-the-current-registration-token"
+    },
+    {
+      "offset": "0x2906E9D",
+      "value": "https://firebaseinstallations.googleapis.com"
+    },
+    {
+      "offset": "0x2907652",
+      "value": "www.google.com"
+    },
+    {
+      "offset": "0x290780D",
+      "value": "https://firebase.google.com/docs/cloud-messaging/ios/client#method_swizzling_in_firebase_messaging"
+    },
+    {
+      "offset": "0x2909F53",
+      "value": "https://iid.googleapis.com/iid/register"
+    },
+    {
+      "offset": "0x290A2B5",
+      "value": "https://fcmtoken.googleapis.com/register"
+    },
+    {
+      "offset": "0x290A74F",
+      "value": "https://device-provisioning.googleapis.com/checkin"
+    },
+    {
+      "offset": "0x290DE91",
+      "value": "https://firebaseremoteconfig.googleapis.com"
+    },
+    {
+      "offset": "0x290E491",
+      "value": "https://firebaseremoteconfigrealtime.googleapis.com"
+    },
+    {
+      "offset": "0x29103B0",
+      "value": "firebase-settings.crashlytics.com"
+    },
+    {
+      "offset": "0x29117C0",
+      "value": "firebasestorage.googleapis.com"
+    },
+    {
+      "offset": "0x2911DE0",
+      "value": "firebase.google.com"
+    },
+    {
+      "offset": "0x2912870",
+      "value": "www.googleapis.com"
+    },
+    {
+      "offset": "0x291293F",
+      "value": "https://accounts.google.com/o/oauth2/v2/auth"
+    },
+    {
+      "offset": "0x291296C",
+      "value": "https://www.googleapis.com/oauth2/v4/token"
+    },
+    {
+      "offset": "0x2912A28",
+      "value": "https://accounts.google.com/o/oauth2/revoke"
+    },
+    {
+      "offset": "0x2912A54",
+      "value": "https://www.googleapis.com/oauth2/v3/userinfo"
+    },
+    {
+      "offset": "0x2914017",
+      "value": "https://dummyapiverylong-dummy.google.com/dummy/api/very/long"
+    },
+    {
+      "offset": "0x2915A8E",
+      "value": "accounts.google.com"
+    },
+    {
+      "offset": "0x2915AA2",
+      "value": "oauth2.googleapis.com"
+    },
+    {
+      "offset": "0x291691C",
+      "value": "app-measurement.com"
+    },
+    {
+      "offset": "0x291A0E0",
+      "value": "https://alightcreative.com/appdata/am/tutorial/sm_videothumb_masking.webp"
+    },
+    {
+      "offset": "0x291A160",
+      "value": "https://alightcreative.com/appdata/am/tutorial/05-CopyBackground.webp"
+    },
+    {
+      "offset": "0x291A200",
+      "value": "https://alightcreative.com/appdata/am/tutorial/10-DrawingProgress.webp"
+    },
+    {
+      "offset": "0x291A2A0",
+      "value": "https://alightcreative.com/appdata/am/tutorial/09-MoveAlongPath.webp"
+    },
+    {
+      "offset": "0x291A340",
+      "value": "https://alightcreative.com/appdata/am/tutorial/sm_videothumb_get_started_1.webp"
+    },
+    {
+      "offset": "0x291A3E0",
+      "value": "https://alightcreative.com/appdata/am/tutorial/sm_videothumb_get_started_2.webp"
+    },
+    {
+      "offset": "0x291A480",
+      "value": "https://alightcreative.com/appdata/am/tutorial/004-effectbrowser.webp"
+    },
+    {
+      "offset": "0x291A510",
+      "value": "https://alightcreative.com/appdata/am/tutorial/QR-001.webp"
+    },
+    {
+      "offset": "0x291A570",
+      "value": "https://alightcreative.com/appdata/am/tutorial/002-ImportingFonts.webp"
+    },
+    {
+      "offset": "0x291A9BC",
+      "value": "alightcreative.com/am/share/u/fT3mgtFhVOTrVYNpwfvIbIJejGi2/p/OUXIgT9150-3738bc0a88b58521"
+    },
+    {
+      "offset": "0x291C1F0",
+      "value": "https://alightcreative.com/creator_program_pp.pdf"
+    },
+    {
+      "offset": "0x291C230",
+      "value": "https://alightcreative.com/creator_program_tos.pdf"
+    },
+    {
+      "offset": "0x2922A20",
+      "value": "https://bendingspoons.com/"
+    },
+    {
+      "offset": "0x2927300",
+      "value": "https://api.pico.bendingspoonsapps.com/v4/events"
+    },
+    {
+      "offset": "0x2927340",
+      "value": "https://api.staging.pico.bendingspoonsapps.com/v4/events"
+    },
+    {
+      "offset": "0x292DB90",
+      "value": "https://spidersense.bendingspoons.com"
+    },
+    {
+      "offset": "0x292FB10",
+      "value": "https://alightcreative.com/privacy/"
+    },
+    {
+      "offset": "0x292FB40",
+      "value": "https://alightcreative.com/tos/"
+    },
+    {
+      "offset": "0x2932990",
+      "value": "https://xina.public.staging.bendingspoons.com/asa/m2s/v1/"
+    },
+    {
+      "offset": "0x293BFF1",
+      "value": "https://graph.facebook.com/v12.0/"
+    },
+    {
+      "offset": "0x293C179",
+      "value": "com.facebook.app"
+    },
+    {
+      "offset": "0x293CCC9",
+      "value": "com.facebook.sdk.app"
+    },
+    {
+      "offset": "0x293D9C6",
+      "value": "https://developer.apple.com/documentation/apptrackingtransparency"
+    },
+    {
+      "offset": "0x293FD5E",
+      "value": "https://developers.facebook.com/docs/ios/getting-started#step-3---configure-your-project"
+    },
+    {
+      "offset": "0x2940125",
+      "value": "developers.facebook.com/bugs"
+    },
+    {
+      "offset": "0x294188D",
+      "value": "https://developers.facebook.com/docs/app-events/getting-started-app-events-ios#disable-auto-events"
+    },
+    {
+      "offset": "0x2942E00",
+      "value": "www.facebook.com"
+    },
+    {
+      "offset": "0x294B371",
+      "value": "firestore.googleapis.com"
+    },
+    {
+      "offset": "0x294C013",
+      "value": "FirebaseApp.app"
+    },
+    {
+      "offset": "0x2960A75",
+      "value": "https://support.google.com/admob/answer/6383165"
+    },
+    {
+      "offset": "0x296393E",
+      "value": "https://www.googleadservices.com/pagead/conversion/app/deeplink?sdk_version=%"
+    },
+    {
+      "offset": "0x297029C",
+      "value": "https://api-adservices.apple.com/api/v1/"
+    },
+    {
+      "offset": "0x298950C",
+      "value": "https://www.googleapis.com/auth/cloud-platform"
+    },
+    {
+      "offset": "0x298BE0A",
+      "value": "traffic-director-c2p.xds.googleapis.com"
+    },
+    {
+      "offset": "0x298BEA9",
+      "value": "directpath-pa.googleapis.com"
+    },
+    {
+      "offset": "0x29A0FAA",
+      "value": "type.googleapis.com/grpc.status.int.errno"
+    },
+    {
+      "offset": "0x29A0FD4",
+      "value": "type.googleapis.com/grpc.status.int.file_line"
+    },
+    {
+      "offset": "0x29A1002",
+      "value": "type.googleapis.com/grpc.status.int.stream_id"
+    },
+    {
+      "offset": "0x29A1030",
+      "value": "type.googleapis.com/grpc.status.int.grpc_status"
+    },
+    {
+      "offset": "0x29A1060",
+      "value": "type.googleapis.com/grpc.status.int.offset"
+    },
+    {
+      "offset": "0x29A108B",
+      "value": "type.googleapis.com/grpc.status.int.index"
+    },
+    {
+      "offset": "0x29A10B5",
+      "value": "type.googleapis.com/grpc.status.int.size"
+    },
+    {
+      "offset": "0x29A10DE",
+      "value": "type.googleapis.com/grpc.status.int.http2_error"
+    },
+    {
+      "offset": "0x29A110E",
+      "value": "type.googleapis.com/grpc.status.int.tsi_code"
+    },
+    {
+      "offset": "0x29A113B",
+      "value": "type.googleapis.com/grpc.status.int.wsa_error"
+    },
+    {
+      "offset": "0x29A1169",
+      "value": "type.googleapis.com/grpc.status.int.fd"
+    },
+    {
+      "offset": "0x29A1190",
+      "value": "type.googleapis.com/grpc.status.int.http_status"
+    },
+    {
+      "offset": "0x29A11C0",
+      "value": "type.googleapis.com/grpc.status.int.occurred_during_write"
+    },
+    {
+      "offset": "0x29A11FA",
+      "value": "type.googleapis.com/grpc.status.int.channel_connectivity_state"
+    },
+    {
+      "offset": "0x29A1239",
+      "value": "type.googleapis.com/grpc.status.int.lb_policy_drop"
+    },
+    {
+      "offset": "0x29A12FB",
+      "value": "type.googleapis.com/grpc.status.str.description"
+    },
+    {
+      "offset": "0x29A132B",
+      "value": "type.googleapis.com/grpc.status.str.file"
+    },
+    {
+      "offset": "0x29A1354",
+      "value": "type.googleapis.com/grpc.status.str.os_error"
+    },
+    {
+      "offset": "0x29A1381",
+      "value": "type.googleapis.com/grpc.status.str.syscall"
+    },
+    {
+      "offset": "0x29A13AD",
+      "value": "type.googleapis.com/grpc.status.str.target_address"
+    },
+    {
+      "offset": "0x29A13E0",
+      "value": "type.googleapis.com/grpc.status.str.grpc_message"
+    },
+    {
+      "offset": "0x29A1411",
+      "value": "type.googleapis.com/grpc.status.str.raw_bytes"
+    },
+    {
+      "offset": "0x29A143F",
+      "value": "type.googleapis.com/grpc.status.str.tsi_error"
+    },
+    {
+      "offset": "0x29A146D",
+      "value": "type.googleapis.com/grpc.status.str.filename"
+    },
+    {
+      "offset": "0x29A149A",
+      "value": "type.googleapis.com/grpc.status.str.key"
+    },
+    {
+      "offset": "0x29A14C2",
+      "value": "type.googleapis.com/grpc.status.str.value"
+    },
+    {
+      "offset": "0x29A14EC",
+      "value": "type.googleapis.com/grpc.status.time.created_time"
+    },
+    {
+      "offset": "0x29A151E",
+      "value": "type.googleapis.com/grpc.status.children"
+    },
+    {
+      "offset": "0x29A82D7",
+      "value": "type.googleapis.com/"
+    },
+    {
+      "offset": "0x29C2FB1",
+      "value": "com.google.admob.n.net"
+    },
+    {
+      "offset": "0x29C7834",
+      "value": "https://googleads.g.doubleclick.net/mads/static/sdk/native/sdk-core-v40.html?sdk=%"
+    },
+    {
+      "offset": "0x29C7888",
+      "value": "https://googleads.g.doubleclick-cn.net/mads/static/mad/sdk/native/sdk-core-loader-inline.html?rcd=1"
+    },
+    {
+      "offset": "0x29C79D7",
+      "value": "googleadservices.com"
+    },
+    {
+      "offset": "0x29C79EF",
+      "value": "googlesyndication.com"
+    },
+    {
+      "offset": "0x29C7A15",
+      "value": "https://www.google.com/dfp/inAppPreview"
+    },
+    {
+      "offset": "0x29C7A3D",
+      "value": "https://www.google.com/dfp/linkDevice"
+    },
+    {
+      "offset": "0x29C7A63",
+      "value": "https://www.google.com/dfp/debugSignals"
+    },
+    {
+      "offset": "0x29C7A8B",
+      "value": "https://www.google.com/dfp/sendDebugData"
+    },
+    {
+      "offset": "0x29C7B49",
+      "value": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_banner.js"
+    },
+    {
+      "offset": "0x29C7BB0",
+      "value": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_expanded_banner.js"
+    },
+    {
+      "offset": "0x29C7C20",
+      "value": "https://badad.googleplex.com/s/reportAd"
+    },
+    {
+      "offset": "0x29C7C9C",
+      "value": "https://pagead2.googlesyndication.com/pagead/gen_204"
+    },
+    {
+      "offset": "0x29C7D34",
+      "value": "googleads.g.doubleclick.net"
+    },
+    {
+      "offset": "0x29C8139",
+      "value": "com.google.ad.action.received.open.app"
+    },
+    {
+      "offset": "0x29C821D",
+      "value": "com.google.ad.action.received.app"
+    },
+    {
+      "offset": "0x29C8610",
+      "value": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.html"
+    },
+    {
+      "offset": "0x29C873A",
+      "value": "https://imasdk.googleapis.com/admob/sdkloader/native_video.html"
+    },
+    {
+      "offset": "0x29C9098",
+      "value": "com.google.admob.n.dev"
+    },
+    {
+      "offset": "0x29CEBEE",
+      "value": "https://google.com/dfp"
+    },
+    {
+      "offset": "0x29D5770",
+      "value": "com.google.mt.ad.app"
+    },
+    {
+      "offset": "0x29D597A",
+      "value": "com.google.ad.net"
+    },
+    {
+      "offset": "0x29D61AB",
+      "value": "com.google.server-request.net"
+    },
+    {
+      "offset": "0x29D7424",
+      "value": "com.google.resource-buffer.status.com"
+    },
+    {
+      "offset": "0x29D7C48",
+      "value": "com.google.mt.rewarded-video.com"
+    },
+    {
+      "offset": "0x29D7F69",
+      "value": "com.google.net"
+    },
+    {
+      "offset": "0x29DEB6D",
+      "value": "https://fundingchoicesmessages.google.com/a/consent"
+    },
+    {
+      "offset": "0x29E0AE0",
+      "value": "phobos.apple.com"
+    },
+    {
+      "offset": "0x29EC293",
+      "value": "apps.apple.com"
+    },
+    {
+      "offset": "0x29EC2A2",
+      "value": "itunes.apple.com"
+    },
+    {
+      "offset": "0x29EC2B3",
+      "value": "music.apple.com"
+    },
+    {
+      "offset": "0x29EC2C3",
+      "value": "books.apple.com"
+    },
+    {
+      "offset": "0x29EC2DE",
+      "value": "maps.google.com"
+    },
+    {
+      "offset": "0x29EC2EE",
+      "value": "maps.apple.com"
+    },
+    {
+      "offset": "0x29ECB79",
+      "value": "itunes.apple.com/lookup"
+    },
+    {
+      "offset": "0x29F6F80",
+      "value": "https://apps.apple.com/app/id%"
+    },
+    {
+      "offset": "0x2A0E960",
+      "value": "type.googleapis.com"
+    },
+    {
+      "offset": "0x2A3C810",
+      "value": "google.protobuf.com"
+    },
+    {
+      "offset": "0x354DA2A",
+      "value": "http://www.apple.com/DTDs/PropertyList-1.0.dtd"
+    },
+    {
+      "offset": "0x354DAEC",
+      "value": "com.apple.dev"
+    },
+    {
+      "offset": "0x354DB93",
+      "value": "com.apple.developer.app"
+    },
+    {
+      "offset": "0x354DC48",
+      "value": "com.apple.developer.devicecheck.app"
+    },
+    {
+      "offset": "0x354DDE5",
+      "value": "alightcreativestaging.com"
+    },
+    {
+      "offset": "0x354DE1B",
+      "value": "alight-creative.firebaseapp.com"
+    }
+  ]
+}

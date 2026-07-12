@@ -1,0 +1,1304 @@
+{
+  "AlightMotion": {
+    "size": 56328560,
+    "sha256": "C1ED90AC057DF5AC49CAFB4BFA49EC7B26409DE6E1DF93BAB8E6820E492EDECB",
+    "dependencies": [
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "@rpath/AppLovinQualityService.framework/AppLovinQualityService"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Accelerate.framework/Accelerate"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CFNetwork.framework/CFNetwork"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreText.framework/CoreText"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/DeviceCheck.framework/DeviceCheck"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Foundation.framework/Foundation"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/SafariServices.framework/SafariServices"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Security.framework/Security"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/StoreKit.framework/StoreKit"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/SwiftUI.framework/SwiftUI"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/UIKit.framework/UIKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/WebKit.framework/WebKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libc++.1.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libiconv.2.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libsqlite3.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libz.1.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "@rpath/Lottie.framework/Lottie"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "@rpath/AppLovinSDK.framework/AppLovinSDK"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libobjc.A.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libSystem.B.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/AVFoundation.framework/AVFoundation"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/AVKit.framework/AVKit"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/AdAttributionKit.framework/AdAttributionKit"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/AdServices.framework/AdServices"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/AdSupport.framework/AdSupport"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/AppTrackingTransparency.framework/AppTrackingTransparency"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Combine.framework/Combine"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreHaptics.framework/CoreHaptics"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreImage.framework/CoreImage"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreML.framework/CoreML"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreMedia.framework/CoreMedia"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreMotion.framework/CoreMotion"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreServices.framework/CoreServices"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreVideo.framework/CoreVideo"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CryptoKit.framework/CryptoKit"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/FileProvider.framework/FileProvider"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/ImageIO.framework/ImageIO"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/MarketplaceKit.framework/MarketplaceKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/MessageUI.framework/MessageUI"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Metal.framework/Metal"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/MetalKit.framework/MetalKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/MetalPerformanceShaders.framework/MetalPerformanceShaders"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/MetricKit.framework/MetricKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Network.framework/Network"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/PDFKit.framework/PDFKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/PassKit.framework/PassKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Photos.framework/Photos"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/PhotosUI.framework/PhotosUI"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/QuartzCore.framework/QuartzCore"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/UserNotifications.framework/UserNotifications"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/_AdAttributionKit_StoreKit.framework/_AdAttributionKit_StoreKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libcompression.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libxml2.2.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftAVFoundation.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftAccelerate.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftCompression.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftCore.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftCoreAudio.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftCoreFoundation.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftCoreImage.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftCoreLocation.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftCoreMIDI.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftCoreMedia.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftDarwin.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftDataDetection.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftDispatch.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftGLKit.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftMetal.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftMetalKit.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftModelIO.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftOSLog.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftObjectiveC.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftPassKit.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftQuartzCore.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftSceneKit.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftSpatial.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftVideoToolbox.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftXPC.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftos.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftsimd.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "@rpath/libswift_Concurrency.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftCoreGraphics.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftFoundation.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftWebKit.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftUIKit.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftNetwork.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftPhotos.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftPhotosUI.dylib"
+      },
+      {
+        "command": "LC_RPATH",
+        "path": "/usr/lib/swift"
+      },
+      {
+        "command": "LC_RPATH",
+        "path": "@executable_path/Frameworks"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "@rpath/AlightMotionCrack.dylib"
+      }
+    ]
+  },
+  "AlightMotion_patched": {
+    "size": 56328560,
+    "sha256": "55E97F5A885AA544D45289BD029A52A5A66B5D653321CE40BE8F4958C954F672",
+    "dependencies": [
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "@rpath/AppLovinQualityService.framework/AppLovinQualityService"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Accelerate.framework/Accelerate"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CFNetwork.framework/CFNetwork"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreText.framework/CoreText"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/DeviceCheck.framework/DeviceCheck"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Foundation.framework/Foundation"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/SafariServices.framework/SafariServices"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Security.framework/Security"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/StoreKit.framework/StoreKit"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/SwiftUI.framework/SwiftUI"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/UIKit.framework/UIKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/WebKit.framework/WebKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libc++.1.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libiconv.2.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libsqlite3.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libz.1.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "@rpath/Lottie.framework/Lottie"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "@rpath/AppLovinSDK.framework/AppLovinSDK"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libobjc.A.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libSystem.B.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/AVFoundation.framework/AVFoundation"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/AVKit.framework/AVKit"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/AdAttributionKit.framework/AdAttributionKit"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/AdServices.framework/AdServices"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/AdSupport.framework/AdSupport"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/AppTrackingTransparency.framework/AppTrackingTransparency"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Combine.framework/Combine"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreHaptics.framework/CoreHaptics"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreImage.framework/CoreImage"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreML.framework/CoreML"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreMedia.framework/CoreMedia"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreMotion.framework/CoreMotion"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreServices.framework/CoreServices"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreVideo.framework/CoreVideo"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CryptoKit.framework/CryptoKit"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/FileProvider.framework/FileProvider"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/ImageIO.framework/ImageIO"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/MarketplaceKit.framework/MarketplaceKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/MessageUI.framework/MessageUI"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Metal.framework/Metal"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/MetalKit.framework/MetalKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/MetalPerformanceShaders.framework/MetalPerformanceShaders"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/MetricKit.framework/MetricKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Network.framework/Network"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/PDFKit.framework/PDFKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/PassKit.framework/PassKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Photos.framework/Photos"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/PhotosUI.framework/PhotosUI"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/QuartzCore.framework/QuartzCore"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/UserNotifications.framework/UserNotifications"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/_AdAttributionKit_StoreKit.framework/_AdAttributionKit_StoreKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libcompression.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libxml2.2.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftAVFoundation.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftAccelerate.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftCompression.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftCore.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftCoreAudio.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftCoreFoundation.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftCoreImage.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftCoreLocation.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftCoreMIDI.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftCoreMedia.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftDarwin.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftDataDetection.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftDispatch.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftGLKit.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftMetal.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftMetalKit.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftModelIO.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftOSLog.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftObjectiveC.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftPassKit.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftQuartzCore.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftSceneKit.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftSpatial.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftVideoToolbox.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftXPC.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftos.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftsimd.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "@rpath/libswift_Concurrency.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftCoreGraphics.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftFoundation.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftWebKit.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftUIKit.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftNetwork.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftPhotos.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftPhotosUI.dylib"
+      },
+      {
+        "command": "LC_RPATH",
+        "path": "/usr/lib/swift"
+      },
+      {
+        "command": "LC_RPATH",
+        "path": "@executable_path/Frameworks"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "@rpath/AlightMotionCrack.dylib"
+      }
+    ]
+  },
+  "Frameworks/AlightMotionCrack.dylib": {
+    "size": 67616,
+    "sha256": "008E4173B49016E5685A5621122E9B6D563E527371FAE8B50D2A921E6F1FD692",
+    "dependencies": [
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libobjc.A.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Foundation.framework/Foundation"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/UIKit.framework/UIKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/StoreKit.framework/StoreKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libSystem.B.dylib"
+      }
+    ]
+  },
+  "Frameworks/AppLovinQualityService.framework/AppLovinQualityService": {
+    "size": 3675344,
+    "sha256": "A6BDC7F300324D95EE388AA6876197DD8E18A6FC38858782502E3A5AFCA3E241",
+    "dependencies": [
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libSystem.B.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/AVFoundation.framework/AVFoundation"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/AdSupport.framework/AdSupport"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CFNetwork.framework/CFNetwork"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreMedia.framework/CoreMedia"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Foundation.framework/Foundation"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/SafariServices.framework/SafariServices"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Security.framework/Security"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/StoreKit.framework/StoreKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/UIKit.framework/UIKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/WebKit.framework/WebKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libobjc.A.dylib"
+      },
+      {
+        "command": "LC_RPATH",
+        "path": "@executable_path/Frameworks"
+      },
+      {
+        "command": "LC_RPATH",
+        "path": "@loader_path/Frameworks"
+      }
+    ]
+  },
+  "Frameworks/AppLovinSDK.framework/AppLovinSDK": {
+    "size": 5542176,
+    "sha256": "4656C3E71C3EF373786DA0FF63252B22F7B7BAD995549307CA12A40275C9FAF3",
+    "dependencies": [
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/AdSupport.framework/AdSupport"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/AppTrackingTransparency.framework/AppTrackingTransparency"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/AVFoundation.framework/AVFoundation"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreMedia.framework/CoreMedia"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Foundation.framework/Foundation"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/SafariServices.framework/SafariServices"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/StoreKit.framework/StoreKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/UIKit.framework/UIKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/WebKit.framework/WebKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libobjc.A.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libSystem.B.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CFNetwork.framework/CFNetwork"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/System/Library/Frameworks/CoreHaptics.framework/CoreHaptics"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/OpenGLES.framework/OpenGLES"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/QuartzCore.framework/QuartzCore"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libc++.1.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libz.1.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftDataDetection.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftFileProvider.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswift_Builtin_float.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "@rpath/libswiftCore.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "@rpath/libswiftCoreFoundation.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "@rpath/libswiftCoreImage.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "@rpath/libswiftDarwin.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "@rpath/libswiftDispatch.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "@rpath/libswiftMetal.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "@rpath/libswiftObjectiveC.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "@rpath/libswiftQuartzCore.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "@rpath/libswiftXPC.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "@rpath/libswift_Concurrency.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "@rpath/libswiftos.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "@rpath/libswiftFoundation.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "@rpath/libswiftUIKit.dylib"
+      },
+      {
+        "command": "LC_RPATH",
+        "path": "/usr/lib/swift"
+      },
+      {
+        "command": "LC_RPATH",
+        "path": "@executable_path/Frameworks"
+      },
+      {
+        "command": "LC_RPATH",
+        "path": "@loader_path/Frameworks"
+      }
+    ]
+  },
+  "Frameworks/libswift_Concurrency.dylib": {
+    "size": 409680,
+    "sha256": "8CD2BD2EDEBA3F17B4B2193DC40AF8EFD328F0332297D2ED4252BD65E2145314",
+    "dependencies": [
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libobjc.A.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libc++.1.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libSystem.B.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "@rpath/libswiftCore.dylib"
+      }
+    ]
+  },
+  "Frameworks/Lottie.framework/Lottie": {
+    "size": 2268576,
+    "sha256": "EC221B9E426A905C6D010DEE8DC99818E98380DC81DE1369AB3964877900D819",
+    "dependencies": [
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Foundation.framework/Foundation"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libobjc.A.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libSystem.B.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/Combine.framework/Combine"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/CoreText.framework/CoreText"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/QuartzCore.framework/QuartzCore"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/SwiftUI.framework/SwiftUI"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/System/Library/Frameworks/UIKit.framework/UIKit"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libc++.1.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libcompression.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/libz.1.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftCompression.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftCore.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftCoreFoundation.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftCoreImage.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftDarwin.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftDataDetection.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftDispatch.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftMetal.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftOSLog.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftObjectiveC.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftQuartzCore.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftSpatial.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftXPC.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftos.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftsimd.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "@rpath/libswift_Concurrency.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftFoundation.dylib"
+      },
+      {
+        "command": "LC_LOAD_DYLIB",
+        "path": "/usr/lib/swift/libswiftCoreGraphics.dylib"
+      },
+      {
+        "command": "LC_LOAD_WEAK_DYLIB",
+        "path": "/usr/lib/swift/libswiftUIKit.dylib"
+      },
+      {
+        "command": "LC_RPATH",
+        "path": "/usr/lib/swift"
+      },
+      {
+        "command": "LC_RPATH",
+        "path": "@executable_path/Frameworks"
+      },
+      {
+        "command": "LC_RPATH",
+        "path": "@loader_path/Frameworks"
+      }
+    ]
+  }
+}

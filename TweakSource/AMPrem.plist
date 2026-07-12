@@ -1,0 +1,8 @@
+{
+    Filter = {
+        Bundles = (
+            "alightcreative.motion",
+            "com.apple.StoreKit"
+        );
+    };
+}

@@ -1,0 +1,10 @@
+#!name=AlightMotion Premium Unlocker
+#!desc=Unlock premium + fix error 21008/21006
+#!system=Surge, Quantumult X, Loon, Stash
+
+[Script]
+# Catch BOTH production and staging cloud functions - local script with correct product IDs
+AlightMotionPremium = type=http-response,pattern=^https:\/\/us-central1-alight-creative[a-z-]*\.cloudfunctions\.net\/(getAccountStatusAndLicenses|registerAppStorePurchase|registerPurchase),requires-body=true,max-size=131072,timeout=10,script-path=alightmotion-mitm.js
+
+[MITM]
+hostname = %APPEND% us-central1-alight-creative.cloudfunctions.net, us-central1-alight-creative-staging.cloudfunctions.net

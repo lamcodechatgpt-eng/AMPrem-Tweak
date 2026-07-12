@@ -1,0 +1,2142 @@
+{
+  "stats": {
+    "parsed": 852,
+    "with_script": 90,
+    "shader_nodes": 812
+  },
+  "duplicate_ids": {
+    "com.alightcreative.effects.hollowbox": [
+      "1016866921.xml",
+      "s3d-hollowbox.xml"
+    ],
+    "com.alightcreative.effects.wipe2": [
+      "1026138506.xml",
+      "wipe2.xml"
+    ],
+    "com.alightcreative.effects.hexprism": [
+      "1031322194.xml",
+      "s3d-hexprism.xml"
+    ],
+    "com.alightcreative.effect.growparts": [
+      "1033556451.xml",
+      "grow-parts.xml"
+    ],
+    "com.alightcreative.effects.dblur": [
+      "1047589929.xml",
+      "dblur.xml"
+    ],
+    "com.alightcreative.effects.testblur": [
+      "1060394644.xml",
+      "testblur.xml"
+    ],
+    "com.alightcreative.effects.turbulence2": [
+      "1061796503.xml",
+      "turbulence2.xml"
+    ],
+    "com.alightcreative.effects.cube": [
+      "1065328319.xml",
+      "cube.xml"
+    ],
+    "com.alightcreative.effects.displacemaprad": [
+      "1066502774.xml",
+      "displacemap-radial.xml"
+    ],
+    "com.alightcreative.effects.voronoi2": [
+      "1072643059.xml",
+      "voronoi2.xml"
+    ],
+    "com.alightcreative.effects.radialrays": [
+      "107551027.xml",
+      "radial_rays.xml"
+    ],
+    "com.alightcreative.effects.shapefield": [
+      "1077056993.xml",
+      "shapefield.xml"
+    ],
+    "com.alightcreative.effects.blocknoise2": [
+      "1084925838.xml",
+      "blocknoise2.xml"
+    ],
+    "com.alightcreative.effects.tunnel": [
+      "1088253615.xml",
+      "tunnel.xml"
+    ],
+    "com.alightcreative.effects.circularripple2": [
+      "1115236102.xml",
+      "circularripple2.xml"
+    ],
+    "com.alightcreative.effects.noise": [
+      "112340584.xml",
+      "noise.xml"
+    ],
+    "com.alightcreative.effects.torus": [
+      "112842021.xml",
+      "s3d-torus.xml"
+    ],
+    "com.alightcreative.effects.spin": [
+      "1134368870.xml",
+      "spin.xml"
+    ],
+    "com.alightcreative.effects.highlightshadow": [
+      "1134535597.xml",
+      "highlight-shadow.xml"
+    ],
+    "com.alightcreative.effects.pulsate2": [
+      "1141051534.xml",
+      "pulsate2.xml"
+    ],
+    "com.alightcreative.effects.bendwarp": [
+      "1155267744.xml",
+      "bend.xml"
+    ],
+    "com.alightcreative.effects.displacemap": [
+      "1155681458.xml",
+      "displacemap.xml"
+    ],
+    "com.alightcreative.effects.dots": [
+      "1171674504.xml",
+      "dots.xml"
+    ],
+    "com.alightcreative.effects.fractalwarp2": [
+      "117715720.xml",
+      "fractalwarp2.xml"
+    ],
+    "com.alightcreative.effects.colorhot": [
+      "1181873172.xml",
+      "colorhot.xml"
+    ],
+    "com.alightcreative.effects.pinchbulge": [
+      "1197248319.xml",
+      "pinchbulge.xml"
+    ],
+    "com.alightcreative.effects.hextile": [
+      "1203486395.xml",
+      "hextile.xml"
+    ],
+    "com.alightcreative.effects.chromaticvortexblur": [
+      "1225667906.xml",
+      "chromatic-vortexblur.xml"
+    ],
+    "com.alightcreative.effects.starfield2": [
+      "123641849.xml",
+      "starfield2.xml"
+    ],
+    "com.alightcreative.effects.swing2": [
+      "1246335649.xml",
+      "swing2.xml"
+    ],
+    "com.alightcreative.effects.radialshadow2": [
+      "1246659338.xml",
+      "radialshadow2.xml"
+    ],
+    "com.alightcreative.effects.streakstrips": [
+      "1256556005.xml",
+      "streakstrips.xml"
+    ],
+    "com.alightcreative.effects.repeat.echokf": [
+      "125752153.xml",
+      "echo-keyframe.xml"
+    ],
+    "com.alightcreative.effects.offset": [
+      "1267553972.xml",
+      "offset.xml"
+    ],
+    "com.alightcreative.effects.colorize": [
+      "1268252394.xml",
+      "colorize.xml"
+    ],
+    "com.alightcreative.effects.outlinebad": [
+      "1274425501.xml",
+      "outline-bad.xml"
+    ],
+    "com.alightcreative.effects.facemotion": [
+      "1281228951.xml",
+      "facemotion.xml"
+    ],
+    "com.alightcreative.effects.motionblur2": [
+      "1281850618.xml",
+      "motionblur2.xml"
+    ],
+    "com.alightcreative.contourgrad": [
+      "1282349215.xml",
+      "contour-grad.xml"
+    ],
+    "com.alightcreative.effects.plus": [
+      "1284541548.xml",
+      "s3d-plus.xml"
+    ],
+    "com.alightcreative.effects.motionblur4": [
+      "1293970100.xml",
+      "motionblur4.xml"
+    ],
+    "com.alightcreative.effects.triprism": [
+      "1296196117.xml",
+      "s3d-triprism.xml"
+    ],
+    "com.alightcreative.effects.radialwipe": [
+      "1308674789.xml",
+      "radialwipe.xml"
+    ],
+    "com.alightcreative.effects.checker2": [
+      "1313245736.xml",
+      "checker2.xml"
+    ],
+    "com.alightcreative.effects.fractalwarp3": [
+      "1318937235.xml",
+      "fractalwarp3.xml"
+    ],
+    "com.alightcreative.effects.test2": [
+      "1323523585.xml",
+      "test2.xml"
+    ],
+    "com.alightcreative.effects.channelmaphsv": [
+      "1333360808.xml",
+      "channelmaphsv.xml"
+    ],
+    "com.alightcreative.internal.border-three": [
+      "1344323050.xml",
+      "internal-border-three.xml"
+    ],
+    "com.alightcreative.blend.hardlight": [
+      "1349309755.xml",
+      "blend-hard-light.xml"
+    ],
+    "com.alightcreative.effects.ominodiff": [
+      "135329495.xml",
+      "omino-diffusion.xml"
+    ],
+    "com.alightcreative.effects.differencematte": [
+      "1363386747.xml",
+      "difference-matte.xml"
+    ],
+    "com.alightcreative.effects.displacemap2": [
+      "1364375058.xml",
+      "displacemap2.xml"
+    ],
+    "com.alightcreative.effects.box": [
+      "1366389206.xml",
+      "s3d-box.xml"
+    ],
+    "com.alightcreative.effects.maskblur": [
+      "1380405122.xml",
+      "maskblur.xml"
+    ],
+    "com.alightcreative.internal.border-center": [
+      "1384421867.xml",
+      "internal-border-center.xml"
+    ],
+    "com.alightcreative.effects.innerblur": [
+      "1394561569.xml",
+      "innerblur.xml"
+    ],
+    "com.alightcreative.effects.vignette": [
+      "1403580780.xml",
+      "vignette.xml"
+    ],
+    "com.alightcreative.effects.lensflare": [
+      "1416289929.xml",
+      "lensflare.xml"
+    ],
+    "com.alightcreative.effects.textrand": [
+      "142380602.xml",
+      "textrand.xml"
+    ],
+    "com.alightcreative.effects.counter": [
+      "1425558908.xml",
+      "counter.xml"
+    ],
+    "com.alightcreative.effects.turbulence": [
+      "1426047357.xml",
+      "turbulence.xml"
+    ],
+    "com.alightcreative.effect.glass": [
+      "1429891303.xml",
+      "glass.xml"
+    ],
+    "com.alightcreative.blend.hue": [
+      "143632463.xml",
+      "blend-hue.xml"
+    ],
+    "com.alightcreative.blend.pinlight": [
+      "144894647.xml",
+      "blend-pin-light.xml"
+    ],
+    "com.alightcreative.effects.zoomblur2": [
+      "1453467334.xml",
+      "zoomblur2.xml"
+    ],
+    "com.alightcreative.blend.diff": [
+      "1458906129.xml",
+      "blend-diff.xml"
+    ],
+    "com.alightcreative.effects.smoothedges": [
+      "1463831882.xml",
+      "smoothedges.xml"
+    ],
+    "com.alightcreative.effects.mosaic": [
+      "1465851542.xml",
+      "mosaic.xml"
+    ],
+    "com.alightcreative.effects.swirl": [
+      "1467495447.xml",
+      "swirl.xml"
+    ],
+    "com.alightcreative.effects.glowscan": [
+      "1471242211.xml",
+      "glowscan.xml"
+    ],
+    "com.alightcreative.internal.border": [
+      "1472054411.xml",
+      "internal-border.xml"
+    ],
+    "com.alightcreative.effects.dissolve": [
+      "1472659685.xml",
+      "dissolve.xml"
+    ],
+    "com.alightcreative.effects.flip2": [
+      "1485265376.xml",
+      "flip2.xml"
+    ],
+    "com.alightcreative.blend.exclusion": [
+      "1498452632.xml",
+      "blend-exclusion.xml"
+    ],
+    "com.alightcreative.effects.roughenedges": [
+      "1502575969.xml",
+      "roughenedges.xml"
+    ],
+    "com.alightcreative.effect.movealongpath3": [
+      "1503889732.xml",
+      "move-along-path3.xml"
+    ],
+    "com.alightcreative.blend.lineardodge": [
+      "1505143875.xml",
+      "blend-linear-dodge.xml"
+    ],
+    "com.alightcreative.effects.cube2": [
+      "1507794273.xml",
+      "cube2.xml"
+    ],
+    "com.alightcreative.effects.pixelate2": [
+      "1527161555.xml",
+      "pixelate2.xml"
+    ],
+    "com.alightcreative.effects.repeat.path": [
+      "152993331.xml",
+      "repeat-path.xml"
+    ],
+    "com.alightcreative.effects.exposure": [
+      "1531818909.xml",
+      "exposure.xml"
+    ],
+    "com.alightcreative.effects.grid2": [
+      "153763633.xml",
+      "grid2.xml"
+    ],
+    "com.alightcreative.effects.grunge": [
+      "1545902075.xml",
+      "grunge.xml"
+    ],
+    "com.alightcreative.effects.spinblur2": [
+      "154643753.xml",
+      "spinblur2.xml"
+    ],
+    "com.alightcreative.blend.colordodge": [
+      "1550395070.xml",
+      "blend-color-dodge.xml"
+    ],
+    "com.alightcreative.blend.divide": [
+      "1566009321.xml",
+      "blend-divide.xml"
+    ],
+    "com.alightcreative.spotcolor": [
+      "1569733978.xml",
+      "spotcolor.xml"
+    ],
+    "com.alightcreative.effects.oscillate3": [
+      "1576743494.xml",
+      "oscillate3.xml"
+    ],
+    "com.alightcreative.effects.channelmap": [
+      "1578187707.xml",
+      "channelmap.xml"
+    ],
+    "com.alightcreative.effects.rgbsep": [
+      "1581183459.xml",
+      "rgbsep.xml"
+    ],
+    "com.alightcreative.effects.boxblur": [
+      "1587299026.xml",
+      "boxblur.xml"
+    ],
+    "com.alightcreative.blend.colorburn": [
+      "1596399305.xml",
+      "blend-color-burn.xml"
+    ],
+    "com.alightcreative.effects.lumastamper": [
+      "159937296.xml",
+      "lumastamper.xml"
+    ],
+    "com.alightcreative.effects.ribbon": [
+      "1604730994.xml",
+      "ribbon.xml"
+    ],
+    "com.alightcreative.effects.longshadow2": [
+      "1608403149.xml",
+      "longshadow2.xml"
+    ],
+    "com.alightcreative.effects.fastboxblur": [
+      "1614786789.xml",
+      "fastboxblur.xml"
+    ],
+    "com.alightcreative.effects.stripes": [
+      "1615678157.xml",
+      "stripes.xml"
+    ],
+    "com.alightcreative.effects.clouds3": [
+      "1619636368.xml",
+      "clouds3.xml"
+    ],
+    "com.alightcreative.effects.gaussianblur": [
+      "1646582574.xml",
+      "gaussianblur.xml"
+    ],
+    "com.alightcreative.effects.randomdisplace": [
+      "1646760948.xml",
+      "randomdisplace.xml"
+    ],
+    "com.alightcreative.effects.test3": [
+      "1649202845.xml",
+      "test3.xml"
+    ],
+    "com.alightcreative.effects.spill-cleanup": [
+      "1653099659.xml",
+      "spill-cleaner.xml"
+    ],
+    "com.alightcreative.effects.energybeam": [
+      "1664308124.xml",
+      "energybeam.xml"
+    ],
+    "com.alightcreative.effects.spherize2": [
+      "1664747265.xml",
+      "spherize2.xml"
+    ],
+    "com.alightcreative.effects.stretch2": [
+      "1692081983.xml",
+      "stretch2.xml"
+    ],
+    "com.alightcreative.internal.border-inside": [
+      "1698837305.xml",
+      "internal-border-inside.xml"
+    ],
+    "com.alightcreative.gradientoverlay": [
+      "1708803486.xml",
+      "gradientoverlay.xml"
+    ],
+    "com.alightcreative.effects.lensblur": [
+      "1709079523.xml",
+      "lensblur.xml"
+    ],
+    "com.alightcreative.internal.border-two": [
+      "171331916.xml",
+      "internal-border-two.xml"
+    ],
+    "com.alightcreative.effects.hexshift": [
+      "1717457760.xml",
+      "hexshift.xml"
+    ],
+    "com.alightcreative.glow": [
+      "1717820635.xml",
+      "glow.xml"
+    ],
+    "com.alightcreative.effects.repeat.scatter": [
+      "17282893.xml",
+      "repeat-scatter.xml"
+    ],
+    "com.alightcreative.effects.boxblur3": [
+      "1732580835.xml",
+      "boxblurNoIteration.xml"
+    ],
+    "com.alightcreative.effects.warpblur": [
+      "1751597781.xml",
+      "warpblur.xml"
+    ],
+    "com.alightcreative.effects.lumakey": [
+      "1761309719.xml",
+      "lumakey.xml"
+    ],
+    "com.alightcreative.blend.overlay": [
+      "1767618547.xml",
+      "blend-overlay.xml"
+    ],
+    "com.alightcreative.effects.irridescence": [
+      "1770815379.xml",
+      "irridescence.xml"
+    ],
+    "com.alightcreative.effects.colorbalance": [
+      "178290937.xml",
+      "colorbalance.xml"
+    ],
+    "com.alightcreative.effects.simplestars2": [
+      "1784189595.xml",
+      "simplestars2.xml"
+    ],
+    "com.alightcreative.effects.radialshadow": [
+      "179252094.xml",
+      "radialshadow.xml"
+    ],
+    "com.alightcreative.effects.colortune": [
+      "180322266.xml",
+      "colortune.xml"
+    ],
+    "com.alightcreative.effects.colortint": [
+      "1805021034.xml",
+      "colortint.xml"
+    ],
+    "com.alightcreative.blend.linearlight": [
+      "1817637883.xml",
+      "blend-linear-light.xml"
+    ],
+    "com.alightcreative.effects.cylinder": [
+      "18207417.xml",
+      "s3d-cylinder.xml"
+    ],
+    "com.alightcreative.effects.drawing.progress": [
+      "1834920776.xml",
+      "drawing-progress.xml"
+    ],
+    "com.alightcreative.effects.hexrotate": [
+      "1835640040.xml",
+      "hexrotate.xml"
+    ],
+    "com.alightcreative.effects.blocknoise": [
+      "1842519810.xml",
+      "blocknoise.xml"
+    ],
+    "com.alightcreative.effects.drawing.stroketaper": [
+      "1844302281.xml",
+      "stroke-taper.xml"
+    ],
+    "com.alightcreative.effects.turbulentdisplace": [
+      "1845228830.xml",
+      "turbulentdisplace.xml"
+    ],
+    "com.alightcreative.effects.electricedges": [
+      "1845389960.xml",
+      "electricedges.xml"
+    ],
+    "com.alightcreative.blend.color": [
+      "1845588893.xml",
+      "blend-color.xml"
+    ],
+    "com.alightcreative.blend.vividlight": [
+      "1848554748.xml",
+      "blend-vivid-light.xml"
+    ],
+    "com.alightcreative.effects.brightcont": [
+      "1853745526.xml",
+      "brightness-contrast.xml"
+    ],
+    "com.alightcreative.effects.shadow": [
+      "1866807073.xml",
+      "shadow.xml"
+    ],
+    "com.alightcreative.effects.rgb-mixer": [
+      "1875474250.xml",
+      "rgb-mixer.xml"
+    ],
+    "com.alightcreative.fourcolorgradient": [
+      "1879840678.xml",
+      "fourcolorgradient.xml"
+    ],
+    "com.alightcreative.effects.shake2": [
+      "1887224588.xml",
+      "shake2.xml"
+    ],
+    "com.alightcreative.effects.hexarray": [
+      "1888384382.xml",
+      "hexarray.xml"
+    ],
+    "com.alightcreative.effects.swirl3": [
+      "189342877.xml",
+      "swirl3.xml"
+    ],
+    "com.alightcreative.effects.unsharpmask": [
+      "1895082212.xml",
+      "unsharpmask.xml"
+    ],
+    "com.alightcreative.effects.ellipsoid": [
+      "1901739519.xml",
+      "s3d-ellipsoid.xml"
+    ],
+    "com.alightcreative.effects.colortune2": [
+      "1902490280.xml",
+      "colortune2.xml"
+    ],
+    "com.alightcreative.effects.mattefringe": [
+      "1919865258.xml",
+      "mattefringe.xml"
+    ],
+    "com.alightcreative.effects.displacemap3": [
+      "1922537078.xml",
+      "displacemap3.xml"
+    ],
+    "com.alightcreative.effects.parenthelper": [
+      "1940146800.xml",
+      "parenthelper.xml"
+    ],
+    "com.alightcreative.effects.repeat": [
+      "1943950567.xml",
+      "repeat.xml"
+    ],
+    "com.alightcreative.effects.starfield3": [
+      "1945799337.xml",
+      "starfield3.xml"
+    ],
+    "com.alightcreative.effects.satvib": [
+      "1949827855.xml",
+      "vibrance-saturation.xml"
+    ],
+    "com.alightcreative.effects.magnifybg": [
+      "1952103844.xml",
+      "magnify-background.xml"
+    ],
+    "com.alightcreative.effects.findedges-edgeglow": [
+      "1980884952.xml",
+      "findedges-edgeglow.xml"
+    ],
+    "com.alightcreative.blend.lighten": [
+      "1991665458.xml",
+      "blend-lighten.xml"
+    ],
+    "com.alightcreative.effects.halftonedotscmyk": [
+      "2010044280.xml",
+      "halftonecmyk.xml"
+    ],
+    "com.alightcreative.effects.hueshift": [
+      "2010447512.xml",
+      "hueshift.xml"
+    ],
+    "com.alightcreative.effects.blink2": [
+      "2016102416.xml",
+      "blink2.xml"
+    ],
+    "com.alightcreative.effects.longshadow": [
+      "2020800598.xml",
+      "longshadow.xml"
+    ],
+    "com.alightcreative.effects.boxblur2": [
+      "2025389836.xml",
+      "boxblur2.xml"
+    ],
+    "com.alightcreative.effects.swing": [
+      "2025511438.xml",
+      "swing.xml"
+    ],
+    "com.alightcreative.effect.movealongpath2": [
+      "2045371982.xml",
+      "move-along-path2.xml"
+    ],
+    "com.alightcreative.effects.stretchsegment": [
+      "2049077873.xml",
+      "stretchsegment.xml"
+    ],
+    "com.alightcreative.effects.invert": [
+      "2074549769.xml",
+      "invert.xml"
+    ],
+    "com.alightcreative.effects.tile": [
+      "208130113.xml",
+      "tile.xml"
+    ],
+    "com.alightcreative.effects.palettemap": [
+      "2085130772.xml",
+      "palette-map.xml"
+    ],
+    "com.alightcreative.effects.softglow": [
+      "2097901708.xml",
+      "softglow.xml"
+    ],
+    "com.alightcreative.spectralmap": [
+      "2100146072.xml",
+      "spectralmap.xml"
+    ],
+    "com.alightcreative.effects.jitter": [
+      "2113009986.xml",
+      "jitter.xml"
+    ],
+    "com.alightcreative.blend.subtract": [
+      "2116189216.xml",
+      "blend-subtract.xml"
+    ],
+    "com.alightcreative.effects.brightcont2": [
+      "2139330370.xml",
+      "brightness-contrast-2.xml"
+    ],
+    "com.alightcreative.effects.chromakey-adv": [
+      "214040789.xml",
+      "chromakey-advanced.xml"
+    ],
+    "com.alightcreative.effects.turbulentdisplace3": [
+      "2143643496.xml",
+      "turbulentdisplace3.xml"
+    ],
+    "com.alightcreative.effects.scaleassist": [
+      "223252725.xml",
+      "scaleassist.xml"
+    ],
+    "com.alightcreative.blend.softoverlay": [
+      "230204173.xml",
+      "blend-soft-overlay.xml"
+    ],
+    "com.alightcreative.effects.ridges": [
+      "242090567.xml",
+      "ridges.xml"
+    ],
+    "com.alightcreative.effects.sharpen": [
+      "247341634.xml",
+      "sharpen.xml"
+    ],
+    "com.alightcreative.effects.lift": [
+      "247725699.xml",
+      "lift.xml"
+    ],
+    "com.alightcreative.effects.octahedron": [
+      "248561284.xml",
+      "s3d-octahedron.xml"
+    ],
+    "com.alightcreative.effects.lightning": [
+      "260297984.xml",
+      "lightning.xml"
+    ],
+    "com.alightcreative.effects.timequant": [
+      "268564582.xml",
+      "timequant.xml"
+    ],
+    "com.alightcreative.effects.rgb-gamma": [
+      "270863090.xml",
+      "rgb-gamma.xml"
+    ],
+    "com.alightcreative.effects.lensblur2": [
+      "278525435.xml",
+      "lensblur2.xml"
+    ],
+    "com.alightcreative.effect.shakeparts": [
+      "290206849.xml",
+      "shake-parts.xml"
+    ],
+    "com.alightcreative.effects.tilerotate": [
+      "29052293.xml",
+      "tilerotate.xml"
+    ],
+    "com.alightcreative.effects.colorhot2": [
+      "293202059.xml",
+      "colorhot2.xml"
+    ],
+    "com.alightcreative.effects.layernormtest": [
+      "299326755.xml",
+      "layernormtest.xml"
+    ],
+    "com.alightcreative.effects.pinchbulge2": [
+      "305994562.xml",
+      "pinchbulge2.xml"
+    ],
+    "com.alightcreative.effects.flicker": [
+      "306074685.xml",
+      "flicker.xml"
+    ],
+    "com.alightcreative.effects.zoomblur3": [
+      "311771980.xml",
+      "zoomblur3.xml"
+    ],
+    "com.alightcreative.effects.transform": [
+      "31737131.xml",
+      "transform.xml"
+    ],
+    "com.alightcreative.effects.wavewarp2": [
+      "319287851.xml",
+      "wavewarp2.xml"
+    ],
+    "com.alightcreative.blend.darken": [
+      "321242448.xml",
+      "blend-darken.xml"
+    ],
+    "com.alightcreative.effects.noise2": [
+      "323752923.xml",
+      "noise2.xml"
+    ],
+    "com.alightcreative.solidmatte": [
+      "335876301.xml",
+      "solidmatte.xml"
+    ],
+    "com.alightcreative.effects.colortemperature": [
+      "354083774.xml",
+      "colortemperature.xml"
+    ],
+    "com.alightcreative.effects.360-reorient-sphere": [
+      "355490054.xml",
+      "360-reorient-sphere.xml"
+    ],
+    "com.alightcreative.effects.tileshift": [
+      "356845372.xml",
+      "tileshift.xml"
+    ],
+    "com.alightcreative.blend.saturation": [
+      "375858760.xml",
+      "blend-saturation.xml"
+    ],
+    "com.alightcreative.effects.drawing.strokecolor": [
+      "375987301.xml",
+      "stroke-color.xml"
+    ],
+    "com.alightcreative.gradientoverlay2": [
+      "377083858.xml",
+      "gradientoverlay2.xml"
+    ],
+    "com.alightcreative.effects.streaks": [
+      "378220146.xml",
+      "streaks-linear.xml"
+    ],
+    "com.alightcreative.effects.heart2": [
+      "384851418.xml",
+      "s3d-heart2.xml"
+    ],
+    "com.alightcreative.effects.pulseopacity2": [
+      "394275075.xml",
+      "pulse_opacity2.xml"
+    ],
+    "com.alightcreative.effects.contourstrips": [
+      "400325798.xml",
+      "contourstrips.xml"
+    ],
+    "com.alightcreative.blend.darkercolor": [
+      "401707844.xml",
+      "blend-darker-color.xml"
+    ],
+    "com.alightcreative.effects.darkglow": [
+      "402835441.xml",
+      "darkglow.xml"
+    ],
+    "com.alightcreative.effects.test": [
+      "407899225.xml",
+      "test.xml"
+    ],
+    "com.alightcreative.effects.findedges": [
+      "417631807.xml",
+      "findedges.xml"
+    ],
+    "com.alightcreative.effects.clouds": [
+      "41812727.xml",
+      "clouds.xml"
+    ],
+    "com.alightcreative.effects.outline": [
+      "428682444.xml",
+      "outline.xml"
+    ],
+    "com.alightcreative.effects.chromaticzoomblur": [
+      "429939121.xml",
+      "chromatic-zoomblur.xml"
+    ],
+    "com.alightcreative.effects.diff": [
+      "430489882.xml",
+      "difference.xml"
+    ],
+    "com.alightcreative.blend.linearburn": [
+      "434914700.xml",
+      "blend-linear-burn.xml"
+    ],
+    "com.alightcreative.blend.luminance": [
+      "443358684.xml",
+      "blend-luminance.xml"
+    ],
+    "com.alightcreative.effects.triprism2": [
+      "464921185.xml",
+      "s3d-triprism2.xml"
+    ],
+    "com.alightcreative.effects.flicker2": [
+      "467894811.xml",
+      "flicker2.xml"
+    ],
+    "com.alightcreative.effects.fractalwarp4": [
+      "470417292.xml",
+      "fractalwarp4.xml"
+    ],
+    "com.alightcreative.effects.gradientdisplace": [
+      "474248251.xml",
+      "gradientdisplace.xml"
+    ],
+    "com.alightcreative.effects.perlindisplace": [
+      "47435806.xml",
+      "perlindisplace.xml"
+    ],
+    "com.alightcreative.effects.stretch": [
+      "485705987.xml",
+      "stretch.xml"
+    ],
+    "com.alightcreative.effects.circularripple": [
+      "489251116.xml",
+      "circularripple.xml"
+    ],
+    "com.alightcreative.effects.oscillate2": [
+      "494631599.xml",
+      "oscillate2.xml"
+    ],
+    "com.alightcreative.mattechoke": [
+      "515465620.xml",
+      "mattechoke.xml"
+    ],
+    "com.alightcreative.effects.ring": [
+      "521503423.xml",
+      "s3d-ring.xml"
+    ],
+    "com.alightcreative.effects.halftonelines": [
+      "521916318.xml",
+      "halftonelines.xml"
+    ],
+    "com.alightcreative.effects.textspacing": [
+      "522484365.xml",
+      "text-spacing.xml"
+    ],
+    "com.alightcreative.effects.lumakey2": [
+      "530847491.xml",
+      "lumakey2.xml"
+    ],
+    "com.alightcreative.effects.oscillate": [
+      "531160934.xml",
+      "oscillate.xml"
+    ],
+    "com.alightcreative.effects.swirl2": [
+      "535136309.xml",
+      "swirl2.xml"
+    ],
+    "com.alightcreative.effects.edgeglow": [
+      "53639217.xml",
+      "edgeglow.xml"
+    ],
+    "com.alightcreative.effects.curl": [
+      "543150812.xml",
+      "curl.xml"
+    ],
+    "com.alightcreative.internal.shadow": [
+      "546212398.xml",
+      "internal-shadow.xml"
+    ],
+    "com.alightcreative.effects.pagecurl": [
+      "548242308.xml",
+      "pagecurl.xml"
+    ],
+    "com.alightcreative.effects.posterize": [
+      "556200705.xml",
+      "posterize.xml"
+    ],
+    "com.alightcreative.effects.star": [
+      "557406124.xml",
+      "star.xml"
+    ],
+    "com.alightcreative.effects.grid": [
+      "571498257.xml",
+      "grid.xml"
+    ],
+    "com.alightcreative.effects.bumpmap": [
+      "577336499.xml",
+      "bumpmap.xml"
+    ],
+    "com.alightcreative.effects.ominoglass": [
+      "592188265.xml",
+      "omino-glass.xml"
+    ],
+    "com.alightcreative.blend.lightercolor": [
+      "604746648.xml",
+      "blend-lighter-color.xml"
+    ],
+    "com.alightcreative.effects.pulsate": [
+      "611045341.xml",
+      "pulsate.xml"
+    ],
+    "com.alightcreative.effects.repeat.line": [
+      "611592370.xml",
+      "repeat-line.xml"
+    ],
+    "com.alightcreative.effects.spherize": [
+      "612308584.xml",
+      "spherize.xml"
+    ],
+    "com.alightcreative.internal.border-outside": [
+      "615314044.xml",
+      "internal-border-outside.xml"
+    ],
+    "com.alightcreative.effects.spinblur": [
+      "626912848.xml",
+      "spinblur.xml"
+    ],
+    "com.alightcreative.effects.bumpmap2": [
+      "634185547.xml",
+      "bumpmap2.xml"
+    ],
+    "com.alightcreative.inner-glow": [
+      "634946067.xml",
+      "glow-inner.xml"
+    ],
+    "com.alightcreative.effects.clouds2": [
+      "638897111.xml",
+      "clouds2.xml"
+    ],
+    "com.alightcreative.effects.heart": [
+      "63951236.xml",
+      "s3d-heart.xml"
+    ],
+    "com.alightcreative.effects.repeat.radial": [
+      "640187863.xml",
+      "repeat-radial.xml"
+    ],
+    "com.alightcreative.effects.kaleidoscope": [
+      "642208702.xml",
+      "kaleidoscope.xml"
+    ],
+    "com.alightcreative.spotcolor2": [
+      "642276679.xml",
+      "spotcolor2.xml"
+    ],
+    "com.alightcreative.effects.pixelate": [
+      "654121311.xml",
+      "pixelate.xml"
+    ],
+    "com.alightcreative.effects.fractalwarp": [
+      "655209215.xml",
+      "fractalwarp.xml"
+    ],
+    "com.alightcreative.effects.pulseopacity": [
+      "655463434.xml",
+      "pulse-opacity.xml"
+    ],
+    "com.alightcreative.effects.outlinebasic": [
+      "660521574.xml",
+      "outline-basic.xml"
+    ],
+    "com.alightcreative.effects.shake": [
+      "665532808.xml",
+      "shake.xml"
+    ],
+    "com.alightcreative.effects.tilerotate2": [
+      "666792661.xml",
+      "tilerotate2.xml"
+    ],
+    "com.alightcreative.effects.timecode": [
+      "67556689.xml",
+      "timecode.xml"
+    ],
+    "com.alightcreative.blend.softlight": [
+      "677751586.xml",
+      "blend-soft-light.xml"
+    ],
+    "com.alightcreative.effects.starfield": [
+      "678116306.xml",
+      "starfield.xml"
+    ],
+    "com.alightcreative.effects.checker": [
+      "6808143.xml",
+      "checker.xml"
+    ],
+    "com.alightcreative.effects.feather": [
+      "69555931.xml",
+      "feather.xml"
+    ],
+    "com.alightcreative.effects.wavewarp": [
+      "696371384.xml",
+      "wavewarp.xml"
+    ],
+    "com.alightcreative.effects.noise3": [
+      "70395322.xml",
+      "noise3.xml"
+    ],
+    "com.alightcreative.effects.simplestars": [
+      "710987795.xml",
+      "simplestars.xml"
+    ],
+    "com.alightcreative.effect.morphpath": [
+      "714190587.xml",
+      "morph-path.xml"
+    ],
+    "com.alightcreative.effects.halftonedots": [
+      "723677242.xml",
+      "halftonedots.xml"
+    ],
+    "com.alightcreative.effects.vortexblur": [
+      "737485121.xml",
+      "vortexblur.xml"
+    ],
+    "com.alightcreative.effects.coloradj": [
+      "740040088.xml",
+      "coloradj.xml"
+    ],
+    "com.alightcreative.internal.smoothbevel": [
+      "741800822.xml",
+      "smoothbevel.xml"
+    ],
+    "com.alightcreative.solidcolor": [
+      "749283983.xml",
+      "solidcolor.xml"
+    ],
+    "com.alightcreative.effects.motionblur3": [
+      "751135109.xml",
+      "motionblur3.xml"
+    ],
+    "com.alightcreative.effects.tileshift2": [
+      "762433084.xml",
+      "tileshift2.xml"
+    ],
+    "com.alightcreative.effects.lumakey3": [
+      "765297837.xml",
+      "lumakey3.xml"
+    ],
+    "com.alightcreative.effects.zoomblur": [
+      "767191397.xml",
+      "zoomblur.xml"
+    ],
+    "com.alightcreative.effects.dots2": [
+      "770012162.xml",
+      "dots2.xml"
+    ],
+    "com.alightcreative.contour": [
+      "771864210.xml",
+      "contour.xml"
+    ],
+    "com.alightcreative.effects.flip3": [
+      "780841205.xml",
+      "flip3.xml"
+    ],
+    "com.alightcreative.effect.glass2": [
+      "783610034.xml",
+      "glass2.xml"
+    ],
+    "com.alightcreative.effects.threshold": [
+      "794483926.xml",
+      "threshold.xml"
+    ],
+    "com.alightcreative.effects.lightglow": [
+      "796193585.xml",
+      "lightglow.xml"
+    ],
+    "com.alightcreative.effects.repeat.grid": [
+      "806013188.xml",
+      "repeat-grid.xml"
+    ],
+    "com.alightcreative.effects.turbulentdisplace2": [
+      "806204585.xml",
+      "turbulentdisplace2.xml"
+    ],
+    "com.alightcreative.effects.streaks-zoom": [
+      "806691916.xml",
+      "streaks-zoom.xml"
+    ],
+    "com.alightcreative.effects.blink": [
+      "80693677.xml",
+      "blink.xml"
+    ],
+    "com.alightcreative.effects.ridges2": [
+      "808712195.xml",
+      "ridges2.xml"
+    ],
+    "com.alightcreative.effects.rays": [
+      "816396528.xml",
+      "rays.xml"
+    ],
+    "com.alightcreative.effects.pinchbulgeinside": [
+      "817120900.xml",
+      "pinchbulgeinside.xml"
+    ],
+    "com.alightcreative.effects.pyramid": [
+      "825127417.xml",
+      "s3d-pyramid.xml"
+    ],
+    "com.alightcreative.effects.mattechoke": [
+      "827954577.xml",
+      "mattechoke2.xml"
+    ],
+    "com.alightcreative.effect.movealongpath": [
+      "832365037.xml",
+      "move-along-path.xml"
+    ],
+    "com.alightcreative.effects.starprism": [
+      "83321123.xml",
+      "s3d-starprism.xml"
+    ],
+    "com.alightcreative.effects.vrplayer": [
+      "836538939.xml",
+      "vr-player.xml"
+    ],
+    "com.alightcreative.effects.swirl4": [
+      "846314251.xml",
+      "swirl4.xml"
+    ],
+    "com.alightcreative.gradientmap": [
+      "862238890.xml",
+      "gradientmap.xml"
+    ],
+    "com.alightcreative.effects.irridescence2": [
+      "88225378.xml",
+      "irridescence2.xml"
+    ],
+    "com.alightcreative.effects.squeeze": [
+      "885380501.xml",
+      "squeeze.xml"
+    ],
+    "com.alightcreative.replacecolor": [
+      "889542230.xml",
+      "replacecolor.xml"
+    ],
+    "com.alightcreative.effects.extrude": [
+      "910823860.xml",
+      "s3d-extrude.xml"
+    ],
+    "com.alightcreative.effects.chromakey": [
+      "912747540.xml",
+      "chromakey.xml"
+    ],
+    "com.alightcreative.effects.starpoly": [
+      "917119697.xml",
+      "s3d-starpoly.xml"
+    ],
+    "com.alightcreative.effects.streaks-spin": [
+      "932358583.xml",
+      "streaks-spin.xml"
+    ],
+    "com.alightcreative.effects.flip": [
+      "933940703.xml",
+      "flip.xml"
+    ],
+    "com.alightcreative.effects.checkerdissolve": [
+      "940585600.xml",
+      "checkerdissolve.xml"
+    ],
+    "com.alightcreative.effects.fillbehind": [
+      "941808976.xml",
+      "fillbehind.xml"
+    ],
+    "com.alightcreative.effects.texttransform": [
+      "943384046.xml",
+      "text-transform.xml"
+    ],
+    "com.alightcreative.effects.mirror": [
+      "954059533.xml",
+      "mirror.xml"
+    ],
+    "com.alightcreative.effects.checkerdissolve2": [
+      "95524128.xml",
+      "checkerdissolve2.xml"
+    ],
+    "com.alightcreative.effects.textprogress": [
+      "95789529.xml",
+      "textprogress.xml"
+    ],
+    "com.alightcreative.effects.motionblur": [
+      "968466268.xml",
+      "motionblur.xml"
+    ],
+    "com.alightcreative.effects.voronoi": [
+      "986315858.xml",
+      "voronoi.xml"
+    ],
+    "com.alightcreative.effects.polar": [
+      "987706790.xml",
+      "polar.xml"
+    ],
+    "com.alightcreative.effects.wipe": [
+      "99805622.xml",
+      "wipe.xml"
+    ]
+  },
+  "invalid": [
+    {
+      "file": "deepglow.xml",
+      "error": "mismatched tag: line 93, column 9"
+    }
+  ],
+  "suspicious": [
+    {
+      "file": "1000228291.xml",
+      "id": "com.alightcreative.effects.vshakenew",
+      "name": "Manual Shake 2"
+    },
+    {
+      "file": "1013440754.xml",
+      "id": "com.alightcreative.effects.fake3d",
+      "name": "Fake 3D"
+    },
+    {
+      "file": "1023562138.xml",
+      "id": "com.alightcreative.effects.bubble",
+      "name": "Bubble"
+    },
+    {
+      "file": "1025457277.xml",
+      "id": "com.alightcreative.effects.starglowparticle",
+      "name": "StarGlow Particles"
+    },
+    {
+      "file": "1036653911.xml",
+      "id": "com.alightcreative.effects.smokeparticle",
+      "name": "Smoke Particle"
+    },
+    {
+      "file": "1046168865.xml",
+      "id": "com.alightcreative.effects.rainyfalls",
+      "name": "Rainy Screen"
+    },
+    {
+      "file": "1057956352.xml",
+      "id": "com.alightcreative.effects.breaktransition",
+      "name": "Break Transition (Beta)"
+    },
+    {
+      "file": "1098263766.xml",
+      "id": "com.alightcreative.effects.cleancrt",
+      "name": "Clean CRT"
+    },
+    {
+      "file": "1109314403.xml",
+      "id": "com.alightcreative.effects.tonecurve",
+      "name": "Tone Curve"
+    },
+    {
+      "file": "1114082730.xml",
+      "id": "com.alightcreative.effects.metaltexture",
+      "name": "Metal Texture+"
+    },
+    {
+      "file": "1160413426.xml",
+      "id": "cｏm.αlightcreative.effect.xxxxxxxxxxxxx",
+      "name": "About Me"
+    },
+    {
+      "file": "1162317046.xml",
+      "id": "com.alightcreative.effects.vhsnoise",
+      "name": "VHS Noise"
+    },
+    {
+      "file": "1179902139.xml",
+      "id": "com.alightcreative.contourlight",
+      "name": "Contour Light"
+    },
+    {
+      "file": "1186595158.xml",
+      "id": "com.alightcreative.effects.crossglitch",
+      "name": "Glitch Noise"
+    },
+    {
+      "file": "1189738359.xml",
+      "id": "com.alightcreative.effects.polytrace2",
+      "name": "Polytrace"
+    },
+    {
+      "file": "1190254226.xml",
+      "id": "com.alightcreative.effects.starstreak",
+      "name": "StarsGlint V2"
+    },
+    {
+      "file": "1217674486.xml",
+      "id": "com.alightcreative.effects.bokehparralax",
+      "name": "Bokeh Parallax"
+    },
+    {
+      "file": "122351829.xml",
+      "id": "com.alightcreative.effects.meltings",
+      "name": "Meltings Screen"
+    },
+    {
+      "file": "1242041265.xml",
+      "id": "com.alightcreative.effects.glitchpixel",
+      "name": "Glitch Pixel"
+    },
+    {
+      "file": "1245432078.xml",
+      "id": "com.alightcreative.effects.direcskew",
+      "name": "Directional Skew"
+    },
+    {
+      "file": "1246067151.xml",
+      "id": "com.alightcreative.effects.fuji",
+      "name": "Retro Grid and Sun"
+    },
+    {
+      "file": "1255303906.xml",
+      "id": "com.alightcreative.effects.rgbstrip",
+      "name": "RGB Strips"
+    },
+    {
+      "file": "1255500270.xml",
+      "id": "com.alightcreative.effects.dotsloader",
+      "name": "Dots Spinner"
+    },
+    {
+      "file": "1283713321.xml",
+      "id": "com.alightcreative.effects.lighting",
+      "name": "Lightning Sky"
+    },
+    {
+      "file": "1307358372.xml",
+      "id": "com.alightcreative.effects.featherfalls",
+      "name": "Feather Falls"
+    },
+    {
+      "file": "1310638807.xml",
+      "id": "com.alightcreative.effects.lightsaber",
+      "name": "Random LightSaber"
+    },
+    {
+      "file": "1322684391.xml",
+      "id": "com.alightcreative.effects.vortextdust",
+      "name": "Vortex Dust"
+    },
+    {
+      "file": "132576608.xml",
+      "id": "com.alightcreative.effects.dith",
+      "name": "Dithering"
+    },
+    {
+      "file": "133059741.xml",
+      "id": "com.alightcreative.effects.speedlines",
+      "name": "SpeedLines+"
+    },
+    {
+      "file": "1358252020.xml",
+      "id": "com.alightcreative.effects.heatflames",
+      "name": "Heat Flames"
+    },
+    {
+      "file": "1374758810.xml",
+      "id": "com.alightcreative.effects.comet",
+      "name": "Comet"
+    },
+    {
+      "file": "138702356.xml",
+      "id": "com.alightcreative.effects.fireworks",
+      "name": "Firework Particle"
+    },
+    {
+      "file": "1392521219.xml",
+      "id": "com.alightcreative.effects.matrixcode",
+      "name": "Matrix Code"
+    },
+    {
+      "file": "144366047.xml",
+      "id": "com.alightcreative.effects.snowreal",
+      "name": "Snow Falling"
+    },
+    {
+      "file": "1445861667.xml",
+      "id": "com.alightcreative.effects.eclipse",
+      "name": "Eclipse"
+    },
+    {
+      "file": "1448342758.xml",
+      "id": "com.alightcreative.effects.creatormap",
+      "name": "Random HashMaps"
+    },
+    {
+      "file": "1455978067.xml",
+      "id": "com.alightcreative.effects.lightspeed",
+      "name": "Light Speed"
+    },
+    {
+      "file": "1461214185.xml",
+      "id": "com.alightcreative.effects.retrogridv2",
+      "name": "Retro Grid V2"
+    },
+    {
+      "file": "1465498412.xml",
+      "id": "com.alightcreative.effects.floatingrings",
+      "name": "Floating Rings"
+    },
+    {
+      "file": "1466851688.xml",
+      "id": "com.alightcreative.effects.colorgrid",
+      "name": "Color Grid"
+    },
+    {
+      "file": "1468689648.xml",
+      "id": "com.alightcreative.effects.puddle",
+      "name": "Puddle"
+    },
+    {
+      "file": "1471605743.xml",
+      "id": "com.alightcreative.effects.cornerpin4",
+      "name": "Corner Pin (Fixed)"
+    },
+    {
+      "file": "1473428701.xml",
+      "id": "com.alightcreative.effects.2dtunnel",
+      "name": "2D Tunnel"
+    },
+    {
+      "file": "151079454.xml",
+      "id": "com.alightcreative.effects.constellation",
+      "name": "Constellation"
+    },
+    {
+      "file": "1563009773.xml",
+      "id": "com.lunarkatsu.effects.polarwarp",
+      "name": "Polar Warp"
+    },
+    {
+      "file": "1573091713.xml",
+      "id": "com.alightcreative.effects.glitchvhs",
+      "name": "Glitch VHS"
+    },
+    {
+      "file": "1578848381.xml",
+      "id": "com.alightcreative.effects.sunset",
+      "name": "Sunset"
+    },
+    {
+      "file": "1581849052.xml",
+      "id": "com.alightcreative.effects.hightechtunnel",
+      "name": "HighTech Tunnel"
+    },
+    {
+      "file": "1636728141.xml",
+      "id": "com.alightcreative.effects.starconstan",
+      "name": "Stars Gamma"
+    },
+    {
+      "file": "1671217472.xml",
+      "id": "com.alightcreative.effects.partx",
+      "name": "Light Particle"
+    },
+    {
+      "file": "1672900542.xml",
+      "id": "com.alightcreative.effects.colortunnel2",
+      "name": "Colorful LinesTunnel"
+    },
+    {
+      "file": "1680508095.xml",
+      "id": "com.alightcreative.effects.dna",
+      "name": "DNA"
+    },
+    {
+      "file": "169416148.xml",
+      "id": "com.alightcreative.effects.smallringswater",
+      "name": "Rings Water"
+    },
+    {
+      "file": "1701673371.xml",
+      "id": "com.alightcreative.effects.smokenoise",
+      "name": "Smoke Noise"
+    },
+    {
+      "file": "1711242540.xml",
+      "id": "com.alightcreative.effects.truchet",
+      "name": "Truchet Checkerboard"
+    },
+    {
+      "file": "1731570081.xml",
+      "id": "com.alightcreative.effects.fingerprint",
+      "name": "Fingerprint"
+    },
+    {
+      "file": "1735168914.xml",
+      "id": "com.alightcreative.effects.sparkfire",
+      "name": "Sparks"
+    },
+    {
+      "file": "1744719254.xml",
+      "id": "com.alightcreative.effects.fibersglow",
+      "name": "Glow Fibers"
+    },
+    {
+      "file": "1751017599.xml",
+      "id": "com.alightcreative.effects.denoise",
+      "name": "Noise Reduction"
+    },
+    {
+      "file": "1752616579.xml",
+      "id": "com.alightcreative.effects.cheapstars",
+      "name": "Cheap Stars"
+    },
+    {
+      "file": "1773404639.xml",
+      "id": "com.alightcreative.effects.jellycubes",
+      "name": "Jelly Cubes"
+    },
+    {
+      "file": "1779394458.xml",
+      "id": "com.alightcreative.effects.fractaltexture",
+      "name": "Fractal Texture"
+    },
+    {
+      "file": "1780523343.xml",
+      "id": "com.alightcreative.effects.moblurplus",
+      "name": "Motion Blur+"
+    },
+    {
+      "file": "1783236018.xml",
+      "id": "com.alightcreative.effects.newlensflare",
+      "name": "New Lensflare"
+    },
+    {
+      "file": "1787797370.xml",
+      "id": "com.alightcreative.effects.newlegstretch",
+      "name": "Leg Stretch for PNG (BETA)"
+    },
+    {
+      "file": "1792606124.xml",
+      "id": "com.alightcreative.effects.shadedlight",
+      "name": "Shaded Light"
+    },
+    {
+      "file": "179458601.xml",
+      "id": "com.alightcreative.effects.glintx",
+      "name": "XXX Glint"
+    },
+    {
+      "file": "1820425976.xml",
+      "id": "com.alightcreative.effects.pointunnel",
+      "name": "Point Tunnel"
+    },
+    {
+      "file": "1829051464.xml",
+      "id": "com.alightcreative.effects.watereflection",
+      "name": "Water Reflection"
+    },
+    {
+      "file": "1862454338.xml",
+      "id": "com.alightcreative.effects.opticcompesation",
+      "name": "Optic Compensation"
+    },
+    {
+      "file": "187512863.xml",
+      "id": "com.alightcreative.effects.gradientflow",
+      "name": "Gradient Flow"
+    },
+    {
+      "file": "1881175246.xml",
+      "id": "com.alightcreative.effects.filters",
+      "name": "Preset Filters"
+    },
+    {
+      "file": "1884434769.xml",
+      "id": "com.alightcreative.effects.cosmicycles",
+      "name": "Cosmic Starfield"
+    },
+    {
+      "file": "1891112906.xml",
+      "id": "com.alightcreative.effects.plexusparticle",
+      "name": "Plexus Particle+"
+    },
+    {
+      "file": "1891523896.xml",
+      "id": "com.alightcreative.effects.lightsweep",
+      "name": "Light Sweep"
+    },
+    {
+      "file": "189420151.xml",
+      "id": "com.alightcreative.effects.frostednew",
+      "name": "Frosted Blur"
+    },
+    {
+      "file": "1909180066.xml",
+      "id": "com.alightcreative.effects.voxeltunnel",
+      "name": "Voxel Tunnel"
+    },
+    {
+      "file": "1917821553.xml",
+      "id": "com.alightcreative.effects.noisefade",
+      "name": "Fade Noise"
+    },
+    {
+      "file": "1923734696.xml",
+      "id": "com.alightcreative.effects.warptexture",
+      "name": "Warp Texture+"
+    },
+    {
+      "file": "1939625897.xml",
+      "id": "com.alightcreative.effects.chrolens",
+      "name": "Chromatic Lensflare"
+    },
+    {
+      "file": "1947104196.xml",
+      "id": "com.alightcreative.effects.cloud2d",
+      "name": "Clouds 2D"
+    },
+    {
+      "file": "1952818733.xml",
+      "id": "com.alightcreative.effects.fractalzoom",
+      "name": "Fractal ZoomTrails"
+    },
+    {
+      "file": "1954413701.xml",
+      "id": "com.alightcreative.effects.hsl",
+      "name": "Mixer HSL"
+    },
+    {
+      "file": "203093939.xml",
+      "id": "com.alightcreative.effects.deadgpuglitch",
+      "name": "Glitch DeadGPU (BETA)"
+    },
+    {
+      "file": "2034877662.xml",
+      "id": "com.alightcreative.effects.pixelsorter",
+      "name": "Pixel Sorter"
+    },
+    {
+      "file": "203677418.xml",
+      "id": "com.alightcreative.effects.wingsline",
+      "name": "Wings Line"
+    },
+    {
+      "file": "2064554526.xml",
+      "id": "com.alightcreative.effects.isolinev2",
+      "name": "Fractal Isoline"
+    },
+    {
+      "file": "2066131756.xml",
+      "id": "com.alightcreative.effects.drowned",
+      "name": "Drowned"
+    },
+    {
+      "file": "2080299526.xml",
+      "id": "com.alightcreative.effects.newfireworks",
+      "name": "New FireWorks"
+    },
+    {
+      "file": "2082811097.xml",
+      "id": "com.alightcreative.effects.brushsketch",
+      "name": "Brush Sketch"
+    },
+    {
+      "file": "2091799403.xml",
+      "id": "com.alightcreative.effects.rgbmoblur",
+      "name": "RGB MotionBlur (Beta)"
+    },
+    {
+      "file": "2091936673.xml",
+      "id": "com.alightcreative.effects.colorblubs",
+      "name": "Color Blubs"
+    },
+    {
+      "file": "2102425171.xml",
+      "id": "com.alightcreative.effects.snow",
+      "name": "Snowflake"
+    },
+    {
+      "file": "2115721624.xml",
+      "id": "com.alightcreative.effects.voronoi3",
+      "name": "Shape Voronoi"
+    },
+    {
+      "file": "2117029892.xml",
+      "id": "com.alightcreative.plasmawave",
+      "name": "Plasma Wave"
+    },
+    {
+      "file": "2122735188.xml",
+      "id": "com.alightcreative.effects.sharpenv3",
+      "name": "Sharpen V3"
+    },
+    {
+      "file": "2124889096.xml",
+      "id": "com.alightcreative.effects.colorbalanceold",
+      "name": "Old ColorBalance"
+    },
+    {
+      "file": "2139093225.xml",
+      "id": "com.alightcreative.effects.squeretunnel",
+      "name": "Squere Tunnel"
+    },
+    {
+      "file": "21604175.xml",
+      "id": "com.alightcreative.effects.particle3d",
+      "name": "3D Particles (Beta)"
+    },
+    {
+      "file": "219129512.xml",
+      "id": "com.alightcreative.effects.money",
+      "name": "Money Filter"
+    },
+    {
+      "file": "220539044.xml",
+      "id": "com.alightcreative.effects.cartoonoutline",
+      "name": "Cartoon Outlines"
+    },
+    {
+      "file": "230256417.xml",
+      "id": "com.alightcreative.effects.particlev2",
+      "name": "StarGlow Particle V2"
+    },
+    {
+      "file": "233700145.xml",
+      "id": "com.alightcreative.effects.meteor",
+      "name": "Meteor"
+    },
+    {
+      "file": "245131013.xml",
+      "id": "com.alightcreative.effects.raindropsfloor",
+      "name": "Raindrops Floor"
+    },
+    {
+      "file": "246007182.xml",
+      "id": "com.alightcreative.effects.city_sdf",
+      "name": "3D City"
+    },
+    {
+      "file": "24615295.xml",
+      "id": "com.alightcreative.effects.vshake",
+      "name": "Manual Shake"
+    },
+    {
+      "file": "248321264.xml",
+      "id": "com.alightcreative.effects.fractalblock",
+      "name": "Fractal BlockNoise"
+    },
+    {
+      "file": "24947963.xml",
+      "id": "com.alightcreative.effects.dotsfield",
+      "name": "Dots Field"
+    },
+    {
+      "file": "269477877.xml",
+      "id": "com.alightcreative.effects.vhsignal",
+      "name": "VHS Signal"
+    },
+    {
+      "file": "270309189.xml",
+      "id": "com.alightcreative.effects.badsignal",
+      "name": "Bad Signal"
+    },
+    {
+      "file": "286366698.xml",
+      "id": "com.alightcreative.effects.vhsdistort",
+      "name": "VHS Distortion"
+    },
+    {
+      "file": "294287020.xml",
+      "id": "com.alightcreative.effects.simplegrid",
+      "name": "Simple Grid"
+    },
+    {
+      "file": "3027017.xml",
+      "id": "com.alightcreative.effects.lightningflash",
+      "name": "Lightning Flash"
+    },
+    {
+      "file": "324021300.xml",
+      "id": "com.alightcreative.effects.hardglitch",
+      "name": "Glitch Offset"
+    },
+    {
+      "file": "3328859.xml",
+      "id": "com.alightcreative.effects.galaxy",
+      "name": "Galaxy"
+    },
+    {
+      "file": "33782614.xml",
+      "id": "com.alightcreative.effects.multigradmap",
+      "name": "Quad Tones"
+    },
+    {
+      "file": "35600147.xml",
+      "id": "com.alightcreative.effects.rainydew",
+      "name": "Rainy Dew+"
+    },
+    {
+      "file": "371657710.xml",
+      "id": "com.alightcreative.effects.glinty",
+      "name": "Star Glint"
+    },
+    {
+      "file": "372670900.xml",
+      "id": "com.alightcreative.effects.bonfire",
+      "name": "Bonfire"
+    },
+    {
+      "file": "394252261.xml",
+      "id": "com.alightcreative.effects.linescape",
+      "name": "Linescape"
+    },
+    {
+      "file": "405764533.xml",
+      "id": "com.alightcreative.effects.vcr",
+      "name": "VCR Distortion+"
+    },
+    {
+      "file": "410332421.xml",
+      "id": "com.alightcreative.effects.circulartail",
+      "name": "Circular Tail"
+    },
+    {
+      "file": "416986687.xml",
+      "id": "com.alightcreative.effects.aurora",
+      "name": "Aurora"
+    },
+    {
+      "file": "433056490.xml",
+      "id": "com.alightcreative.effects.isoline",
+      "name": "Isoline"
+    },
+    {
+      "file": "444283062.xml",
+      "id": "com.alightcreative.effects.fencingwire",
+      "name": "Fencing Wire+"
+    },
+    {
+      "file": "464921185.xml",
+      "id": "com.alightcreative.effects.triprism2",
+      "name": "Triangular Prism"
+    },
+    {
+      "file": "474248251.xml",
+      "id": "com.alightcreative.effects.gradientdisplace",
+      "name": "Gradient Displace"
+    },
+    {
+      "file": "478905436.xml",
+      "id": "com.alightcreative.effects.newoffsetglitch",
+      "name": "Glitch Blocks"
+    },
+    {
+      "file": "486884218.xml",
+      "id": "com.alightcreative.effects.newcolorgrid",
+      "name": "ColorGrid V2"
+    },
+    {
+      "file": "498986385.xml",
+      "id": "com.alightcreative.effects.glitchrand",
+      "name": "Glitch RandomPattern"
+    },
+    {
+      "file": "5011234.xml",
+      "id": "com.alightcreative.effects.hexagonlens",
+      "name": "Hexagon Lens"
+    },
+    {
+      "file": "501983022.xml",
+      "id": "com.alightcreative.effects.rgbglitch",
+      "name": "Glitch RGB"
+    },
+    {
+      "file": "507763017.xml",
+      "id": "com.alightcreative.effects.tvanalogue",
+      "name": "TV Analogue"
+    },
+    {
+      "file": "513852312.xml",
+      "id": "com.alightcreative.effects.plexustriangle",
+      "name": "Plexus Triangle"
+    },
+    {
+      "file": "525158462.xml",
+      "id": "com.alightcreative.effects.2Dtunnelv2",
+      "name": "2DTunnel V2"
+    },
+    {
+      "file": "547200846.xml",
+      "id": "com.alightcreative.effects.flame",
+      "name": "Flame"
+    },
+    {
+      "file": "570457745.xml",
+      "id": "com.mod.softbloom",
+      "name": "Soft Bloom"
+    },
+    {
+      "file": "574931638.xml",
+      "id": "com.alightcreative.effects.glitchscatter",
+      "name": "Glitch Scatter"
+    },
+    {
+      "file": "582152796.xml",
+      "id": "com.alightcreative.effects.audiovis",
+      "name": "Audio Visualisation+"
+    },
+    {
+      "file": "606471327.xml",
+      "id": "com.alightcreative.effects.electricrough",
+      "name": "Electric Rough"
+    },
+    {
+      "file": "623636808.xml",
+      "id": "com.mod.lutstealer",
+      "name": "LUT Stealer"
+    },
+    {
+      "file": "636378731.xml",
+      "id": "com.alightcreative.effects.threetones",
+      "name": "Three Tones"
+    },
+    {
+      "file": "679954164.xml",
+      "id": "com.alightcreative.effects.synthwave",
+      "name": "Synthwave"
+    },
+    {
+      "file": "703514787.xml",
+      "id": "com.alightcreative.effects.2dclouds",
+      "name": "Sky Clouds"
+    },
+    {
+      "file": "713771462.xml",
+      "id": "com.alightcreative.effects.textureflux",
+      "name": "Flux Texture"
+    },
+    {
+      "file": "720063821.xml",
+      "id": "com.alightcreative.effects.cornerpin3",
+      "name": "Corner Pin (Beta)"
+    },
+    {
+      "file": "72511872.xml",
+      "id": "com.alightcreative.effects.paperburn",
+      "name": "Paper Burn"
+    },
+    {
+      "file": "755018039.xml",
+      "id": "com.alightcreative.effects.mtint",
+      "name": "Magic Colortint"
+    },
+    {
+      "file": "758499890.xml",
+      "id": "com.alightcreative.effects.newcolorize",
+      "name": "New Colorize"
+    },
+    {
+      "file": "760823028.xml",
+      "id": "com.alightcreative.effects.rockfield",
+      "name": "Rocks Terrain"
+    },
+    {
+      "file": "775308173.xml",
+      "id": "com.alightcreative.effects.glitchlines",
+      "name": "Glitch MaskLines"
+    },
+    {
+      "file": "775435293.xml",
+      "id": "com.alightcreative.effects.starburst",
+      "name": "Starburst"
+    },
+    {
+      "file": "781302689.xml",
+      "id": "com.alightcreative.effects.smoothspeedlines",
+      "name": "Spikes Lines"
+    },
+    {
+      "file": "793305721.xml",
+      "id": "com.alightcreative.effects.instantgrass",
+      "name": "2D Grass"
+    },
+    {
+      "file": "794794879.xml",
+      "id": "com.alightcreative.effects.pixelexplosion",
+      "name": "Pixel Explosion"
+    },
+    {
+      "file": "800016794.xml",
+      "id": "com.alightcreative.effects.vfx1",
+      "name": "Random Visual #1"
+    },
+    {
+      "file": "809664969.xml",
+      "id": "com.alightcreative.effects.hdr",
+      "name": "HDR Quality CC"
+    },
+    {
+      "file": "831828786.xml",
+      "id": "com.alightcreative.effects.smoothchromatic",
+      "name": "Smooth Chromatic"
+    },
+    {
+      "file": "837889982.xml",
+      "id": "com.alightcreative.effects.raindrops",
+      "name": "Raindrops"
+    },
+    {
+      "file": "84304564.xml",
+      "id": "com.alightcreative.effects.newdithering",
+      "name": "New Dithering"
+    },
+    {
+      "file": "84967904.xml",
+      "id": "com.alightcreative.effects.newcolortemp",
+      "name": "New ColorTemp"
+    },
+    {
+      "file": "887270046.xml",
+      "id": "com.alightcreative.effects.warpdist",
+      "name": "Warp Distortion"
+    },
+    {
+      "file": "892556871.xml",
+      "id": "com.alightcreative.effects.glowtunnels",
+      "name": "Glow Tunnels"
+    },
+    {
+      "file": "907955759.xml",
+      "id": "com.alightcreative.effects.vrcombinednew",
+      "name": "VR Combined"
+    },
+    {
+      "file": "918331025.xml",
+      "id": "com.alightcreative.effects.3dperception",
+      "name": "3D Perception (BETA)"
+    },
+    {
+      "file": "922765102.xml",
+      "id": "com.alightcreative.effects.frosted",
+      "name": "Frosted"
+    },
+    {
+      "file": "929064671.xml",
+      "id": "com.alightcreative.effects.wireframe",
+      "name": "Wireframe Stellations"
+    },
+    {
+      "file": "941223803.xml",
+      "id": "com.alightcreative.effects.refractionwarp",
+      "name": "Refraction Warp"
+    },
+    {
+      "file": "971318365.xml",
+      "id": "com.alightcreative.effects.trails",
+      "name": "Star Trails"
+    },
+    {
+      "file": "973371742.xml",
+      "id": "com.alightcreative.effects.newtrails",
+      "name": "New Startrails"
+    },
+    {
+      "file": "975967016.xml",
+      "id": "com.alightcreative.effects.waterwave",
+      "name": "Surface Waterwave"
+    },
+    {
+      "file": "976678746.xml",
+      "id": "com.alightcreative.effects.autopaint2",
+      "name": "AutoPaint"
+    },
+    {
+      "file": "982393260.xml",
+      "id": "com.alightcreative.effects.gradshadow",
+      "name": "Gradient Shadow+"
+    },
+    {
+      "file": "982986999.xml",
+      "id": "com.alightcreative.effects.rainbowflares",
+      "name": "Rainbow Flares"
+    }
+  ],
+  "param_types": {
+    "slider": 608,
+    "section": 447,
+    "spinner": 3886,
+    "texture": 1171,
+    "color": 702,
+    "point": 619,
+    "switch": 654,
+    "selector": 548,
+    "orient": 50,
+    "xyz": 94,
+    "tip": 85,
+    "hue-disc": 26,
+    "float": 14
+  }
+}

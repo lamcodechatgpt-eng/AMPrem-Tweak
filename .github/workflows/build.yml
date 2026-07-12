@@ -1,0 +1,53 @@
+name: Build AMPrem Tweak
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+
+jobs:
+  build-dylib:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build dylib with clang
+        run: |
+          SYSROOT=$(xcrun --sdk iphoneos --show-sdk-path)
+          cd TweakSource
+          clang -arch arm64 -isysroot $SYSROOT -dynamiclib -fobjc-arc \
+            -framework Foundation -framework StoreKit -framework UIKit \
+            Tweak.m -o AMPrem.dylib 2>&1 | tee build_log.txt
+
+      - name: Upload dylib artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: AMPrem-Dylib
+          path: TweakSource/AMPrem.dylib
+
+  build-deb:
+    runs-on: macos-latest
+    needs: build-dylib
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download dylib
+        uses: actions/download-artifact@v4
+        with:
+          name: AMPrem-Dylib
+          path: TweakSource
+
+      - name: Prepare DEB package
+        run: |
+          mkdir -p package/Library/MobileSubstrate/DynamicLibraries
+          cp TweakSource/AMPrem.dylib package/Library/MobileSubstrate/DynamicLibraries/
+          cp TweakSource/AMPrem.plist package/Library/MobileSubstrate/DynamicLibraries/
+          cp TweakSource/control package/DEBIAN/
+          chmod 0755 package/DEBIAN
+          dpkg-deb -Zgzip -b package AMPrem.deb
+
+      - name: Upload DEB artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: AMPrem-DEB
+          path: AMPrem.deb

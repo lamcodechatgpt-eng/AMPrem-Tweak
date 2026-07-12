@@ -1,0 +1,69 @@
+{
+  "identifier" : "7CFF267E-EE64-4716-8B15-6E89BE56FB21",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "",
+    "_developerTeamID" : "",
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "E30EA83B-84BB-44EA-922B-C648665C4659",
+      "localizations" : [
+        {
+          "description" : "Premium development subscription group",
+          "displayName" : "Premium",
+          "locale" : "en_US"
+        }
+      ],
+      "name" : "Premium",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "59.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "8547B4FD-F55D-47E8-834C-850EAF62DF41",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlocks Premium features in development builds.",
+              "displayName" : "Premium Annual",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Mở các tính năng Premium trong bản phát triển.",
+              "displayName" : "Premium hằng năm",
+              "locale" : "vi_VN"
+            }
+          ],
+          "productID" : "alightcreative.motion.1y_t60_1w",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Premium Annual Development",
+          "subscriptionGroupID" : "E30EA83B-84BB-44EA-922B-C648665C4659",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

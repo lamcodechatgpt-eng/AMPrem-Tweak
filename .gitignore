@@ -1,0 +1,25 @@
+# Binary files (copyrighted)
+extracted/
+AlightMotion_patched*
+*.ipa
+*.app/
+*.dylib
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temp scripts
+scripts/_*.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large generated files
+sections.txt
+premium_selectors.txt
+build_logs/
+deb_temp/
+deb_temp_2/
+AMPrem_Tweak_Final2.zip

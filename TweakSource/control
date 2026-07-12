@@ -1,0 +1,9 @@
+Package: com.alightcreative.amprem
+Name: AMPrem
+Depends: firmware (>= 14.0)
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Alight Motion Premium Bypass
+Maintainer: Maik
+Author: Maik
+Section: Tweaks

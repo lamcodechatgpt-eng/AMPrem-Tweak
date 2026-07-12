@@ -1,0 +1,75 @@
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+%hook IAPManager
+- (BOOL)isSubscribed { return YES; }
+- (BOOL)isPremium { return YES; }
+%end
+
+%hook BSPMonetization
+- (BOOL)isSubscribed { return YES; }
+- (BOOL)hasActiveSubscription { return YES; }
+%end
+
+%hook AMProSubscription
+- (BOOL)isPremium { return YES; }
+- (BOOL)isSubscribed { return YES; }
+%end
+
+%hook ActiveSubscription
+- (BOOL)isSubscribed { return YES; }
+%end
+
+%hook NoWatermarkImpl
+- (BOOL)isPremium { return YES; }
+%end
+
+// General property hooks if they exist in standard controllers
+%hook UIViewController
+- (BOOL)isPremiumFeature { return YES; }
+- (BOOL)unlockedPremiumUser { return YES; }
+- (BOOL)isPremiumUser { return YES; }
+%end
+
+%ctor {
+    [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationDidBecomeActiveNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
+        static dispatch_once_t onceToken;
+        dispatch_once(&onceToken, ^{
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                UIWindow *window = nil;
+                if (@available(iOS 13.0, *)) {
+                    for (UIWindowScene *scene in [UIApplication sharedApplication].connectedScenes) {
+                        if (scene.activationState == UISceneActivationStateForegroundActive || scene.activationState == UISceneActivationStateForegroundInactive) {
+                            window = scene.windows.firstObject;
+                            break;
+                        }
+                    }
+                }
+                if (!window) {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+                    window = [UIApplication sharedApplication].keyWindow;
+#pragma clang diagnostic pop
+                }
+                
+                if (window) {
+                    UILabel *toast = [[UILabel alloc] initWithFrame:CGRectMake(20, 50, window.frame.size.width - 40, 40)];
+                    toast.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.8];
+                    toast.textColor = [UIColor whiteColor];
+                    toast.textAlignment = NSTextAlignmentCenter;
+                    toast.text = @"Alight Motion Offline Crack Activated!";
+                    toast.layer.cornerRadius = 20;
+                    toast.layer.masksToBounds = YES;
+                    toast.font = [UIFont boldSystemFontOfSize:14];
+                    [window addSubview:toast];
+                    
+                    [UIView animateWithDuration:0.5 delay:2.5 options:UIViewAnimationOptionCurveEaseOut animations:^{
+                        toast.alpha = 0;
+                    } completion:^(BOOL finished) {
+                        [toast removeFromSuperview];
+                    }];
+                }
+            });
+        });
+    }];
+}

@@ -1,0 +1,23 @@
+name: Build Dylib
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build pure dylib using clang
+        run: |
+          SYSROOT=$(xcrun --sdk iphoneos --show-sdk-path)
+          clang -arch arm64 -isysroot $SYSROOT -dynamiclib -fobjc-arc -framework Foundation -framework StoreKit -framework UIKit Tweak.m -o AMPrem.dylib > build_log.txt 2>&1
+
+      - name: Upload Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: AMPrem-Dylib
+          path: |
+            AMPrem.dylib
+            build_log.txt
