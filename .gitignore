@@ -16,6 +16,13 @@ scripts/_*.py
 .DS_Store
 Thumbs.db
 
+# Generated IPAs
+*.ipa
+UltraMotion_Patched*
+
+# Temp extraction
+extracted_new/
+
 # Large generated files
 sections.txt
 premium_selectors.txt

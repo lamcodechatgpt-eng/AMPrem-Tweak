@@ -6,6 +6,25 @@ on:
   pull_request:
 
 jobs:
+  validate-scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate patcher scripts
+        run: |
+          python -c "import scripts.patch_full_premium; print('patcher OK')"
+          python -c "import scripts.rename_ultra_motion; print('rename OK')"
+          python -c "import scripts.binary_patch_option_a; print('binary_patch OK')"
+      - name: Validate MITM script
+        run: |
+          node -c alightmotion-mitm.js && echo "MITM JS OK"
+
   build-dylib:
     runs-on: macos-latest
     steps:
