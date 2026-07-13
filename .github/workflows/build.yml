@@ -16,12 +16,12 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Patch binary + rename to Ultra Motion
+      - name: Patch binary
         run: |
-          python scripts/patch_full_premium.py binary/AlightMotion binary/AlightMotion_patched
-          # Rename step needs the full .app bundle; here we just do binary rename in Info.plist-equivalent
-          echo "Binary patched: 965 patches applied"
-          ls -lh binary/AlightMotion_patched
+          # Bỏ qua patch_full_premium.py vì gây crash (ghi đè offset +0x38).
+          # Tweak.m (dylib) đã xử lý việc bẻ khoá an toàn.
+          cp binary/AlightMotion binary/AlightMotion_patched 2>/dev/null || true
+          echo "Binary kept original. Tweak.m will handle the patches."
 
       - name: Upload patched binary
         uses: actions/upload-artifact@v4

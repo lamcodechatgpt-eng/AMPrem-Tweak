@@ -149,76 +149,11 @@ static id swizzled_standardUserDefaults(id self, SEL _cmd) {
     return defaults;
 }
 
-#pragma mark - 6. IAPManager direct memory patching
-/// Find the IAPManager singleton by scanning registered classes
-/// and patch its isPremiumUser field at instance offset +0x3A
 static void patchIAPManagerInstance(void) {
-    Class iapClass = objc_getClass("AlightMotion.IAPManager");
-    if (!iapClass) {
-        // Try mangled name
-        iapClass = objc_getClass("_TtC12AlightMotion10IAPManager");
-    }
-    if (!iapClass) {
-        // Scan all classes for IAPManager
-        int numClasses = objc_getClassList(NULL, 0);
-        if (numClasses <= 0) return;
-        Class *classes = (Class *)malloc(sizeof(Class) * numClasses);
-        objc_getClassList(classes, numClasses);
-        for (int i = 0; i < numClasses; i++) {
-            const char *name = class_getName(classes[i]);
-            if (strstr(name, "IAPManager") != NULL) {
-                iapClass = classes[i];
-                break;
-            }
-        }
-        free(classes);
-    }
-    if (!iapClass) {
-        NSLog(@"[AMPrem] IAPManager class not found");
-        return;
-    }
-    NSLog(@"[AMPrem] Found IAPManager: %s", class_getName(iapClass));
-
-    // Look for sharedInstance or sharedManager class methods
-    SEL sharedSels[] = {
-        @selector(sharedManager),
-        @selector(sharedInstance),
-        @selector(defaultManager),
-        @selector(shared),
-    };
-    id instance = nil;
-    for (int i = 0; i < 4; i++) {
-        if (class_respondsToSelector(iapClass, sharedSels[i])) {
-            instance = ((id (*)(id, SEL))objc_msgSend)((id)iapClass, sharedSels[i]);
-            if (instance) break;
-        }
-    }
-
-    // If no singleton, try getting from the app delegate or known container
-    if (!instance) {
-        // Try to find any existing instance via introspection
-        // Fallback: swizzle init to track instances
-        NSLog(@"[AMPrem] IAPManager singleton not found via shared method, trying swizzle");
-        return;
-    }
-
-    NSLog(@"[AMPrem] IAPManager instance: %p", (void *)instance);
-
-    // Directly write YES (1) to the isPremiumUser field at offset +0x3A
-    @try {
-        volatile uint8_t *field = (__bridge uint8_t *)(instance) + 0x3A;
-        if (*field == 0) {
-            *field = 1;
-            NSLog(@"[AMPrem] IAPManager.isPremiumUser patched (offset +0x3A)");
-        }
-        // Also patch isFreeUser at +0x39
-        volatile uint8_t *freeField = (__bridge uint8_t *)(instance) + 0x39;
-        if (*freeField == 1) {
-            *freeField = 0;
-        }
-    } @catch (NSException *e) {
-        NSLog(@"[AMPrem] IAPManager memory patch error: %@", e);
-    }
+    // REMOVED: Direct memory patching via hardcoded offsets (+0x39 / +0x3A)
+    // was causing EXC_BAD_ACCESS crashes due to struct layout changes in newer versions.
+    // The boolean hooks in patchBSPStateManager and globalPremiumHook are sufficient.
+    NSLog(@"[AMPrem] patchIAPManagerInstance bypassed (unsafe memory offset patch removed).");
 }
 
 #pragma mark - 7. BSP Monetization StateManager hooks
@@ -276,11 +211,6 @@ static void patchReceiptAndEntitlements(void) {
 
 #pragma mark - 9. Global scan: patch all premium BOOL selectors
 static void globalPremiumHook(void) {
-    int numClasses = objc_getClassList(NULL, 0);
-    if (numClasses <= 0) return;
-    Class *classes = (Class *)malloc(sizeof(Class) * numClasses);
-    objc_getClassList(classes, numClasses);
-
     NSArray *targetTrue = @[
         @"isPremiumUser", @"hasPremium", @"isPremium", @"isSubscribed",
         @"hasActiveSubscription", @"isSubscriptionActive", @"isSubscriber",
@@ -291,17 +221,33 @@ static void globalPremiumHook(void) {
         @"purchaseExpired", @"oracleVerificationPending",
     ];
 
-    for (int i = 0; i < numClasses; i++) {
-        Class cls = classes[i];
-        if (!cls) continue;
-        for (NSString *selName in targetTrue) {
-            patchSelectorOnClass(cls, selName, (IMP)returnYes);
-        }
-        for (NSString *selName in targetFalse) {
-            patchSelectorOnClass(cls, selName, (IMP)returnNo);
+    unsigned int imageCount = 0;
+    const char **imageNames = objc_copyImageNames(&imageCount);
+    if (!imageNames) return;
+
+    for (int i = 0; i < imageCount; i++) {
+        const char *imageName = imageNames[i];
+        // Only scan app and its frameworks to prevent initializing unrelated classes or crashing
+        if (strstr(imageName, "Alight") || strstr(imageName, "BSP") || strstr(imageName, "Monetization")) {
+            unsigned int classCount = 0;
+            const char **classNames = objc_copyClassNamesForImage(imageName, &classCount);
+            if (classNames) {
+                for (int j = 0; j < classCount; j++) {
+                    Class cls = objc_getClass(classNames[j]);
+                    if (!cls) continue;
+
+                    for (NSString *selName in targetTrue) {
+                        patchSelectorOnClass(cls, selName, (IMP)returnYes);
+                    }
+                    for (NSString *selName in targetFalse) {
+                        patchSelectorOnClass(cls, selName, (IMP)returnNo);
+                    }
+                }
+                free(classNames);
+            }
         }
     }
-    free(classes);
+    free(imageNames);
 }
 
 #pragma mark - Constructor
@@ -315,14 +261,39 @@ static void init() {
 
 @implementation AMPremLoader
 + (void)load {
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(appDidLaunch:)
-                                                 name:UIApplicationDidFinishLaunchingNotification
-                                               object:nil];
+    NSLog(@"[AMPrem] +load called, starting background poll for LiveContainer compat...");
+    
+    // In LiveContainer, the guest app classes might be loaded dynamically after the tweak.
+    // UIApplicationDidFinishLaunchingNotification might be missed or fired by the host app.
+    // We poll for the guest app's classes in the background.
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        Class targetClass = Nil;
+        int retries = 0;
+        
+        while (!targetClass && retries < 100) { // Poll for up to 50 seconds
+            targetClass = objc_getClass("AlightMotion.IAPManager");
+            if (!targetClass) targetClass = objc_getClass("_TtC12AlightMotion10IAPManager");
+            if (!targetClass) targetClass = objc_getClass("EntitlementsRefresher");
+            
+            if (!targetClass) {
+                [NSThread sleepForTimeInterval:0.5];
+                retries++;
+            }
+        }
+        
+        if (targetClass) {
+            NSLog(@"[AMPrem] Guest app classes loaded! Applying patches on main thread...");
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self applyPatches];
+            });
+        } else {
+            NSLog(@"[AMPrem] Timeout waiting for guest app classes.");
+        }
+    });
 }
 
-+ (void)appDidLaunch:(NSNotification *)notif {
-    NSLog(@"[AMPrem] App launched — applying premium patches");
++ (void)applyPatches {
+    NSLog(@"[AMPrem] Applying premium patches");
 
     // ---- Stage 1: NSUserDefaults injection ----
     Method defaultsMethod = class_getClassMethod([NSUserDefaults class], @selector(standardUserDefaults));
